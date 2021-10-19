@@ -16,7 +16,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kwtXczDpEeyVLPmQ8kWhiA"/>
     </children>
     <element xmi:type="uml:Package" href="SmartGovernment.uml#_0YKC4DDoEeyVLPmQ8kWhiA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kwswYTDpEeyVLPmQ8kWhiA" x="160" y="320"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kwswYTDpEeyVLPmQ8kWhiA" x="140" y="360"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_mCoSUDDpEeyVLPmQ8kWhiA" type="Package_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_mCoSUjDpEeyVLPmQ8kWhiA" type="Package_NameLabel"/>
@@ -72,7 +72,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_8uqlYTDpEeyVLPmQ8kWhiA"/>
     <element xmi:type="uml:Dependency" href="SmartHealth.uml#_8uiCgDDpEeyVLPmQ8kWhiA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8uqlYjDpEeyVLPmQ8kWhiA" points="[540, 120, -643984, -643984]$[540, 360, -643984, -643984]$[380, 360, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8vPNIDDpEeyVLPmQ8kWhiA" id="(0.1,1.0)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8vPNIDDpEeyVLPmQ8kWhiA" id="(0.08583690987124463,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8vPNITDpEeyVLPmQ8kWhiA" id="(1.0,0.4)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_DP0lQDDqEeyVLPmQ8kWhiA" type="Dependency_Edge" source="_mCoSUDDpEeyVLPmQ8kWhiA" target="_m__ScDDpEeyVLPmQ8kWhiA">
@@ -103,7 +103,7 @@
     <element xmi:type="uml:Dependency" href="SmartGovernment.uml#_KLNDADDqEeyVLPmQ8kWhiA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KLQtYjDqEeyVLPmQ8kWhiA" points="[220, 340, -643984, -643984]$[220, 260, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KLZQQDDqEeyVLPmQ8kWhiA" id="(0.5,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KLZQQTDqEeyVLPmQ8kWhiA" id="(0.5,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KLZQQTDqEeyVLPmQ8kWhiA" id="(0.5084745762711864,1.0)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_R_hT4DDqEeyVLPmQ8kWhiA" type="Dependency_Edge" source="_kCtpADDpEeyVLPmQ8kWhiA" target="_n0HeEDDpEeyVLPmQ8kWhiA">
     <children xmi:type="notation:DecorationNode" xmi:id="_R_hT4zDqEeyVLPmQ8kWhiA" type="Dependency_NameLabel">
