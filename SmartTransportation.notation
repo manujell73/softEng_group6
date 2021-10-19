@@ -17,7 +17,7 @@
     </styles>
     <element xmi:type="uml:Model" href="SmartTransportation.uml#_cRcAMCXUEeybxdv-5Uc1kw"/>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_TL6xYDDxEey-b4AJEAE3SA" type="UseCase" name="SmartTransport_UseCase1" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_TL6xYDDxEey-b4AJEAE3SA" type="UseCase" name="RoutePlanning" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_WXhxwDDxEey-b4AJEAE3SA" type="Actor_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_WXhxwjDxEey-b4AJEAE3SA" type="Actor_NameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_WXiY0DDxEey-b4AJEAE3SA" y="15"/>
