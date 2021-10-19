@@ -33,7 +33,7 @@
       <styles xmi:type="notation:TitleStyle" xmi:id="_tLy9pCXWEeybxdv-5Uc1kw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tLy9pSXWEeybxdv-5Uc1kw"/>
     </children>
-    <element xmi:type="uml:Model" href="SubSystem4.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
+    <element xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tLy9oSXWEeybxdv-5Uc1kw" x="120" y="360"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_tL65cCXWEeybxdv-5Uc1kw" type="Model_Shape">
@@ -42,7 +42,7 @@
       <styles xmi:type="notation:TitleStyle" xmi:id="_tL7ggiXWEeybxdv-5Uc1kw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tL7ggyXWEeybxdv-5Uc1kw"/>
     </children>
-    <element xmi:type="uml:Model" href="SubSystem5.uml#_SYGRoCXWEeybxdv-5Uc1kw"/>
+    <element xmi:type="uml:Model" href="SmartEnergy.uml#_SYGRoCXWEeybxdv-5Uc1kw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tL65cSXWEeybxdv-5Uc1kw" x="400" y="360"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_tMEqcCXWEeybxdv-5Uc1kw" type="Model_Shape">
@@ -51,7 +51,7 @@
       <styles xmi:type="notation:TitleStyle" xmi:id="_tMEqdCXWEeybxdv-5Uc1kw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tMEqdSXWEeybxdv-5Uc1kw"/>
     </children>
-    <element xmi:type="uml:Model" href="SubSystem6.uml#_UjfyMCXWEeybxdv-5Uc1kw"/>
+    <element xmi:type="uml:Model" href="SmartIndustry.uml#_UjfyMCXWEeybxdv-5Uc1kw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tMEqcSXWEeybxdv-5Uc1kw" x="680" y="360"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_HBy9MSXVEeybxdv-5Uc1kw" name="diagram_compatibility_version" stringValue="1.4.0"/>
