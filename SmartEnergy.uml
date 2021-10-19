@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_SYGRoCXWEeybxdv-5Uc1kw" name="SmartEnergy">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_SYGRoCXWEeybxdv-5Uc1kw" name="SmartEnergy">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_SYX-cCXWEeybxdv-5Uc1kw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -9,5 +9,159 @@
       <client xmi:type="uml:Model" href="System_Group6.uml#_Wv3OACXUEeybxdv-5Uc1kw"/>
       <supplier xmi:type="uml:Package" href="SmartIndustry.uml#__m9doDDoEeyVLPmQ8kWhiA"/>
     </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_taioIDD2EeyMHJonOMzJJw" name="Power Plant"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_v7Bn4DD2EeyMHJonOMzJJw" name="Produce power"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_zL1RUDD2EeyMHJonOMzJJw" name="sends data of avaiable energy "/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6Ib3EDD2EeyMHJonOMzJJw" memberEnd="_6IeTUDD2EeyMHJonOMzJJw _6IfhcDD2EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6IdsQDD2EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6IdsQTD2EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6IeTUDD2EeyMHJonOMzJJw" name="power plant" type="_taioIDD2EeyMHJonOMzJJw" association="_6Ib3EDD2EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6IfhcDD2EeyMHJonOMzJJw" name="produce power" type="_v7Bn4DD2EeyMHJonOMzJJw" association="_6Ib3EDD2EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7MvMsDD2EeyMHJonOMzJJw" memberEnd="_7MvzwjD2EeyMHJonOMzJJw _7Mwa0DD2EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7MvzwDD2EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7MvzwTD2EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7MvzwjD2EeyMHJonOMzJJw" name="power plant" type="_taioIDD2EeyMHJonOMzJJw" association="_7MvMsDD2EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7Mwa0DD2EeyMHJonOMzJJw" name="sends data of produced energy " type="_zL1RUDD2EeyMHJonOMzJJw" association="_7MvMsDD2EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_92ePEDD2EeyMHJonOMzJJw" name="Industry"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DuH-8DD3EeyMHJonOMzJJw" memberEnd="_DuImAjD3EeyMHJonOMzJJw _DuImAzD3EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DuImADD3EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DuImATD3EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DuImAjD3EeyMHJonOMzJJw" name="industry" type="_92ePEDD2EeyMHJonOMzJJw" association="_DuH-8DD3EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DuImAzD3EeyMHJonOMzJJw" name="sends data of produced energy " type="_zL1RUDD2EeyMHJonOMzJJw" association="_DuH-8DD3EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_cE58kDD3EeyMHJonOMzJJw" name="Worker"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ehvLYDD3EeyMHJonOMzJJw" name="Monitors production"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jeNFYDD3EeyMHJonOMzJJw" memberEnd="_jeNscDD3EeyMHJonOMzJJw _jeNscTD3EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jeNFYTD3EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jeNFYjD3EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jeNscDD3EeyMHJonOMzJJw" name="worker" type="_cE58kDD3EeyMHJonOMzJJw" association="_jeNFYDD3EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jeNscTD3EeyMHJonOMzJJw" name="monitord production" type="_ehvLYDD3EeyMHJonOMzJJw" association="_jeNFYDD3EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kf9dUDD3EeyMHJonOMzJJw" memberEnd="_kf-EYDD3EeyMHJonOMzJJw _kf-EYTD3EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kf9dUTD3EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kf9dUjD3EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kf-EYDD3EeyMHJonOMzJJw" name="power plant" type="_taioIDD2EeyMHJonOMzJJw" association="_kf9dUDD3EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kf-EYTD3EeyMHJonOMzJJw" name="monitord production" type="_ehvLYDD3EeyMHJonOMzJJw" association="_kf9dUDD3EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_szSlcDD3EeyMHJonOMzJJw" name="Authorithies"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yFrFEDD3EeyMHJonOMzJJw" name="plan new power infrastructure"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GCCF0DD4EeyMHJonOMzJJw" memberEnd="_GCCs4jD4EeyMHJonOMzJJw _GCCs4zD4EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GCCs4DD4EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GCCs4TD4EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GCCs4jD4EeyMHJonOMzJJw" name="authorithies" type="_szSlcDD3EeyMHJonOMzJJw" association="_GCCF0DD4EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GCCs4zD4EeyMHJonOMzJJw" name="provid development plans" type="_yFrFEDD3EeyMHJonOMzJJw" association="_GCCF0DD4EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HGt18DD4EeyMHJonOMzJJw" name="Provid money"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ka_DEDD4EeyMHJonOMzJJw" memberEnd="_Ka_qIjD4EeyMHJonOMzJJw _Ka_qIzD4EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ka_qIDD4EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ka_qITD4EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ka_qIjD4EeyMHJonOMzJJw" name="authorithies" type="_szSlcDD3EeyMHJonOMzJJw" association="_Ka_DEDD4EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ka_qIzD4EeyMHJonOMzJJw" name="provid many money" type="_HGt18DD4EeyMHJonOMzJJw" association="_Ka_DEDD4EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_QpksQDD4EeyMHJonOMzJJw" name="Engineer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SsdxEDD4EeyMHJonOMzJJw" memberEnd="_SseYIjD4EeyMHJonOMzJJw _SseYIzD4EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SseYIDD4EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SseYITD4EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SseYIjD4EeyMHJonOMzJJw" name="actor20" type="_QpksQDD4EeyMHJonOMzJJw" association="_SsdxEDD4EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SseYIzD4EeyMHJonOMzJJw" name="provid development plans" type="_yFrFEDD3EeyMHJonOMzJJw" association="_SsdxEDD4EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Y-ZCIDD4EeyMHJonOMzJJw" name="realize projects"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bZ7QcDD4EeyMHJonOMzJJw" memberEnd="_bZ73gjD4EeyMHJonOMzJJw _bZ73gzD4EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bZ73gDD4EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bZ73gTD4EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bZ73gjD4EeyMHJonOMzJJw" name="realize projects" type="_Y-ZCIDD4EeyMHJonOMzJJw" association="_bZ7QcDD4EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bZ73gzD4EeyMHJonOMzJJw" name="engineer" type="_QpksQDD4EeyMHJonOMzJJw" association="_bZ7QcDD4EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_kUxEgDD4EeyMHJonOMzJJw" name="Production AI"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_l8ug0DD4EeyMHJonOMzJJw" memberEnd="_l8ug0zD4EeyMHJonOMzJJw _l8ug1DD4EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l8ug0TD4EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l8ug0jD4EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l8ug0zD4EeyMHJonOMzJJw" name="monitors production" type="_ehvLYDD3EeyMHJonOMzJJw" association="_l8ug0DD4EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l8ug1DD4EeyMHJonOMzJJw" name="sensors" type="_kUxEgDD4EeyMHJonOMzJJw" association="_l8ug0DD4EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_1_tcQDD4EeyMHJonOMzJJw" name="regulates production"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6ODE8DD4EeyMHJonOMzJJw" memberEnd="_6ODsAjD4EeyMHJonOMzJJw _6ODsAzD4EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6ODsADD4EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ODsATD4EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6ODsAjD4EeyMHJonOMzJJw" name="sensors" type="_kUxEgDD4EeyMHJonOMzJJw" association="_6ODE8DD4EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6ODsAzD4EeyMHJonOMzJJw" name="regulates production" type="_1_tcQDD4EeyMHJonOMzJJw" association="_6ODE8DD4EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8uK4UDD4EeyMHJonOMzJJw" memberEnd="_8uLfYjD4EeyMHJonOMzJJw _8uLfYzD4EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8uLfYDD4EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8uLfYTD4EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8uLfYjD4EeyMHJonOMzJJw" name="regulates production" type="_1_tcQDD4EeyMHJonOMzJJw" association="_8uK4UDD4EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8uLfYzD4EeyMHJonOMzJJw" name="power plant" type="_taioIDD2EeyMHJonOMzJJw" association="_8uK4UDD4EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_G3xwIDD6EeyMHJonOMzJJw" name="checks for feasibility"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IIg_QDD6EeyMHJonOMzJJw" memberEnd="_IIhmUjD6EeyMHJonOMzJJw _IIhmUzD6EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IIhmUDD6EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IIhmUTD6EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IIhmUjD6EeyMHJonOMzJJw" name="engineer" type="_QpksQDD4EeyMHJonOMzJJw" association="_IIg_QDD6EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IIhmUzD6EeyMHJonOMzJJw" name="usecase29" type="_G3xwIDD6EeyMHJonOMzJJw" association="_IIg_QDD6EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_yaZ3kDD6EeyMHJonOMzJJw" name="Control System"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__QnVADD6EeyMHJonOMzJJw" name="Provides data"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_AB_HkDD7EeyMHJonOMzJJw" name="heat sensor"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EUQ1EDD7EeyMHJonOMzJJw" name="regulates production"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_wuB_4DD7EeyMHJonOMzJJw" name="pressure sensor"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_z1xM4DD7EeyMHJonOMzJJw" name="light sensor"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2jTxMDD7EeyMHJonOMzJJw" memberEnd="_2jUYQjD7EeyMHJonOMzJJw _2jUYQzD7EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2jUYQDD7EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2jUYQTD7EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2jUYQjD7EeyMHJonOMzJJw" name="provides data" type="__QnVADD6EeyMHJonOMzJJw" association="_2jTxMDD7EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2jUYQzD7EeyMHJonOMzJJw" name="light sensor" type="_z1xM4DD7EeyMHJonOMzJJw" association="_2jTxMDD7EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3aDzADD7EeyMHJonOMzJJw" memberEnd="_3aEaEjD7EeyMHJonOMzJJw _3aEaEzD7EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3aEaEDD7EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3aEaETD7EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3aEaEjD7EeyMHJonOMzJJw" name="provides data" type="__QnVADD6EeyMHJonOMzJJw" association="_3aDzADD7EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3aEaEzD7EeyMHJonOMzJJw" name="pressure sensor" type="_wuB_4DD7EeyMHJonOMzJJw" association="_3aDzADD7EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6EmGoDD7EeyMHJonOMzJJw" memberEnd="_6EmtsjD7EeyMHJonOMzJJw _6EmtszD7EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6EmtsDD7EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6EmtsTD7EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6EmtsjD7EeyMHJonOMzJJw" name="heat sensor" type="_AB_HkDD7EeyMHJonOMzJJw" association="_6EmGoDD7EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6EmtszD7EeyMHJonOMzJJw" name="provides data" type="__QnVADD6EeyMHJonOMzJJw" association="_6EmGoDD7EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6wBpQDD7EeyMHJonOMzJJw" memberEnd="_6wCQUTD7EeyMHJonOMzJJw _6wCQUjD7EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6wBpQTD7EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6wCQUDD7EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6wCQUTD7EeyMHJonOMzJJw" name="control system" type="_yaZ3kDD6EeyMHJonOMzJJw" association="_6wBpQDD7EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6wCQUjD7EeyMHJonOMzJJw" name="provides data" type="__QnVADD6EeyMHJonOMzJJw" association="_6wBpQDD7EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7uEl4DD7EeyMHJonOMzJJw" memberEnd="_7uFM8jD7EeyMHJonOMzJJw _7uFM8zD7EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7uFM8DD7EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7uFM8TD7EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7uFM8jD7EeyMHJonOMzJJw" name="regulates " type="_EUQ1EDD7EeyMHJonOMzJJw" association="_7uEl4DD7EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7uFM8zD7EeyMHJonOMzJJw" name="control system" type="_yaZ3kDD6EeyMHJonOMzJJw" association="_7uEl4DD7EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9Fo1wDD7EeyMHJonOMzJJw" name="emergency stop"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__sva4DD7EeyMHJonOMzJJw" memberEnd="__swB8jD7EeyMHJonOMzJJw __swB8zD7EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__swB8DD7EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__swB8TD7EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__swB8jD7EeyMHJonOMzJJw" name="emergency stop" type="_9Fo1wDD7EeyMHJonOMzJJw" association="__sva4DD7EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__swB8zD7EeyMHJonOMzJJw" name="control system" type="_yaZ3kDD6EeyMHJonOMzJJw" association="__sva4DD7EeyMHJonOMzJJw"/>
   </packagedElement>
 </uml:Model>
