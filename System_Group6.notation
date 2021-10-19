@@ -24,7 +24,7 @@
       <styles xmi:type="notation:TitleStyle" xmi:id="_tLro5CXWEeybxdv-5Uc1kw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tLro5SXWEeybxdv-5Uc1kw"/>
     </children>
-    <element xmi:type="uml:Model" href="SubSystem3.uml#_Oaa7ICXWEeybxdv-5Uc1kw"/>
+    <element xmi:type="uml:Model" href="SmartHome.uml#_Oaa7ICXWEeybxdv-5Uc1kw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tLro4SXWEeybxdv-5Uc1kw" x="400" y="100"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_tLy9oCXWEeybxdv-5Uc1kw" type="Model_Shape">
