@@ -1,18 +1,743 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_lObgIDDnEeyVLPmQ8kWhiA" type="PapyrusUMLClassDiagram" name="SmartHealth" measurementUnit="Pixel">
-  <children xmi:type="notation:Shape" xmi:id="_mXCuADDnEeyVLPmQ8kWhiA" type="Package_Shape">
-    <children xmi:type="notation:DecorationNode" xmi:id="_mXCuAjDnEeyVLPmQ8kWhiA" type="Package_NameLabel"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_mXDVEDDnEeyVLPmQ8kWhiA" type="Package_PackagedElementCompartment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_mXDVETDnEeyVLPmQ8kWhiA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mXDVEjDnEeyVLPmQ8kWhiA"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_lObgIDDnEeyVLPmQ8kWhiA" type="PapyrusUMLClassDiagram" name="SmartHealth" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_mXCuADDnEeyVLPmQ8kWhiA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_mXCuAjDnEeyVLPmQ8kWhiA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_mXDVEDDnEeyVLPmQ8kWhiA" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_mXDVETDnEeyVLPmQ8kWhiA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mXDVEjDnEeyVLPmQ8kWhiA"/>
+      </children>
+      <element xmi:type="uml:Package" href="SmartHealth.uml#_mXARwDDnEeyVLPmQ8kWhiA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mXCuATDnEeyVLPmQ8kWhiA" x="460" y="180"/>
     </children>
-    <element xmi:type="uml:Package" href="SmartHealth.uml#_mXARwDDnEeyVLPmQ8kWhiA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mXCuATDnEeyVLPmQ8kWhiA" x="460" y="180"/>
-  </children>
-  <styles xmi:type="notation:StringValueStyle" xmi:id="_lObgITDnEeyVLPmQ8kWhiA" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xmi:type="notation:DiagramStyle" xmi:id="_lObgIjDnEeyVLPmQ8kWhiA"/>
-  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_lObgIzDnEeyVLPmQ8kWhiA" diagramKindId="org.eclipse.papyrus.uml.diagram.package">
-    <owner xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
-  </styles>
-  <element xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
-</notation:Diagram>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_lObgITDnEeyVLPmQ8kWhiA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_lObgIjDnEeyVLPmQ8kWhiA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_lObgIzDnEeyVLPmQ8kWhiA" diagramKindId="org.eclipse.papyrus.uml.diagram.package">
+      <owner xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
+    </styles>
+    <element xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_y3ICEDD1EeyQHa-vatqCuQ" type="UseCase" name="healthData" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_CIWwcDD2EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_CIXXgDD2EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CIX-kDD2EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CIX-kTD2EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CIX-kjD2EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CIX-kzD2EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CIX-lDD2EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CIX-lTD2EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CIX-ljD2EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_CIPbsDD2EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CIWwcTD2EeyQHa-vatqCuQ" x="380" y="300"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_NEoQwDD2EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_NEoQwjD2EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NEoQwzD2EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_NEoQxDD2EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NEoQxTD2EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_NEoQxjD2EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NEoQxzD2EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_NEoQyDD2EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NEoQyTD2EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_NEmbkDD2EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NEoQwTD2EeyQHa-vatqCuQ" x="380" y="220"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_SBRw8DD2EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_SBRw8jD2EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_SBRw8zD2EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_SBRw9DD2EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_SBRw9TD2EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_SBRw9jD2EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_SBRw9zD2EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_SBRw-DD2EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_SBSYADD2EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_SBRJ4DD2EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SBRw8TD2EeyQHa-vatqCuQ" x="380" y="140"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_jTI6UDD2EeyQHa-vatqCuQ" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jTJhYDD2EeyQHa-vatqCuQ" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jTJhYTD2EeyQHa-vatqCuQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jTJhYjD2EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jTJhYzD2EeyQHa-vatqCuQ" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_jTJhZDD2EeyQHa-vatqCuQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_jTJhZTD2EeyQHa-vatqCuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jTJhZjD2EeyQHa-vatqCuQ"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="SmartHealth.uml#_jTITQDD2EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jTI6UTD2EeyQHa-vatqCuQ" x="180" y="240"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_l1C2YDD2EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_l1C2YjD2EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_l1C2YzD2EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_l1C2ZDD2EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_l1C2ZTD2EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_l1C2ZjD2EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_l1DdcDD2EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_l1DdcTD2EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_l1DdcjD2EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_l1BoQDD2EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l1C2YTD2EeyQHa-vatqCuQ" x="80" y="240"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="__Ad9ADD2EeyQHa-vatqCuQ" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="__Ad9AjD2EeyQHa-vatqCuQ" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="__Ad9AzD2EeyQHa-vatqCuQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__AekEDD2EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="__AekETD2EeyQHa-vatqCuQ" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="__AekEjD2EeyQHa-vatqCuQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="__AekEzD2EeyQHa-vatqCuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__AekFDD2EeyQHa-vatqCuQ"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="SmartHealth.uml#__Acu4DD2EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__Ad9ATD2EeyQHa-vatqCuQ" x="500" y="100"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_KWR-sDD3EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_KWR-sjD3EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KWR-szD3EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_KWR-tDD3EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KWR-tTD3EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_KWR-tjD3EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KWR-tzD3EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_KWR-uDD3EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KWR-uTD3EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_KWQwkDD3EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWR-sTD3EeyQHa-vatqCuQ" x="800" y="200"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_G2hoYDD5EeyQHa-vatqCuQ" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_G2hoYjD5EeyQHa-vatqCuQ" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_G2hoYzD5EeyQHa-vatqCuQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_G2hoZDD5EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_G2hoZTD5EeyQHa-vatqCuQ" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_G2hoZjD5EeyQHa-vatqCuQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_G2hoZzD5EeyQHa-vatqCuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G2hoaDD5EeyQHa-vatqCuQ"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="SmartHealth.uml#_G2gaQDD5EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G2hoYTD5EeyQHa-vatqCuQ" x="500" y="220"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_V4dWgDD5EeyQHa-vatqCuQ" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4dWgjD5EeyQHa-vatqCuQ" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4dWgzD5EeyQHa-vatqCuQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4dWhDD5EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_V4dWhTD5EeyQHa-vatqCuQ" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_V4dWhjD5EeyQHa-vatqCuQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_V4dWhzD5EeyQHa-vatqCuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V4dWiDD5EeyQHa-vatqCuQ"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="SmartHealth.uml#_V4cvcDD5EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V4dWgTD5EeyQHa-vatqCuQ" x="540" y="300"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_y3ICETD1EeyQHa-vatqCuQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_y3ICEjD1EeyQHa-vatqCuQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_y3ICEzD1EeyQHa-vatqCuQ" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
+    </styles>
+    <element xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_pqNKEDD2EeyQHa-vatqCuQ" type="Association_Edge" source="_l1C2YDD2EeyQHa-vatqCuQ" target="_jTI6UDD2EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_pqNxIDD2EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_qRl6MDD2EeyQHa-vatqCuQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pqNxITD2EeyQHa-vatqCuQ" y="39"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_pqNxIjD2EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_qRqysDD2EeyQHa-vatqCuQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pqNxIzD2EeyQHa-vatqCuQ" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_pqNKETD2EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_pp5oEDD2EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pqNKEjD2EeyQHa-vatqCuQ" points="[126, 260, -643984, -643984]$[180, 270, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pqs5UDD2EeyQHa-vatqCuQ" id="(1.0,0.4)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pqs5UTD2EeyQHa-vatqCuQ" id="(0.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_3y5jEDD2EeyQHa-vatqCuQ" type="Association_Edge" source="_jTI6UDD2EeyQHa-vatqCuQ" target="_NEoQwDD2EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3y5jEzD2EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3y5jFDD2EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3y5jFTD2EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3y5jFjD2EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3y5jETD2EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_3y4U8DD2EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3y5jEjD2EeyQHa-vatqCuQ" points="[320, 270, -643984, -643984]$[380, 260, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3zFwUDD2EeyQHa-vatqCuQ" id="(1.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3zFwUTD2EeyQHa-vatqCuQ" id="(0.0,0.8)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_49ixQDD2EeyQHa-vatqCuQ" type="Association_Edge" source="_jTI6UDD2EeyQHa-vatqCuQ" target="_SBRw8DD2EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_49ixQzD2EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_49ixRDD2EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_49jYUDD2EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_49jYUTD2EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_49ixQTD2EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_49hjIDD2EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_49ixQjD2EeyQHa-vatqCuQ" points="[300, 249, -643984, -643984]$[380, 160, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_49vlkDD2EeyQHa-vatqCuQ" id="(0.8571428571428571,0.15)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_49vlkTD2EeyQHa-vatqCuQ" id="(0.0,0.4)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_5sgwEDD2EeyQHa-vatqCuQ" type="Association_Edge" source="_jTI6UDD2EeyQHa-vatqCuQ" target="_CIWwcDD2EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5shXIDD2EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5shXITD2EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5shXIjD2EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5shXIzD2EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_5sgwETD2EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_5sgJADD2EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5sgwEjD2EeyQHa-vatqCuQ" points="[300, 290, -643984, -643984]$[380, 320, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5swnsDD2EeyQHa-vatqCuQ" id="(0.8571428571428571,0.8333333333333334)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5swnsTD2EeyQHa-vatqCuQ" id="(0.0,0.4)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_MLCg4DD3EeyQHa-vatqCuQ" type="Association_Edge" source="_CIWwcDD2EeyQHa-vatqCuQ" target="__Ad9ADD2EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_MLCg4zD3EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FJ8x0DD5EeyQHa-vatqCuQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MLCg5DD3EeyQHa-vatqCuQ" y="38"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MLCg5TD3EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FKC4cDD5EeyQHa-vatqCuQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MLDH8DD3EeyQHa-vatqCuQ" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_MLCg4TD3EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_MLBSwDD3EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MLCg4jD3EeyQHa-vatqCuQ" points="[410, 320, -643984, -643984]$[500, 290, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MLQjUDD3EeyQHa-vatqCuQ" id="(1.0,0.4)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MLQjUTD3EeyQHa-vatqCuQ" id="(0.13071895424836602,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Ms7tADD3EeyQHa-vatqCuQ" type="Association_Edge" source="_NEoQwDD2EeyQHa-vatqCuQ" target="__Ad9ADD2EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ms7tAzD3EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FKIYADD5EeyQHa-vatqCuQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ms7tBDD3EeyQHa-vatqCuQ" x="1" y="39"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ms7tBTD3EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FKNQgDD5EeyQHa-vatqCuQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ms7tBjD3EeyQHa-vatqCuQ" x="-1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Ms7tATD3EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_Ms6e4DD3EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ms7tAjD3EeyQHa-vatqCuQ" points="[380, 260, -643984, -643984]$[480, 270, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MtKWgDD3EeyQHa-vatqCuQ" id="(1.0,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MtKWgTD3EeyQHa-vatqCuQ" id="(0.026143790849673203,0.6666666666666666)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_NO6_wDD3EeyQHa-vatqCuQ" type="Association_Edge" source="_SBRw8DD2EeyQHa-vatqCuQ" target="__Ad9ADD2EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_NO6_wzD3EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FKSJADD5EeyQHa-vatqCuQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NO6_xDD3EeyQHa-vatqCuQ" x="1" y="38"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_NO6_xTD3EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FKXBgDD5EeyQHa-vatqCuQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NO6_xjD3EeyQHa-vatqCuQ" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_NO6_wTD3EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_NO5xoDD3EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NO6_wjD3EeyQHa-vatqCuQ" points="[380, 180, -643984, -643984]$[520, 242, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NPJpQDD3EeyQHa-vatqCuQ" id="(1.0,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NPJpQTD3EeyQHa-vatqCuQ" id="(0.0,0.3333333333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_O6mecDD3EeyQHa-vatqCuQ" type="Association_Edge" source="__Ad9ADD2EeyQHa-vatqCuQ" target="_KWR-sDD3EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_O6meczD3EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FJxysDD5EeyQHa-vatqCuQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_O6medDD3EeyQHa-vatqCuQ" y="39"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_O6medTD3EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FJ3SQDD5EeyQHa-vatqCuQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_O6medjD3EeyQHa-vatqCuQ" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_O6mecTD3EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_O6lQUDD3EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_O6mecjD3EeyQHa-vatqCuQ" points="[620, 270, -643984, -643984]$[720, 280, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O61vADD3EeyQHa-vatqCuQ" id="(1.0,0.3333333333333333)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O61vATD3EeyQHa-vatqCuQ" id="(0.0,0.8)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_SjCS0DD5EeyQHa-vatqCuQ" type="Association_Edge" source="_SBRw8DD2EeyQHa-vatqCuQ" target="_G2hoYDD5EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_SjCS0zD5EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_SjCS1DD5EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_SjCS1TD5EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_SjCS1jD5EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_SjCS0TD5EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_SjBEsDD5EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SjCS0jD5EeyQHa-vatqCuQ" points="[11, -4, -107, -63]$[111, 57, -7, -2]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SjQVQDD5EeyQHa-vatqCuQ" id="(1.0,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SjQVQTD5EeyQHa-vatqCuQ" id="(0.09216589861751152,0.2)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_TLNtIDD5EeyQHa-vatqCuQ" type="Association_Edge" source="_NEoQwDD2EeyQHa-vatqCuQ" target="_G2hoYDD5EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_TLOUMDD5EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_TLOUMTD5EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_TLOUMjD5EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_TLOUMzD5EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_TLNtITD5EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_TLNGEDD5EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TLNtIjD5EeyQHa-vatqCuQ" points="[11, -4, -80, -2]$[91, -3, 0, -1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TLcWoDD5EeyQHa-vatqCuQ" id="(1.0,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TLcWoTD5EeyQHa-vatqCuQ" id="(0.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_T14awDD5EeyQHa-vatqCuQ" type="Association_Edge" source="_CIWwcDD2EeyQHa-vatqCuQ" target="_G2hoYDD5EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_T14awzD5EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_T14axDD5EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_T14axTD5EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_T14axjD5EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_T14awTD5EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_T13zsDD5EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_T14awjD5EeyQHa-vatqCuQ" points="[410, 340, -643984, -643984]$[506, 260, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_T2HEQDD5EeyQHa-vatqCuQ" id="(1.0,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_T2HrUDD5EeyQHa-vatqCuQ" id="(0.027649769585253458,0.6666666666666666)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_U80NoDD5EeyQHa-vatqCuQ" type="Association_Edge" source="_G2hoYDD5EeyQHa-vatqCuQ" target="_KWR-sDD3EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_U80NozD5EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_U80NpDD5EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_U80NpTD5EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_U80NpjD5EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_U80NoTD5EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_U8y_gDD5EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_U80NojD5EeyQHa-vatqCuQ" points="[710, 240, -643984, -643984]$[800, 240, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U9CQEDD5EeyQHa-vatqCuQ" id="(0.967741935483871,0.3333333333333333)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U9CQETD5EeyQHa-vatqCuQ" id="(0.0,0.8)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_iGA4gTD5EeyQHa-vatqCuQ" type="Association_Edge" source="_CIWwcDD2EeyQHa-vatqCuQ" target="_V4dWgDD5EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_iGA4hDD5EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iGA4hTD5EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_iGA4hjD5EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iGBfkDD5EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_iGA4gjD5EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_iGARcDD5EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iGA4gzD5EeyQHa-vatqCuQ" points="[14, -9, -130, 0]$[134, -9, -10, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iGQwIDD5EeyQHa-vatqCuQ" id="(1.0,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iGRXMDD5EeyQHa-vatqCuQ" id="(0.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_j2v2UDD5EeyQHa-vatqCuQ" type="Association_Edge" source="_NEoQwDD2EeyQHa-vatqCuQ" target="_V4dWgDD5EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_j2v2UzD5EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j2v2VDD5EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j2v2VTD5EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j2v2VjD5EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_j2v2UTD5EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_j2vPQDD5EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j2v2UjD5EeyQHa-vatqCuQ" points="[-59, -97, -49, -54]$[-16, -38, -6, 5]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j2_G4DD5EeyQHa-vatqCuQ" id="(1.0,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j2_G4TD5EeyQHa-vatqCuQ" id="(0.02857142857142857,0.3333333333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_lHnBQDD5EeyQHa-vatqCuQ" type="Association_Edge" source="_SjCS0DD5EeyQHa-vatqCuQ" target="_V4dWgDD5EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_lHnBQzD5EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lHnBRDD5EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lHnBRTD5EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lHnBRjD5EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_lHnBQTD5EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_lHlzIDD5EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lHnBQjD5EeyQHa-vatqCuQ" points="[-41, -3, -28, -98]$[-18, 100, -5, 5]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lH3f8DD5EeyQHa-vatqCuQ" id="(0.0948905109489051,0.20253164556962025)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lH3f8TD5EeyQHa-vatqCuQ" id="(0.02857142857142857,0.3333333333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_mO5ZcDD5EeyQHa-vatqCuQ" type="Association_Edge" source="_V4dWgDD5EeyQHa-vatqCuQ" target="_KWR-sDD3EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_mO5ZczD5EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mO5ZdDD5EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_mO5ZdTD5EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mO5ZdjD5EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_mO5ZcTD5EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_mO4yYDD5EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mO5ZcjD5EeyQHa-vatqCuQ" points="[680, 330, -643984, -643984]$[800, 240, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mPJREDD5EeyQHa-vatqCuQ" id="(1.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mPJRETD5EeyQHa-vatqCuQ" id="(0.0,0.8)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Wrp_8DD3EeyQHa-vatqCuQ" type="UseCase" name="healthStatusTracing" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_tX0O0DD3EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_tX014DD3EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tX014TD3EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_tX014jD3EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tX014zD3EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_tX015DD3EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tX015TD3EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_tX015jD3EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tX015zD3EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_tXznwDD3EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tX0O0TD3EeyQHa-vatqCuQ" x="240" y="120"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_6rjVwDD3EeyQHa-vatqCuQ" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6rj80DD3EeyQHa-vatqCuQ" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6rj80TD3EeyQHa-vatqCuQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6rj80jD3EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6rj80zD3EeyQHa-vatqCuQ" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6rj81DD3EeyQHa-vatqCuQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6rj81TD3EeyQHa-vatqCuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6rj81jD3EeyQHa-vatqCuQ"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="SmartHealth.uml#_6riHoDD3EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6rjVwTD3EeyQHa-vatqCuQ" x="380" y="60"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_epotsDD4EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_epotsjD4EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_epotszD4EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_epottDD4EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_epottTD4EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_epottjD4EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_epottzD4EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_epotuDD4EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_epotuTD4EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_epnfkDD4EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_epotsTD4EeyQHa-vatqCuQ" x="620" y="120"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_sHc9sDD4EeyQHa-vatqCuQ" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sHc9sjD4EeyQHa-vatqCuQ" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sHc9szD4EeyQHa-vatqCuQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sHc9tDD4EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sHc9tTD4EeyQHa-vatqCuQ" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sHc9tjD4EeyQHa-vatqCuQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sHc9tzD4EeyQHa-vatqCuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHc9uDD4EeyQHa-vatqCuQ"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="SmartHealth.uml#_sHbvkDD4EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHc9sTD4EeyQHa-vatqCuQ" x="380" y="160"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_1AgCADD4EeyQHa-vatqCuQ" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_1AgCAjD4EeyQHa-vatqCuQ" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_1AgCAzD4EeyQHa-vatqCuQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1AgCBDD4EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_1AgCBTD4EeyQHa-vatqCuQ" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_1AgCBjD4EeyQHa-vatqCuQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_1AgCBzD4EeyQHa-vatqCuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1AgCCDD4EeyQHa-vatqCuQ"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="SmartHealth.uml#_1Aez4DD4EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1AgCATD4EeyQHa-vatqCuQ" x="200" y="260"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_19gc0DD4EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_19hD4DD4EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_19hD4TD4EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_19hD4jD4EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_19hD4zD4EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_19hD5DD4EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_19hD5TD4EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_19hD5jD4EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_19hD5zD4EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_19f1wDD4EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_19gc0TD4EeyQHa-vatqCuQ" x="420" y="280"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_Wrp_8TD3EeyQHa-vatqCuQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Wrp_8jD3EeyQHa-vatqCuQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Wrp_8zD3EeyQHa-vatqCuQ" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
+    </styles>
+    <element xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_3q06QDD4EeyQHa-vatqCuQ" type="Association_Edge" source="_tX0O0DD3EeyQHa-vatqCuQ" target="_6rjVwDD3EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3q1hUDD4EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3q1hUTD4EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3q1hUjD4EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3q1hUzD4EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3q06QTD4EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_3q0TMDD4EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3q06QjD4EeyQHa-vatqCuQ" points="[270, 140, -643984, -643984]$[380, 90, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3q_SUDD4EeyQHa-vatqCuQ" id="(1.0,0.4)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3q_SUTD4EeyQHa-vatqCuQ" id="(0.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_4YFB0DD4EeyQHa-vatqCuQ" type="Association_Edge" source="_tX0O0DD3EeyQHa-vatqCuQ" target="_sHc9sDD4EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_4YFB0zD4EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4YFB1DD4EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_4YFB1TD4EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4YFB1jD4EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_4YFB0TD4EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_4YDzsDD4EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4YFB0jD4EeyQHa-vatqCuQ" points="[260, 170, -643984, -643984]$[384, 180, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4YOy0DD4EeyQHa-vatqCuQ" id="(0.6666666666666666,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4YOy0TD4EeyQHa-vatqCuQ" id="(0.02564102564102564,0.3333333333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_5JtTEDD4EeyQHa-vatqCuQ" type="Association_Edge" source="_sHc9sDD4EeyQHa-vatqCuQ" target="_epotsDD4EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5JtTEzD4EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5JtTFDD4EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5Jt6IDD4EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5Jt6ITD4EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_5JtTETD4EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_5JssADD4EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5JtTEjD4EeyQHa-vatqCuQ" points="[500, 215, -643984, -643984]$[620, 140, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5J45QDD4EeyQHa-vatqCuQ" id="(0.967948717948718,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5J45QTD4EeyQHa-vatqCuQ" id="(0.0,0.8)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_6wcAUDD4EeyQHa-vatqCuQ" type="Association_Edge" source="_6rjVwDD3EeyQHa-vatqCuQ" target="_epotsDD4EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6wcnYDD4EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6wcnYTD4EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6wcnYjD4EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6wcnYzD4EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_6wcAUTD4EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_6wbZQDD4EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6wcAUjD4EeyQHa-vatqCuQ" points="[540, 100, -643984, -643984]$[620, 120, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6woNkDD4EeyQHa-vatqCuQ" id="(0.9696969696969697,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6woNkTD4EeyQHa-vatqCuQ" id="(0.0,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_8lSpIDD4EeyQHa-vatqCuQ" type="Association_Edge" source="_tX0O0DD3EeyQHa-vatqCuQ" target="_1AgCADD4EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8lSpIzD4EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8lSpJDD4EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8lSpJTD4EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8lSpJjD4EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_8lSpITD4EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_8lRbADD4EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8lSpIjD4EeyQHa-vatqCuQ" points="[260, 170, -643984, -643984]$[260, 260, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8lePUDD4EeyQHa-vatqCuQ" id="(0.6666666666666666,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8lePUTD4EeyQHa-vatqCuQ" id="(0.42857142857142855,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_9JYNoDD4EeyQHa-vatqCuQ" type="Association_Edge" source="_1AgCADD4EeyQHa-vatqCuQ" target="_19gc0DD4EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9JYNozD4EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9JYNpDD4EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9JYNpTD4EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9JYNpjD4EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_9JYNoTD4EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_9JW_gDD4EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9JYNojD4EeyQHa-vatqCuQ" points="[340, 290, -643984, -643984]$[420, 300, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9JjMwDD4EeyQHa-vatqCuQ" id="(1.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9JjMwTD4EeyQHa-vatqCuQ" id="(0.0,0.4)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_phUMcDD5EeyQHa-vatqCuQ" type="UseCase" name="surgery" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_QNT8IDD6EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_QNT8IjD6EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QNT8IzD6EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QNT8JDD6EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QNT8JTD6EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QNT8JjD6EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QNT8JzD6EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QNUjMDD6EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QNUjMTD6EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_QNTVEDD6EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QNT8ITD6EeyQHa-vatqCuQ" x="100" y="80"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_YQdTMDD6EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YQdTMjD6EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YQdTMzD6EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YQdTNDD6EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YQdTNTD6EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YQdTNjD6EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YQdTNzD6EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YQdTODD6EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YQdTOTD6EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_YQcsIDD6EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YQdTMTD6EeyQHa-vatqCuQ" x="80" y="180"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_oUjB4DD6EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_oUjB4jD6EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oUjB4zD6EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oUjB5DD6EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oUjB5TD6EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oUjB5jD6EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oUjB5zD6EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oUjB6DD6EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oUjB6TD6EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_oUhzwDD6EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oUjB4TD6EeyQHa-vatqCuQ" x="100" y="320"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_p_jLIDD6EeyQHa-vatqCuQ" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_p_jLIjD6EeyQHa-vatqCuQ" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_p_jLIzD6EeyQHa-vatqCuQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_p_jLJDD6EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_p_jLJTD6EeyQHa-vatqCuQ" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_p_jLJjD6EeyQHa-vatqCuQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_p_jLJzD6EeyQHa-vatqCuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_jLKDD6EeyQHa-vatqCuQ"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="SmartHealth.uml#_p_ikEDD6EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_jLITD6EeyQHa-vatqCuQ" x="200" y="80"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_t1Q4cDD6EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_t1Q4cjD6EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_t1Q4czD6EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_t1Q4dDD6EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_t1RfgDD6EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_t1RfgTD6EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_t1RfgjD6EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_t1RfgzD6EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_t1RfhDD6EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_t1QRYDD6EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t1Q4cTD6EeyQHa-vatqCuQ" x="400" y="80"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_y0HYEDD6EeyQHa-vatqCuQ" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_y0HYEjD6EeyQHa-vatqCuQ" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_y0HYEzD6EeyQHa-vatqCuQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_y0HYFDD6EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_y0HYFTD6EeyQHa-vatqCuQ" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_y0HYFjD6EeyQHa-vatqCuQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_y0HYFzD6EeyQHa-vatqCuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y0HYGDD6EeyQHa-vatqCuQ"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="SmartHealth.uml#_y0GxADD6EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y0HYETD6EeyQHa-vatqCuQ" x="220" y="220"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_1znPEDD6EeyQHa-vatqCuQ" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_1znPEjD6EeyQHa-vatqCuQ" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1znPEzD6EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_1zn2IDD6EeyQHa-vatqCuQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1zn2ITD6EeyQHa-vatqCuQ" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_1zn2IjD6EeyQHa-vatqCuQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1zn2IzD6EeyQHa-vatqCuQ" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_1zn2JDD6EeyQHa-vatqCuQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1zn2JTD6EeyQHa-vatqCuQ" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="SmartHealth.uml#_1zmoADD6EeyQHa-vatqCuQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1znPETD6EeyQHa-vatqCuQ" x="420" y="280"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_phUMcTD5EeyQHa-vatqCuQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_phUMcjD5EeyQHa-vatqCuQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_phUMczD5EeyQHa-vatqCuQ" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
+    </styles>
+    <element xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_w-_CcjD6EeyQHa-vatqCuQ" type="Association_Edge" source="_QNT8IDD6EeyQHa-vatqCuQ" target="_p_jLIDD6EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_w-_pgDD6EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_w-_pgTD6EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_w-_pgjD6EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_w-_pgzD6EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_w-_CczD6EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_w--bYDD6EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_w-_CdDD6EeyQHa-vatqCuQ" points="[130, 100, -643984, -643984]$[204, 100, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_w_IMYDD6EeyQHa-vatqCuQ" id="(1.0,0.4)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_w_IMYTD6EeyQHa-vatqCuQ" id="(0.02857142857142857,0.3333333333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_xwQHUTD6EeyQHa-vatqCuQ" type="Association_Edge" source="_p_jLIDD6EeyQHa-vatqCuQ" target="_t1Q4cDD6EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_xwQHVDD6EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xwQHVTD6EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_xwQHVjD6EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xwQHVzD6EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_xwQHUjD6EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_xwPgQDD6EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xwQHUzD6EeyQHa-vatqCuQ" points="[340, 110, -643984, -643984]$[400, 120, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xwYqMDD6EeyQHa-vatqCuQ" id="(1.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xwYqMTD6EeyQHa-vatqCuQ" id="(0.0,0.8)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_44qUdDD6EeyQHa-vatqCuQ" type="Association_Edge" source="_oUjB4DD6EeyQHa-vatqCuQ" target="_y0HYEDD6EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_44q7gDD6EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_44q7gTD6EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_44q7gjD6EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_44q7gzD6EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_44qUdTD6EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_44ptYDD6EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_44qUdjD6EeyQHa-vatqCuQ" points="[130, 340, -643984, -643984]$[224, 260, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_441TkDD6EeyQHa-vatqCuQ" id="(1.0,0.4)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_441TkTD6EeyQHa-vatqCuQ" id="(0.02857142857142857,0.6666666666666666)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_5_30IDD6EeyQHa-vatqCuQ" type="Association_Edge" source="_YQdTMDD6EeyQHa-vatqCuQ" target="_y0HYEDD6EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5_30IzD6EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5_30JDD6EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5_30JTD6EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5_30JjD6EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_5_30ITD6EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_5_3NEDD6EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5_30IjD6EeyQHa-vatqCuQ" points="[110, 220, -643984, -643984]$[220, 250, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6ADaUDD6EeyQHa-vatqCuQ" id="(1.0,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6ADaUTD6EeyQHa-vatqCuQ" id="(0.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_7AarIDD6EeyQHa-vatqCuQ" type="Association_Edge" source="_y0HYEDD6EeyQHa-vatqCuQ" target="_t1Q4cDD6EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7AarIzD6EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7AarJDD6EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7AarJTD6EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7AarJjD6EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_7AarITD6EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_7AZdADD6EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7AarIjD6EeyQHa-vatqCuQ" points="[320, 222, -643984, -643984]$[400, 120, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7AlqQDD6EeyQHa-vatqCuQ" id="(0.7142857142857143,0.03333333333333333)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7AlqQTD6EeyQHa-vatqCuQ" id="(0.0,0.8)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_7ni8kDD6EeyQHa-vatqCuQ" type="Association_Edge" source="_y0HYEDD6EeyQHa-vatqCuQ" target="_1znPEDD6EeyQHa-vatqCuQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7ni8kzD6EeyQHa-vatqCuQ" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7ni8lDD6EeyQHa-vatqCuQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7ni8lTD6EeyQHa-vatqCuQ" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7ni8ljD6EeyQHa-vatqCuQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_7ni8kTD6EeyQHa-vatqCuQ"/>
+      <element xmi:type="uml:Association" href="SmartHealth.uml#_7niVgDD6EeyQHa-vatqCuQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7ni8kjD6EeyQHa-vatqCuQ" points="[355, 260, -643984, -643984]$[420, 300, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7nuiwDD6EeyQHa-vatqCuQ" id="(0.9642857142857143,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7nvJ0DD6EeyQHa-vatqCuQ" id="(0.0,0.4)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>
