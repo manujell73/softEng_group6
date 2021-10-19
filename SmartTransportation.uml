@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_cRcAMCXUEeybxdv-5Uc1kw" name="SmartTransportation">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_cRcAMCXUEeybxdv-5Uc1kw" name="SmartTransportation">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_cRxXYCXUEeybxdv-5Uc1kw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -7,5 +7,189 @@
     <packagedElement xmi:type="uml:Dependency" xmi:id="_nGeDADDrEeyVLPmQ8kWhiA" name="Fastest ambulance route" client="_LeGDsDDpEeyVLPmQ8kWhiA">
       <supplier xmi:type="uml:Package" href="SmartHealth.uml#_mXARwDDnEeyVLPmQ8kWhiA"/>
     </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_WXgjoDDxEey-b4AJEAE3SA" name="Navigation System"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ilpiMDD2Eey-b4AJEAE3SA" name="Traffic System"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0VekgDD3Eey-b4AJEAE3SA" name="Requests route"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6yiukDD3Eey-b4AJEAE3SA" memberEnd="_6yiukzD3Eey-b4AJEAE3SA _6yiulDD3Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6yiukTD3Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6yiukjD3Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6yiukzD3Eey-b4AJEAE3SA" name="send location and speed" type="_0VekgDD3Eey-b4AJEAE3SA" association="_6yiukDD3Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6yiulDD3Eey-b4AJEAE3SA" name="navigation system" type="_WXgjoDDxEey-b4AJEAE3SA" association="_6yiukDD3Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_75S7QDD3Eey-b4AJEAE3SA" name="get stored car data"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_DiVwQDD4Eey-b4AJEAE3SA" name="get traffic light schedule"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_G0caMDD4Eey-b4AJEAE3SA" memberEnd="_G0caMzD4Eey-b4AJEAE3SA _G0caNDD4Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G0caMTD4Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G0caMjD4Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_G0caMzD4Eey-b4AJEAE3SA" name="get stored car data" type="_75S7QDD3Eey-b4AJEAE3SA" association="_G0caMDD4Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_G0caNDD4Eey-b4AJEAE3SA" name="traffic system" type="_ilpiMDD2Eey-b4AJEAE3SA" association="_G0caMDD4Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HlPlADD4Eey-b4AJEAE3SA" memberEnd="_HlPlAzD4Eey-b4AJEAE3SA _HlPlBDD4Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HlPlATD4Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HlPlAjD4Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HlPlAzD4Eey-b4AJEAE3SA" name="get traffic light schedule" type="_DiVwQDD4Eey-b4AJEAE3SA" association="_HlPlADD4Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HlPlBDD4Eey-b4AJEAE3SA" name="traffic system" type="_ilpiMDD2Eey-b4AJEAE3SA" association="_HlPlADD4Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JGzeYDD4Eey-b4AJEAE3SA" name="calculate route"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MfDMkDD4Eey-b4AJEAE3SA" name="check for traffic jam"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Q2zP8DD4Eey-b4AJEAE3SA" memberEnd="_Q2z3AjD4Eey-b4AJEAE3SA _Q2z3AzD4Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q2z3ADD4Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q2z3ATD4Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q2z3AjD4Eey-b4AJEAE3SA" name="calculate route" type="_JGzeYDD4Eey-b4AJEAE3SA" association="_Q2zP8DD4Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q2z3AzD4Eey-b4AJEAE3SA" name="traffic system" type="_ilpiMDD2Eey-b4AJEAE3SA" association="_Q2zP8DD4Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_R86jcDD4Eey-b4AJEAE3SA" memberEnd="_R86jczD4Eey-b4AJEAE3SA _R87KgDD4Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R86jcTD4Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R86jcjD4Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_R86jczD4Eey-b4AJEAE3SA" name="send route" type="_MfDMkDD4Eey-b4AJEAE3SA" association="_R86jcDD4Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_R87KgDD4Eey-b4AJEAE3SA" name="traffic system" type="_ilpiMDD2Eey-b4AJEAE3SA" association="_R86jcDD4Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_H7fFUDD5Eey-b4AJEAE3SA" name="SmartHome"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_S8SgUDD5Eey-b4AJEAE3SA" name="Requests transport"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_V5J6EDD5Eey-b4AJEAE3SA" memberEnd="_V5J6EzD5Eey-b4AJEAE3SA _V5J6FDD5Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V5J6ETD5Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V5J6EjD5Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_V5J6EzD5Eey-b4AJEAE3SA" name="user" type="_H7fFUDD5Eey-b4AJEAE3SA" association="_V5J6EDD5Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_V5J6FDD5Eey-b4AJEAE3SA" name="calls for transport" type="_S8SgUDD5Eey-b4AJEAE3SA" association="_V5J6EDD5Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_W_nL0DD5Eey-b4AJEAE3SA" name="Checks free cars in area"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_m9vccDD5Eey-b4AJEAE3SA" name="Transportation system"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_riRXkDD5Eey-b4AJEAE3SA" memberEnd="_riR-ojD5Eey-b4AJEAE3SA _riR-ozD5Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_riR-oDD5Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_riR-oTD5Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_riR-ojD5Eey-b4AJEAE3SA" name="checks free cars in area" type="_W_nL0DD5Eey-b4AJEAE3SA" association="_riRXkDD5Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_riR-ozD5Eey-b4AJEAE3SA" name="transportation system" type="_m9vccDD5Eey-b4AJEAE3SA" association="_riRXkDD5Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_taJfMDD5Eey-b4AJEAE3SA" name="Car"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ugli0DD5Eey-b4AJEAE3SA" name="status of cars"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1Y0l8DD5Eey-b4AJEAE3SA" memberEnd="_1Y1NAjD5Eey-b4AJEAE3SA _1Y1NAzD5Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1Y1NADD5Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1Y1NATD5Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1Y1NAjD5Eey-b4AJEAE3SA" name="sends status and location" type="_ugli0DD5Eey-b4AJEAE3SA" association="_1Y0l8DD5Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1Y1NAzD5Eey-b4AJEAE3SA" name="car" type="_taJfMDD5Eey-b4AJEAE3SA" association="_1Y0l8DD5Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_D1zz8DD6Eey-b4AJEAE3SA" memberEnd="_D10bAjD6Eey-b4AJEAE3SA _D10bAzD6Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D10bADD6Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D10bATD6Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_D10bAjD6Eey-b4AJEAE3SA" name="transportation system" type="_m9vccDD5Eey-b4AJEAE3SA" association="_D1zz8DD6Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_D10bAzD6Eey-b4AJEAE3SA" name="status of cars" type="_ugli0DD5Eey-b4AJEAE3SA" association="_D1zz8DD6Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VkteoDD6Eey-b4AJEAE3SA" memberEnd="_VkteozD6Eey-b4AJEAE3SA _VktepDD6Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VkteoTD6Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VkteojD6Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VkteozD6Eey-b4AJEAE3SA" name="requests transport" type="_S8SgUDD5Eey-b4AJEAE3SA" association="_VkteoDD6Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VktepDD6Eey-b4AJEAE3SA" name="transportation system" type="_m9vccDD5Eey-b4AJEAE3SA" association="_VkteoDD6Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_mz2rMDD6Eey-b4AJEAE3SA" name="send location and speed"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tLpTsDD6Eey-b4AJEAE3SA" memberEnd="_tLpTszD6Eey-b4AJEAE3SA _tLpTtDD6Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tLpTsTD6Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tLpTsjD6Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tLpTszD6Eey-b4AJEAE3SA" name="send location and speed" type="_mz2rMDD6Eey-b4AJEAE3SA" association="_tLpTsDD6Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tLpTtDD6Eey-b4AJEAE3SA" name="navigation system" type="_WXgjoDDxEey-b4AJEAE3SA" association="_tLpTsDD6Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_u41OQDD6Eey-b4AJEAE3SA" memberEnd="_u411UDD6Eey-b4AJEAE3SA _u411UTD6Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u41OQTD6Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u41OQjD6Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u411UDD6Eey-b4AJEAE3SA" name="get stored car data" type="_ilpiMDD2Eey-b4AJEAE3SA" association="_u41OQDD6Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u411UTD6Eey-b4AJEAE3SA" name="send location and speed" type="_mz2rMDD6Eey-b4AJEAE3SA" association="_u41OQDD6Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="__WcQMDD6Eey-b4AJEAE3SA" name="SmartHealth"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Clm64DD7Eey-b4AJEAE3SA" memberEnd="_Clnh8jD7Eey-b4AJEAE3SA _Clnh8zD7Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Clnh8DD7Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Clnh8TD7Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Clnh8jD7Eey-b4AJEAE3SA" name="send location and speed" type="_mz2rMDD6Eey-b4AJEAE3SA" association="_Clm64DD7Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Clnh8zD7Eey-b4AJEAE3SA" name="smarthealth" type="__WcQMDD6Eey-b4AJEAE3SA" association="_Clm64DD7Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DJE0UDD7Eey-b4AJEAE3SA" memberEnd="_DJFbYjD7Eey-b4AJEAE3SA _DJFbYzD7Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DJFbYDD7Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DJFbYTD7Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DJFbYjD7Eey-b4AJEAE3SA" name="requests route" type="_0VekgDD3Eey-b4AJEAE3SA" association="_DJE0UDD7Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DJFbYzD7Eey-b4AJEAE3SA" name="smarthealth" type="__WcQMDD6Eey-b4AJEAE3SA" association="_DJE0UDD7Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sZ8CkDD9Eey-b4AJEAE3SA" name="calculates duration"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w-HYYDD9Eey-b4AJEAE3SA" memberEnd="_w-HYYzD9Eey-b4AJEAE3SA _w-H_cDD9Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-HYYTD9Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-HYYjD9Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w-HYYzD9Eey-b4AJEAE3SA" name="calculates duration" type="_sZ8CkDD9Eey-b4AJEAE3SA" association="_w-HYYDD9Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w-H_cDD9Eey-b4AJEAE3SA" name="transportation system" type="_m9vccDD5Eey-b4AJEAE3SA" association="_w-HYYDD9Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5ecasDD9Eey-b4AJEAE3SA" memberEnd="_5edBwjD9Eey-b4AJEAE3SA _5edBwzD9Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5edBwDD9Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5edBwTD9Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5edBwjD9Eey-b4AJEAE3SA" name="requests route" type="_0VekgDD3Eey-b4AJEAE3SA" association="_5ecasDD9Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5edBwzD9Eey-b4AJEAE3SA" name="traffic system" type="_ilpiMDD2Eey-b4AJEAE3SA" association="_5ecasDD9Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OMsycDD-Eey-b4AJEAE3SA" name="sends urgency"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Pc0WgDD-Eey-b4AJEAE3SA" memberEnd="_Pc09kjD-Eey-b4AJEAE3SA _Pc09kzD-Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pc09kDD-Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pc09kTD-Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Pc09kjD-Eey-b4AJEAE3SA" name="sends urgency" type="_OMsycDD-Eey-b4AJEAE3SA" association="_Pc0WgDD-Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Pc09kzD-Eey-b4AJEAE3SA" name="smarthealth" type="__WcQMDD6Eey-b4AJEAE3SA" association="_Pc0WgDD-Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QIRHQDD-Eey-b4AJEAE3SA" memberEnd="_QIRuUjD-Eey-b4AJEAE3SA _QIRuUzD-Eey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QIRuUDD-Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QIRuUTD-Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QIRuUjD-Eey-b4AJEAE3SA" name="traffic system" type="_ilpiMDD2Eey-b4AJEAE3SA" association="_QIRHQDD-Eey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QIRuUzD-Eey-b4AJEAE3SA" name="sends urgency" type="_OMsycDD-Eey-b4AJEAE3SA" association="_QIRHQDD-Eey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_haRIoDEAEey-b4AJEAE3SA" name="traffic lights"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_jVIS0DEAEey-b4AJEAE3SA" name="traffic light system"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_mbm7kDEAEey-b4AJEAE3SA" name="Schedule data"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oBkz0DEAEey-b4AJEAE3SA" memberEnd="_oBla4jEAEey-b4AJEAE3SA _oBla4zEAEey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oBla4DEAEey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oBla4TEAEey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oBla4jEAEey-b4AJEAE3SA" name="schedule data" type="_mbm7kDEAEey-b4AJEAE3SA" association="_oBkz0DEAEey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oBla4zEAEey-b4AJEAE3SA" name="traffic lights" type="_haRIoDEAEey-b4AJEAE3SA" association="_oBkz0DEAEey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_okKjgDEAEey-b4AJEAE3SA" memberEnd="_okLKkjEAEey-b4AJEAE3SA _okLKkzEAEey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_okLKkDEAEey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_okLKkTEAEey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_okLKkjEAEey-b4AJEAE3SA" name="schedule data" type="_mbm7kDEAEey-b4AJEAE3SA" association="_okKjgDEAEey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_okLKkzEAEey-b4AJEAE3SA" name="traffic light system" type="_jVIS0DEAEey-b4AJEAE3SA" association="_okKjgDEAEey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_qjCD8DEAEey-b4AJEAE3SA" name="traffic database"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xlcWwDEAEey-b4AJEAE3SA" name="past traffic data"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0YE2cDEAEey-b4AJEAE3SA" memberEnd="_0YFdgjEAEey-b4AJEAE3SA _0YFdgzEAEey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0YFdgDEAEey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0YFdgTEAEey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0YFdgjEAEey-b4AJEAE3SA" name="past traffic data" type="_xlcWwDEAEey-b4AJEAE3SA" association="_0YE2cDEAEey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0YFdgzEAEey-b4AJEAE3SA" name="traffic light system" type="_jVIS0DEAEey-b4AJEAE3SA" association="_0YE2cDEAEey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1IfmwDEAEey-b4AJEAE3SA" memberEnd="_1IgN0jEAEey-b4AJEAE3SA _1IgN0zEAEey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1IgN0DEAEey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1IgN0TEAEey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1IgN0jEAEey-b4AJEAE3SA" name="traffic database" type="_qjCD8DEAEey-b4AJEAE3SA" association="_1IfmwDEAEey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1IgN0zEAEey-b4AJEAE3SA" name="past traffic data" type="_xlcWwDEAEey-b4AJEAE3SA" association="_1IfmwDEAEey-b4AJEAE3SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_210EMDEAEey-b4AJEAE3SA" name="optimize traffic light schedules"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CuxPMDEBEey-b4AJEAE3SA" memberEnd="_Cux2QjEBEey-b4AJEAE3SA _Cux2QzEBEey-b4AJEAE3SA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Cux2QDEBEey-b4AJEAE3SA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Cux2QTEBEey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Cux2QjEBEey-b4AJEAE3SA" name="optimize traffic light schedules" type="_210EMDEAEey-b4AJEAE3SA" association="_CuxPMDEBEey-b4AJEAE3SA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Cux2QzEBEey-b4AJEAE3SA" name="traffic light system" type="_jVIS0DEAEey-b4AJEAE3SA" association="_CuxPMDEBEey-b4AJEAE3SA"/>
   </packagedElement>
 </uml:Model>
