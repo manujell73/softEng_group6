@@ -3,7 +3,7 @@
   <styles xmi:type="notation:StringValueStyle" xmi:id="_oxgOATDWEey-b4AJEAE3SA" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_oxgOAjDWEey-b4AJEAE3SA"/>
   <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_oxgOAzDWEey-b4AJEAE3SA" diagramKindId="org.eclipse.papyrus.uml.diagram.package">
-    <owner xmi:type="uml:Model" href="SubSystem2.uml#_cRcAMCXUEeybxdv-5Uc1kw"/>
+    <owner xmi:type="uml:Model" href="SmartTransportation.uml#_cRcAMCXUEeybxdv-5Uc1kw"/>
   </styles>
-  <element xmi:type="uml:Model" href="SubSystem2.uml#_cRcAMCXUEeybxdv-5Uc1kw"/>
+  <element xmi:type="uml:Model" href="SmartTransportation.uml#_cRcAMCXUEeybxdv-5Uc1kw"/>
 </notation:Diagram>
