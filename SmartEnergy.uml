@@ -12,7 +12,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_taioIDD2EeyMHJonOMzJJw" name="Power Plant"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_v7Bn4DD2EeyMHJonOMzJJw" name="Produce power"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_zL1RUDD2EeyMHJonOMzJJw" name="sends data of avaiable energy "/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_zL1RUDD2EeyMHJonOMzJJw" name="data of avaiable energy "/>
   <packagedElement xmi:type="uml:Association" xmi:id="_6Ib3EDD2EeyMHJonOMzJJw" memberEnd="_6IeTUDD2EeyMHJonOMzJJw _6IfhcDD2EeyMHJonOMzJJw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6IdsQDD2EeyMHJonOMzJJw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6IdsQTD2EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
@@ -27,7 +27,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_7MvzwjD2EeyMHJonOMzJJw" name="power plant" type="_taioIDD2EeyMHJonOMzJJw" association="_7MvMsDD2EeyMHJonOMzJJw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_7Mwa0DD2EeyMHJonOMzJJw" name="sends data of produced energy " type="_zL1RUDD2EeyMHJonOMzJJw" association="_7MvMsDD2EeyMHJonOMzJJw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_92ePEDD2EeyMHJonOMzJJw" name="Industry"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_92ePEDD2EeyMHJonOMzJJw" name="Energy Database"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_DuH-8DD3EeyMHJonOMzJJw" memberEnd="_DuImAjD3EeyMHJonOMzJJw _DuImAzD3EeyMHJonOMzJJw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DuImADD3EeyMHJonOMzJJw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DuImATD3EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
@@ -51,7 +51,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_kf-EYDD3EeyMHJonOMzJJw" name="power plant" type="_taioIDD2EeyMHJonOMzJJw" association="_kf9dUDD3EeyMHJonOMzJJw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_kf-EYTD3EeyMHJonOMzJJw" name="monitord production" type="_ehvLYDD3EeyMHJonOMzJJw" association="_kf9dUDD3EeyMHJonOMzJJw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_szSlcDD3EeyMHJonOMzJJw" name="Authorithies"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_szSlcDD3EeyMHJonOMzJJw" name="Infrastructure Database"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_yFrFEDD3EeyMHJonOMzJJw" name="plan new power infrastructure"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_GCCF0DD4EeyMHJonOMzJJw" memberEnd="_GCCs4jD4EeyMHJonOMzJJw _GCCs4zD4EeyMHJonOMzJJw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GCCs4DD4EeyMHJonOMzJJw" source="org.eclipse.papyrus">
@@ -59,14 +59,6 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_GCCs4jD4EeyMHJonOMzJJw" name="authorithies" type="_szSlcDD3EeyMHJonOMzJJw" association="_GCCF0DD4EeyMHJonOMzJJw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_GCCs4zD4EeyMHJonOMzJJw" name="provid development plans" type="_yFrFEDD3EeyMHJonOMzJJw" association="_GCCF0DD4EeyMHJonOMzJJw"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_HGt18DD4EeyMHJonOMzJJw" name="Provid money"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_Ka_DEDD4EeyMHJonOMzJJw" memberEnd="_Ka_qIjD4EeyMHJonOMzJJw _Ka_qIzD4EeyMHJonOMzJJw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ka_qIDD4EeyMHJonOMzJJw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ka_qITD4EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Ka_qIjD4EeyMHJonOMzJJw" name="authorithies" type="_szSlcDD3EeyMHJonOMzJJw" association="_Ka_DEDD4EeyMHJonOMzJJw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Ka_qIzD4EeyMHJonOMzJJw" name="provid many money" type="_HGt18DD4EeyMHJonOMzJJw" association="_Ka_DEDD4EeyMHJonOMzJJw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_QpksQDD4EeyMHJonOMzJJw" name="Engineer"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_SsdxEDD4EeyMHJonOMzJJw" memberEnd="_SseYIjD4EeyMHJonOMzJJw _SseYIzD4EeyMHJonOMzJJw">
@@ -163,5 +155,20 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="__swB8jD7EeyMHJonOMzJJw" name="emergency stop" type="_9Fo1wDD7EeyMHJonOMzJJw" association="__sva4DD7EeyMHJonOMzJJw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="__swB8zD7EeyMHJonOMzJJw" name="control system" type="_yaZ3kDD6EeyMHJonOMzJJw" association="__sva4DD7EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_SlRfwDD_EeyMHJonOMzJJw" name="Simulation Software"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VA0VIDD_EeyMHJonOMzJJw" memberEnd="_VA08MjD_EeyMHJonOMzJJw _VA08MzD_EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VA08MDD_EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VA08MTD_EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VA08MjD_EeyMHJonOMzJJw" name="checks for feasibility" type="_G3xwIDD6EeyMHJonOMzJJw" association="_VA0VIDD_EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VA08MzD_EeyMHJonOMzJJw" name="simulation software" type="_SlRfwDD_EeyMHJonOMzJJw" association="_VA0VIDD_EeyMHJonOMzJJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_V16KEDD_EeyMHJonOMzJJw" memberEnd="_V16xIjD_EeyMHJonOMzJJw _V16xIzD_EeyMHJonOMzJJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V16xIDD_EeyMHJonOMzJJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V16xITD_EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_V16xIjD_EeyMHJonOMzJJw" name="simulation software" type="_SlRfwDD_EeyMHJonOMzJJw" association="_V16KEDD_EeyMHJonOMzJJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_V16xIzD_EeyMHJonOMzJJw" name="plan new power infrastructure" type="_yFrFEDD3EeyMHJonOMzJJw" association="_V16KEDD_EeyMHJonOMzJJw"/>
   </packagedElement>
 </uml:Model>
