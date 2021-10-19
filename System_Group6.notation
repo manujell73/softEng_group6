@@ -6,7 +6,7 @@
       <styles xmi:type="notation:TitleStyle" xmi:id="_tLeNgiXWEeybxdv-5Uc1kw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tLeNgyXWEeybxdv-5Uc1kw"/>
     </children>
-    <element xmi:type="uml:Model" href="SubSystem2.uml#_cRcAMCXUEeybxdv-5Uc1kw"/>
+    <element xmi:type="uml:Model" href="SmartTransportation.uml#_cRcAMCXUEeybxdv-5Uc1kw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tLdmcSXWEeybxdv-5Uc1kw" x="680" y="100"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_tLkUICXWEeybxdv-5Uc1kw" type="Model_Shape">
