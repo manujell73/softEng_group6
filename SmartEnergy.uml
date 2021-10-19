@@ -4,4 +4,10 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_YVQzoCXWEeybxdv-5Uc1kw" name="SubSystem5MainPkg"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_UsrIkDDoEeyVLPmQ8kWhiA" name="SmartEnergyMainPackage">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_R_dCcDDqEeyVLPmQ8kWhiA" name="Data of availiable energy">
+      <client xmi:type="uml:Model" href="System_Group6.uml#_Wv3OACXUEeybxdv-5Uc1kw"/>
+      <supplier xmi:type="uml:Package" href="SmartIndustry.uml#__m9doDDoEeyVLPmQ8kWhiA"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>

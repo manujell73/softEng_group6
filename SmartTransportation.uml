@@ -3,4 +3,9 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_cRxXYCXUEeybxdv-5Uc1kw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_LeGDsDDpEeyVLPmQ8kWhiA" name="SmartTransportationMainPackage">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_nGeDADDrEeyVLPmQ8kWhiA" name="Fastest ambulance route" client="_LeGDsDDpEeyVLPmQ8kWhiA">
+      <supplier xmi:type="uml:Package" href="SmartHealth.uml#_mXARwDDnEeyVLPmQ8kWhiA"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>

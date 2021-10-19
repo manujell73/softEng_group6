@@ -4,4 +4,10 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_WA9OsCXWEeybxdv-5Uc1kw" name="SubSystem6MainPkg"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="__m9doDDoEeyVLPmQ8kWhiA" name="SmartIndustryMainPackage">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_bfWrYDDqEeyVLPmQ8kWhiA" name="Request for transport">
+      <client xmi:type="uml:Model" href="System_Group6.uml#_Wv3OACXUEeybxdv-5Uc1kw"/>
+      <supplier xmi:type="uml:Model" href="System_Group6.uml#_Wv3OACXUEeybxdv-5Uc1kw"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>

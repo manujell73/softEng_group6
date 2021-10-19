@@ -4,4 +4,12 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_bo1dMCXWEeybxdv-5Uc1kw" name="SubSystem4MainPkg"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_mXARwDDnEeyVLPmQ8kWhiA" name="SmartHealthMainPackage">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_8uiCgDDpEeyVLPmQ8kWhiA" name="Health data of people" client="_mXARwDDnEeyVLPmQ8kWhiA">
+      <supplier xmi:type="uml:Package" href="SmartGovernment.uml#_0YKC4DDoEeyVLPmQ8kWhiA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_DPw64DDqEeyVLPmQ8kWhiA" name="Appointment reminders" client="_mXARwDDnEeyVLPmQ8kWhiA">
+      <supplier xmi:type="uml:Package" href="SmartHome.uml#_6iYwgDDoEeyVLPmQ8kWhiA"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>

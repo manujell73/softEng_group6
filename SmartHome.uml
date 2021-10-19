@@ -4,4 +4,9 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_e5fVoCXWEeybxdv-5Uc1kw" name="SubSystem3MainPkg"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6iYwgDDoEeyVLPmQ8kWhiA" name="SmartHomeMainPackage">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_gvr8kDDqEeyVLPmQ8kWhiA" name="Call for transport service" client="_6iYwgDDoEeyVLPmQ8kWhiA">
+      <supplier xmi:type="uml:Package" href="SmartTransportation.uml#_LeGDsDDpEeyVLPmQ8kWhiA"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>

@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="__Lb_QDDoEeyVLPmQ8kWhiA" type="PapyrusUMLClassDiagram" name="SmartIndustry" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="__m-EsDDoEeyVLPmQ8kWhiA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="__m-EsjDoEeyVLPmQ8kWhiA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__m-EszDoEeyVLPmQ8kWhiA" type="Package_PackagedElementCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="__m-EtDDoEeyVLPmQ8kWhiA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__m-EtTDoEeyVLPmQ8kWhiA"/>
+    </children>
+    <element xmi:type="uml:Package" href="SmartIndustry.uml#__m9doDDoEeyVLPmQ8kWhiA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__m-EsTDoEeyVLPmQ8kWhiA" x="360" y="260"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="__Lb_QTDoEeyVLPmQ8kWhiA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="__Lb_QjDoEeyVLPmQ8kWhiA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="__Lb_QzDoEeyVLPmQ8kWhiA" diagramKindId="org.eclipse.papyrus.uml.diagram.package">
+    <owner xmi:type="uml:Model" href="SmartIndustry.uml#_UjfyMCXWEeybxdv-5Uc1kw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="SmartIndustry.uml#_UjfyMCXWEeybxdv-5Uc1kw"/>
+</notation:Diagram>

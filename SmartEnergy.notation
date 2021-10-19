@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_QRsLADDoEeyVLPmQ8kWhiA" type="PapyrusUMLClassDiagram" name="SmartEnergy" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_UsrvoDDoEeyVLPmQ8kWhiA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UsrvojDoEeyVLPmQ8kWhiA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_UsrvozDoEeyVLPmQ8kWhiA" type="Package_PackagedElementCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_UsrvpDDoEeyVLPmQ8kWhiA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UsrvpTDoEeyVLPmQ8kWhiA"/>
+    </children>
+    <element xmi:type="uml:Package" href="SmartEnergy.uml#_UsrIkDDoEeyVLPmQ8kWhiA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UsrvoTDoEeyVLPmQ8kWhiA" x="485" y="180"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_QRsLATDoEeyVLPmQ8kWhiA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_QRsLAjDoEeyVLPmQ8kWhiA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_QRsLAzDoEeyVLPmQ8kWhiA" diagramKindId="org.eclipse.papyrus.uml.diagram.package">
+    <owner xmi:type="uml:Model" href="SmartEnergy.uml#_SYGRoCXWEeybxdv-5Uc1kw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="SmartEnergy.uml#_SYGRoCXWEeybxdv-5Uc1kw"/>
+</notation:Diagram>

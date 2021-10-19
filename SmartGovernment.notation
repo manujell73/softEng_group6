@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ZyjicDDWEey-b4AJEAE3SA" type="PapyrusUMLClassDiagram" name="SmartGovernment" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_0YKC4TDoEeyVLPmQ8kWhiA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0YKp8DDoEeyVLPmQ8kWhiA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0YKp8TDoEeyVLPmQ8kWhiA" type="Package_PackagedElementCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_0YKp8jDoEeyVLPmQ8kWhiA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0YKp8zDoEeyVLPmQ8kWhiA"/>
+    </children>
+    <element xmi:type="uml:Package" href="SmartGovernment.uml#_0YKC4DDoEeyVLPmQ8kWhiA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0YKC4jDoEeyVLPmQ8kWhiA" x="240" y="160"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_ZyjicTDWEey-b4AJEAE3SA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ZyjicjDWEey-b4AJEAE3SA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_ZyjiczDWEey-b4AJEAE3SA" diagramKindId="org.eclipse.papyrus.uml.diagram.package">
+    <owner xmi:type="uml:Model" href="SmartGovernment.uml#_aLMscCXUEeybxdv-5Uc1kw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="SmartGovernment.uml#_aLMscCXUEeybxdv-5Uc1kw"/>
+</notation:Diagram>

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oxgOADDWEey-b4AJEAE3SA" type="PapyrusUMLClassDiagram" name="NewPackageDiagram" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oxgOADDWEey-b4AJEAE3SA" type="PapyrusUMLClassDiagram" name="SmartTransportation" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_LeGqwDDpEeyVLPmQ8kWhiA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LeGqwjDpEeyVLPmQ8kWhiA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_LeGqwzDpEeyVLPmQ8kWhiA" type="Package_PackagedElementCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_LeGqxDDpEeyVLPmQ8kWhiA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LeGqxTDpEeyVLPmQ8kWhiA"/>
+    </children>
+    <element xmi:type="uml:Package" href="SmartTransportation.uml#_LeGDsDDpEeyVLPmQ8kWhiA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LeGqwTDpEeyVLPmQ8kWhiA" x="579" y="198"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_oxgOATDWEey-b4AJEAE3SA" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_oxgOAjDWEey-b4AJEAE3SA"/>
   <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_oxgOAzDWEey-b4AJEAE3SA" diagramKindId="org.eclipse.papyrus.uml.diagram.package">

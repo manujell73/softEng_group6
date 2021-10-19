@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_52DO8DDoEeyVLPmQ8kWhiA" type="PapyrusUMLClassDiagram" name="SmartHome" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_6iZXkDDoEeyVLPmQ8kWhiA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6iZXkjDoEeyVLPmQ8kWhiA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6iZXkzDoEeyVLPmQ8kWhiA" type="Package_PackagedElementCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_6iZXlDDoEeyVLPmQ8kWhiA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6iZXlTDoEeyVLPmQ8kWhiA"/>
+    </children>
+    <element xmi:type="uml:Package" href="SmartHome.uml#_6iYwgDDoEeyVLPmQ8kWhiA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6iZXkTDoEeyVLPmQ8kWhiA" x="400" y="215"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_52DO8TDoEeyVLPmQ8kWhiA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_52DO8jDoEeyVLPmQ8kWhiA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_52DO8zDoEeyVLPmQ8kWhiA" diagramKindId="org.eclipse.papyrus.uml.diagram.package">
+    <owner xmi:type="uml:Model" href="SmartHome.uml#_Oaa7ICXWEeybxdv-5Uc1kw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="SmartHome.uml#_Oaa7ICXWEeybxdv-5Uc1kw"/>
+</notation:Diagram>

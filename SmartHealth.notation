@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_lObgIDDnEeyVLPmQ8kWhiA" type="PapyrusUMLClassDiagram" name="SmartHealth" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_mXCuADDnEeyVLPmQ8kWhiA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mXCuAjDnEeyVLPmQ8kWhiA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_mXDVEDDnEeyVLPmQ8kWhiA" type="Package_PackagedElementCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_mXDVETDnEeyVLPmQ8kWhiA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mXDVEjDnEeyVLPmQ8kWhiA"/>
+    </children>
+    <element xmi:type="uml:Package" href="SmartHealth.uml#_mXARwDDnEeyVLPmQ8kWhiA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mXCuATDnEeyVLPmQ8kWhiA" x="460" y="180"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_lObgITDnEeyVLPmQ8kWhiA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_lObgIjDnEeyVLPmQ8kWhiA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_lObgIzDnEeyVLPmQ8kWhiA" diagramKindId="org.eclipse.papyrus.uml.diagram.package">
+    <owner xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="SmartHealth.uml#_QsNXkCXWEeybxdv-5Uc1kw"/>
+</notation:Diagram>

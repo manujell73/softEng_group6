@@ -3,4 +3,9 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_aLj40CXUEeybxdv-5Uc1kw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0YKC4DDoEeyVLPmQ8kWhiA" name="SmartGovernmentMainPackage">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_KLNDADDqEeyVLPmQ8kWhiA" name="Development plans for ernergy network" client="_0YKC4DDoEeyVLPmQ8kWhiA">
+      <supplier xmi:type="uml:Package" href="SmartEnergy.uml#_UsrIkDDoEeyVLPmQ8kWhiA"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>
