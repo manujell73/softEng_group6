@@ -219,4 +219,5 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_1ufFMTD_EeyGuMCZwYhR0Q" name="energyfacility" type="_9TRtUDD0EeyGuMCZwYhR0Q" association="_1ueeIDD_EeyGuMCZwYhR0Q"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_1ufFMjD_EeyGuMCZwYhR0Q" name="power connection" type="_tTDJ8DD_EeyGuMCZwYhR0Q" association="_1ueeIDD_EeyGuMCZwYhR0Q"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_MF-1MDEMEeyQHa-vatqCuQ" name="SmartGovernmentMainPackage"/>
 </uml:Model>
