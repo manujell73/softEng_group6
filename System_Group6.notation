@@ -15,7 +15,7 @@
       <styles xmi:type="notation:TitleStyle" xmi:id="_tLkUJCXWEeybxdv-5Uc1kw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tLkUJSXWEeybxdv-5Uc1kw"/>
     </children>
-    <element xmi:type="uml:Model" href="SubSystem1.uml#_aLMscCXUEeybxdv-5Uc1kw"/>
+    <element xmi:type="uml:Model" href="SmartGoverment.uml#_aLMscCXUEeybxdv-5Uc1kw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tLkUISXWEeybxdv-5Uc1kw" x="120" y="100"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_tLro4CXWEeybxdv-5Uc1kw" type="Model_Shape">
