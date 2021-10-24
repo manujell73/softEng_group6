@@ -15,7 +15,18 @@
   <packagedElement xmi:type="uml:Actor" xmi:id="_CIPbsDD2EeyQHa-vatqCuQ" name="Hospital"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_NEmbkDD2EeyQHa-vatqCuQ" name="Dentist"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_SBRJ4DD2EeyQHa-vatqCuQ" name="eye specialist"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_jTITQDD2EeyQHa-vatqCuQ" name="make appointment"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jTITQDD2EeyQHa-vatqCuQ" name="make appointment">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_rmL6ADTlEeyB3eHGfCKhkA">
+      <body>1. Citizen logs into the system.&#xD;
+2. System shows health facilities where appointments can be made.&#xD;
+3. Citizen chooses health facility for appointment.&#xD;
+4. System shows calender with free slots.&#xD;
+5. Citizen chooses a free slot.&#xD;
+6. Citizen confirms appointment.&#xD;
+7. Appointment gets registered in database.&#xD;
+8. Confirmation is sent to citizen and health facility.</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_l1BoQDD2EeyQHa-vatqCuQ" name="citizen"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_pp5oEDD2EeyQHa-vatqCuQ" memberEnd="_pqLU4DD2EeyQHa-vatqCuQ _pqMjADD2EeyQHa-vatqCuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pqFOQDD2EeyQHa-vatqCuQ" source="org.eclipse.papyrus">
@@ -45,41 +56,37 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_5sgJAzD2EeyQHa-vatqCuQ" name="hospital" type="_CIPbsDD2EeyQHa-vatqCuQ" association="_5sgJADD2EeyQHa-vatqCuQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_5sgJBDD2EeyQHa-vatqCuQ" name="make appointment" type="_jTITQDD2EeyQHa-vatqCuQ" association="_5sgJADD2EeyQHa-vatqCuQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="__Acu4DD2EeyQHa-vatqCuQ" name="save appointment data"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_KWQwkDD3EeyQHa-vatqCuQ" name="database"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_MLBSwDD3EeyQHa-vatqCuQ" memberEnd="_MLB50jD3EeyQHa-vatqCuQ _MLB50zD3EeyQHa-vatqCuQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MLB50DD3EeyQHa-vatqCuQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MLB50TD3EeyQHa-vatqCuQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_MLB50jD3EeyQHa-vatqCuQ" name="save data" type="__Acu4DD2EeyQHa-vatqCuQ" association="_MLBSwDD3EeyQHa-vatqCuQ"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_MLB50zD3EeyQHa-vatqCuQ" name="hospital" type="_CIPbsDD2EeyQHa-vatqCuQ" association="_MLBSwDD3EeyQHa-vatqCuQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_Ms6e4DD3EeyQHa-vatqCuQ" memberEnd="_Ms7F8TD3EeyQHa-vatqCuQ _Ms7F8jD3EeyQHa-vatqCuQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ms6e4TD3EeyQHa-vatqCuQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ms7F8DD3EeyQHa-vatqCuQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Ms7F8TD3EeyQHa-vatqCuQ" name="save data" type="__Acu4DD2EeyQHa-vatqCuQ" association="_Ms6e4DD3EeyQHa-vatqCuQ"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Ms7F8jD3EeyQHa-vatqCuQ" name="dentist" type="_NEmbkDD2EeyQHa-vatqCuQ" association="_Ms6e4DD3EeyQHa-vatqCuQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_NO5xoDD3EeyQHa-vatqCuQ" memberEnd="_NO6YsjD3EeyQHa-vatqCuQ _NO6YszD3EeyQHa-vatqCuQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NO6YsDD3EeyQHa-vatqCuQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NO6YsTD3EeyQHa-vatqCuQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_NO6YsjD3EeyQHa-vatqCuQ" name="save data" type="__Acu4DD2EeyQHa-vatqCuQ" association="_NO5xoDD3EeyQHa-vatqCuQ"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_NO6YszD3EeyQHa-vatqCuQ" name="eye specialist" type="_SBRJ4DD2EeyQHa-vatqCuQ" association="_NO5xoDD3EeyQHa-vatqCuQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_O6lQUDD3EeyQHa-vatqCuQ" memberEnd="_O6l3YjD3EeyQHa-vatqCuQ _O6l3YzD3EeyQHa-vatqCuQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O6l3YDD3EeyQHa-vatqCuQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O6l3YTD3EeyQHa-vatqCuQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_O6l3YjD3EeyQHa-vatqCuQ" name="database" type="_KWQwkDD3EeyQHa-vatqCuQ" association="_O6lQUDD3EeyQHa-vatqCuQ"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_O6l3YzD3EeyQHa-vatqCuQ" name="save data" type="__Acu4DD2EeyQHa-vatqCuQ" association="_O6lQUDD3EeyQHa-vatqCuQ"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_tXznwDD3EeyQHa-vatqCuQ" name="Wearable"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_6riHoDD3EeyQHa-vatqCuQ" name="sends current health data"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6riHoDD3EeyQHa-vatqCuQ" name="sends current health data">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_bQWCEDTnEeyB3eHGfCKhkA">
+      <body>1. Wearable measures heart rate.&#xD;
+2. Wearable measures blood pressure.&#xD;
+3. Wearable measures blood glucose&#xD;
+4. Wearable measures oxygen saturation.&#xD;
+5. Wearable measures respiratory rate.&#xD;
+6. Wearable measures temperature.&#xD;
+7. Wearable sends measured data to health database.</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_epnfkDD4EeyQHa-vatqCuQ" name="health database"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_sHbvkDD4EeyQHa-vatqCuQ" name="reports on health status"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_1Aez4DD4EeyQHa-vatqCuQ" name="calls"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sHbvkDD4EeyQHa-vatqCuQ" name="reports on health status">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_EMtR4DToEeyB3eHGfCKhkA">
+      <body>1. Health database processes health data.&#xD;
+2. Health database compares data with limits for the single values&#xD;
+3. Health database compares data with former received data.&#xD;
+4. Health database classifies health status.&#xD;
+5. Health database sends health status to according Wearable.</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_1Aez4DD4EeyQHa-vatqCuQ" name="calls">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_nwFDwDToEeyB3eHGfCKhkA">
+      <body>1. Wearable checks if health status.&#xD;
+2. If health status is ok wearable does nothing.&#xD;
+3. If health status is completely ok wearable shows warning.&#xD;
+4 If health status is critical wearable sends health data and location to ambulance.</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_19f1wDD4EeyQHa-vatqCuQ" name="Ambulance"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_3q0TMDD4EeyQHa-vatqCuQ" memberEnd="_3q0TMzD4EeyQHa-vatqCuQ _3q0TNDD4EeyQHa-vatqCuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3q0TMTD4EeyQHa-vatqCuQ" source="org.eclipse.papyrus">
@@ -123,7 +130,14 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_9JXmkjD4EeyQHa-vatqCuQ" name="ambulance" type="_19f1wDD4EeyQHa-vatqCuQ" association="_9JW_gDD4EeyQHa-vatqCuQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_9JXmkzD4EeyQHa-vatqCuQ" name="calls" type="_1Aez4DD4EeyQHa-vatqCuQ" association="_9JW_gDD4EeyQHa-vatqCuQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_G2gaQDD5EeyQHa-vatqCuQ" name="sends underlying health conditions"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_G2gaQDD5EeyQHa-vatqCuQ" name="sends underlying health conditions">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_EocdkDTmEeyB3eHGfCKhkA">
+      <body>1. Health facility logs into database.&#xD;
+2. Health facility searches for patient (citizen).&#xD;
+3. Health facility selects wanted information.&#xD;
+4. Database sends data to health facility.</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_SjBEsDD5EeyQHa-vatqCuQ" memberEnd="_SjBEszD5EeyQHa-vatqCuQ _SjBrwDD5EeyQHa-vatqCuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SjBEsTD5EeyQHa-vatqCuQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SjBEsjD5EeyQHa-vatqCuQ" key="nature" value="UML_Nature"/>
@@ -152,7 +166,16 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_U8zmkDD5EeyQHa-vatqCuQ" name="database" type="_KWQwkDD3EeyQHa-vatqCuQ" association="_U8y_gDD5EeyQHa-vatqCuQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_U8zmkTD5EeyQHa-vatqCuQ" name="sends underlying health conditions" type="_G2gaQDD5EeyQHa-vatqCuQ" association="_U8y_gDD5EeyQHa-vatqCuQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_V4cvcDD5EeyQHa-vatqCuQ" name="save findings"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_V4cvcDD5EeyQHa-vatqCuQ" name="save findings">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_bATQYDTmEeyB3eHGfCKhkA">
+      <body>1. Health facility examines patient (citizen).&#xD;
+2. Health facility writes report about findings.&#xD;
+3. Health facility logs into database.&#xD;
+4. Health facility searches for patient.&#xD;
+5. Health facility uploads report.&#xD;
+6. Database sends confirmation.</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_iGARcDD5EeyQHa-vatqCuQ" memberEnd="_iGARczD5EeyQHa-vatqCuQ _iGA4gDD5EeyQHa-vatqCuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iGARcTD5EeyQHa-vatqCuQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iGARcjD5EeyQHa-vatqCuQ" key="nature" value="UML_Nature"/>
@@ -184,7 +207,12 @@
   <packagedElement xmi:type="uml:Actor" xmi:id="_QNTVEDD6EeyQHa-vatqCuQ" name="cameras"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_YQcsIDD6EeyQHa-vatqCuQ" name="bloodpressure sensor"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_oUhzwDD6EeyQHa-vatqCuQ" name="heart rate sensor"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_p_ikEDD6EeyQHa-vatqCuQ" name="send image data"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_p_ikEDD6EeyQHa-vatqCuQ" name="send image data">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_zMsRADToEeyB3eHGfCKhkA">
+      <body>1. Cameras capture procedure of surgery.&#xD;
+2. Cameras send data do analyzer.</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_t1QRYDD6EeyQHa-vatqCuQ" name="analyzer"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_w--bYDD6EeyQHa-vatqCuQ" memberEnd="_w-_CcDD6EeyQHa-vatqCuQ _w-_CcTD6EeyQHa-vatqCuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w--bYTD6EeyQHa-vatqCuQ" source="org.eclipse.papyrus">
@@ -200,7 +228,16 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_xwPgQzD6EeyQHa-vatqCuQ" name="analyzer" type="_t1QRYDD6EeyQHa-vatqCuQ" association="_xwPgQDD6EeyQHa-vatqCuQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_xwQHUDD6EeyQHa-vatqCuQ" name="send image data" type="_p_ikEDD6EeyQHa-vatqCuQ" association="_xwPgQDD6EeyQHa-vatqCuQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_y0GxADD6EeyQHa-vatqCuQ" name="report problems"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_y0GxADD6EeyQHa-vatqCuQ" name="report problems">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_DtiNIDTpEeyB3eHGfCKhkA">
+      <body>1. Bloodpressure sensor measures blood pressure.&#xD;
+2. If blood pressure exceeds limits, show a warning on surgeon's AR interface.&#xD;
+3. Heart rate sensor measures heart rate.&#xD;
+4. If heart rate exceeds limits, show a warning on surgeon's AR interface.&#xD;
+5. Analyzer analyzes image data for problems.&#xD;
+6. If it finds a problem, show a warning on surgeon's AR interface and highlight the location of the problem.</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_1zmoADD6EeyQHa-vatqCuQ" name="surgeon's AR interface"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_44ptYDD6EeyQHa-vatqCuQ" memberEnd="_44qUcjD6EeyQHa-vatqCuQ _44qUczD6EeyQHa-vatqCuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_44qUcDD6EeyQHa-vatqCuQ" source="org.eclipse.papyrus">
@@ -229,5 +266,12 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_7niVgzD6EeyQHa-vatqCuQ" name="ar interface" type="_1zmoADD6EeyQHa-vatqCuQ" association="_7niVgDD6EeyQHa-vatqCuQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_7niVhDD6EeyQHa-vatqCuQ" name="report problems" type="_y0GxADD6EeyQHa-vatqCuQ" association="_7niVgDD6EeyQHa-vatqCuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uVqYADTlEeyB3eHGfCKhkA" memberEnd="_uVtbUDTlEeyB3eHGfCKhkA _uVtbUTTlEeyB3eHGfCKhkA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uVs0QDTlEeyB3eHGfCKhkA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uVs0QTTlEeyB3eHGfCKhkA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uVtbUDTlEeyB3eHGfCKhkA" name="database" type="_KWQwkDD3EeyQHa-vatqCuQ" association="_uVqYADTlEeyB3eHGfCKhkA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uVtbUTTlEeyB3eHGfCKhkA" name="make appointment" type="_jTITQDD2EeyQHa-vatqCuQ" association="_uVqYADTlEeyB3eHGfCKhkA"/>
   </packagedElement>
 </uml:Model>
