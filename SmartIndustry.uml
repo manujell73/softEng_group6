@@ -11,7 +11,13 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_hTGJoDEAEeyVLPmQ8kWhiA" name="SmartTransportation"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_mAJuoDEAEeyVLPmQ8kWhiA" name="request material delivery"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_mAJuoDEAEeyVLPmQ8kWhiA" name="request material delivery">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_ELRTsDY2EeyqQKGXGIUUmQ">
+      <body>1. employee orders transportation service for persons or goods with the needed transportation data&#xD;
+2. receives transportation route with time&#xD;
+3. accepts/denies transport</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_pQHqkDEAEeyVLPmQ8kWhiA" memberEnd="_pQIRojEAEeyVLPmQ8kWhiA _pQIRozEAEeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pQIRoDEAEeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pQIRoTEAEeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
@@ -19,8 +25,19 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_pQIRojEAEeyVLPmQ8kWhiA" name="request material delivery" type="_mAJuoDEAEeyVLPmQ8kWhiA" association="_pQHqkDEAEeyVLPmQ8kWhiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_pQIRozEAEeyVLPmQ8kWhiA" name="smarttransportation" type="_hTGJoDEAEeyVLPmQ8kWhiA" association="_pQHqkDEAEeyVLPmQ8kWhiA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_rHifMDEAEeyVLPmQ8kWhiA" name="adapt to traffic usage"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_tZcQYDEAEeyVLPmQ8kWhiA" name="interacts"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rHifMDEAEeyVLPmQ8kWhiA" name="adapt to traffic usage">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_RGPVUDY2EeyqQKGXGIUUmQ">
+      <body>1. receives data of capacity usage of transport system&#xD;
+2. adops transports (less and higher important goods/transports) to transportation system (over longer time)</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_tZcQYDEAEeyVLPmQ8kWhiA" name="interacts">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_kcXAADY3EeyqQKGXGIUUmQ">
+      <body>1. consumer can start an interaction with an chatbot&#xD;
+2. chatbot gives consumer informations about orders, delivery date,...&#xD;
+3. if chatbot cant find an answer, the consumer will be connected to an amployee</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_xFnnMDEAEeyVLPmQ8kWhiA" name="Employees"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_0RMLUDEAEeyVLPmQ8kWhiA" memberEnd="_0RMyYjEAEeyVLPmQ8kWhiA _0RMyYzEAEeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0RMyYDEAEeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
@@ -60,9 +77,21 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_9NDTEjEAEeyVLPmQ8kWhiA" name="interacts" type="_tZcQYDEAEeyVLPmQ8kWhiA" association="_9NCsADEAEeyVLPmQ8kWhiA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="__aOVQDEAEeyVLPmQ8kWhiA" name="OrderDB"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_BY0v8DEBEeyVLPmQ8kWhiA" name="getData"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_BY0v8DEBEeyVLPmQ8kWhiA" name="getData">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_-Ro78DY3EeyqQKGXGIUUmQ">
+      <body>1. AnalysingSystem gets Data of the OrderDB&#xD;
+2. AnalysingSystem adapts the production to fulfill the orders&#xD;
+&#xD;
+- calculates statistics</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_DZQWoDEBEeyVLPmQ8kWhiA" name="AnalysingSystem"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_FEiMsDEBEeyVLPmQ8kWhiA" name="controlls"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_FEiMsDEBEeyVLPmQ8kWhiA" name="controlls">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_LQFIUDY4EeyqQKGXGIUUmQ">
+      <body>1. Production is controlled by the AnalysingSystem&#xD;
+2. receives information about what and which amount should be produced</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_GcyZEDEBEeyVLPmQ8kWhiA" name="ProductionManager"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_JJJRoDEBEeyVLPmQ8kWhiA" name="Production"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_KzJVUDEBEeyVLPmQ8kWhiA" memberEnd="_KzJVUzEBEeyVLPmQ8kWhiA _KzJ8YDEBEeyVLPmQ8kWhiA">
@@ -86,7 +115,12 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_MNKcQjEBEeyVLPmQ8kWhiA" name="productionmanager" type="_GcyZEDEBEeyVLPmQ8kWhiA" association="_MNJ1MDEBEeyVLPmQ8kWhiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_MNKcQzEBEeyVLPmQ8kWhiA" name="controlls" type="_PbDUkDEBEeyVLPmQ8kWhiA" association="_MNJ1MDEBEeyVLPmQ8kWhiA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_PbDUkDEBEeyVLPmQ8kWhiA" name="oversees"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_PbDUkDEBEeyVLPmQ8kWhiA" name="oversees">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_DPtYcDY4EeyqQKGXGIUUmQ">
+      <body>1- ProductionManager gets statistics and data of the production/orders of AnalysingSystem&#xD;
+2. is able to intervent in special cases (new Products,...)</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_WLXx0DEBEeyVLPmQ8kWhiA" memberEnd="_WLYY4jEBEeyVLPmQ8kWhiA _WLYY4zEBEeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WLYY4DEBEeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WLYY4TEBEeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
@@ -109,11 +143,21 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_XWQQlDEBEeyVLPmQ8kWhiA" name="getdata" type="_BY0v8DEBEeyVLPmQ8kWhiA" association="_XWQQkDEBEeyVLPmQ8kWhiA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_bYxq0DEBEeyVLPmQ8kWhiA" name="EnergyServer"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_eI6QIDEBEeyVLPmQ8kWhiA" name="controlls"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_eI6QIDEBEeyVLPmQ8kWhiA" name="controlls">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_1fllkDY5EeyqQKGXGIUUmQ">
+      <body>1. EnergyServer controlles the HeatingSystem and Machines depending on the available amount of overproduced energy</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_g-Tv8DEBEeyVLPmQ8kWhiA" name="HeatingSystem"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_hMv0kDEBEeyVLPmQ8kWhiA" name="Maschines"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_lMPwADEBEeyVLPmQ8kWhiA" name="SmartEnergy"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_m60xsDEBEeyVLPmQ8kWhiA" name="givesInfo"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_m60xsDEBEeyVLPmQ8kWhiA" name="givesInfo">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_vorckDY5EeyqQKGXGIUUmQ">
+      <body>1. EnergyServer receives information about the over produced energy&#xD;
+2. Looks in a priority queue how to use the energy best (depending on how big the priority queue is and the overproduced energy)&#xD;
+3. EnergyServer sotres the energy data for long time analysation</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_q5RkQDEBEeyVLPmQ8kWhiA" memberEnd="_q5RkQzEBEeyVLPmQ8kWhiA _q5RkRDEBEeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q5RkQTEBEeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q5RkQjEBEeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
