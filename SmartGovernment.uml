@@ -4,8 +4,8 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_0YKC4DDoEeyVLPmQ8kWhiA" name="SmartGovernmentMainPackage">
-    <packagedElement xmi:type="uml:Dependency" xmi:id="_KLNDADDqEeyVLPmQ8kWhiA" name="Development plans for energy network" client="_0YKC4DDoEeyVLPmQ8kWhiA">
-      <supplier xmi:type="uml:Package" href="SmartEnergy.uml#_UsrIkDDoEeyVLPmQ8kWhiA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_KLNDADDqEeyVLPmQ8kWhiA" name="feedback on plans" client="_0YKC4DDoEeyVLPmQ8kWhiA">
+      <supplier xmi:type="uml:Model" href="System_Group6.uml#_Wv3OACXUEeybxdv-5Uc1kw"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_uoL5QDDxEeyGuMCZwYhR0Q" name="Citizen"/>

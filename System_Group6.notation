@@ -166,6 +166,32 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nGsFcDDrEeyVLPmQ8kWhiA" id="(0.5714285714285714,0.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nGsFcTDrEeyVLPmQ8kWhiA" id="(1.0,0.6)"/>
     </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_YZRFwDYwEeySN53LX_dWXA" type="Dependency_Edge" source="_kCtpADDpEeyVLPmQ8kWhiA" target="_kwswYDDpEeyVLPmQ8kWhiA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YZRFwzYwEeySN53LX_dWXA" type="Dependency_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YZRs0DYwEeySN53LX_dWXA" x="-3" y="-102"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YZRs0TYwEeySN53LX_dWXA" type="Dependency_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YZRs0jYwEeySN53LX_dWXA" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_YZRFwTYwEeySN53LX_dWXA"/>
+      <element xmi:type="uml:Dependency" href="SmartEnergy.uml#_YZK_IDYwEeySN53LX_dWXA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YZRFwjYwEeySN53LX_dWXA" points="[300, 260, -643984, -643984]$[300, 360, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YZg9YDYwEeySN53LX_dWXA" id="(0.7,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YZg9YTYwEeySN53LX_dWXA" id="(0.8,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_FeC8cDYxEeySN53LX_dWXA" type="Dependency_Edge" source="_mCoSUDDpEeyVLPmQ8kWhiA" target="_oswWQDDpEeyVLPmQ8kWhiA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_FeC8czYxEeySN53LX_dWXA" type="Dependency_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FeC8dDYxEeySN53LX_dWXA" x="-23" y="11"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_FeC8dTYxEeySN53LX_dWXA" type="Dependency_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FeC8djYxEeySN53LX_dWXA" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_FeC8cTYxEeySN53LX_dWXA"/>
+      <element xmi:type="uml:Dependency" href="SmartHealth.uml#_Fd8OwDYxEeySN53LX_dWXA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FeC8cjYxEeySN53LX_dWXA" points="[680, 120, -643984, -643984]$[940, 160, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FePwwDYxEeySN53LX_dWXA" id="(0.8,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FeQX0DYxEeySN53LX_dWXA" id="(0.2857142857142857,0.0)"/>
+    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_FN8J4DENEeyQHa-vatqCuQ" type="UseCase" name="fastestRoute" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_j0BiYDENEeyQHa-vatqCuQ" type="Actor_Shape">

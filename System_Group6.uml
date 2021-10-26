@@ -5,7 +5,14 @@
   </packageImport>
   <packagedElement xmi:type="uml:Actor" xmi:id="_j0A7UDENEeyQHa-vatqCuQ" name="SmartHealth"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_luaygDENEeyQHa-vatqCuQ" name="SmartTransportation"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_doszIDEOEeyQHa-vatqCuQ" name="request fastest route"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_doszIDEOEeyQHa-vatqCuQ" name="request fastest route">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_Nz97ADYwEeySN53LX_dWXA">
+      <body>1. Smart health sends start location and destination to Smart transportation.&#xD;
+2. Smart transportation checks traffic data.&#xD;
+3. Smart transportation calculates fastest route.&#xD;
+4. Smart transportation sends route to Smart health.</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_fiipoDEOEeyQHa-vatqCuQ" memberEnd="_fiipozEOEeyQHa-vatqCuQ _fijQsDEOEeyQHa-vatqCuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fiipoTEOEeyQHa-vatqCuQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fiipojEOEeyQHa-vatqCuQ" key="nature" value="UML_Nature"/>
@@ -23,7 +30,15 @@
   <packagedElement xmi:type="uml:Actor" xmi:id="_NvGnwDEPEeyQHa-vatqCuQ" name="SmartHome"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_PQMAADEPEeyQHa-vatqCuQ" name="SmartIndustry"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_QqBgwDEPEeyQHa-vatqCuQ" name="SmartTransportation"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_R7WlwDEPEeyQHa-vatqCuQ" name="request transport"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_R7WlwDEPEeyQHa-vatqCuQ" name="request transport">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_YU8xADYxEeySN53LX_dWXA">
+      <body>1. Smart home/industry sends start location and destination.&#xD;
+2. Smart home/industry sends number of people.&#xD;
+3. Smart home/industry sends desired kind of transport.&#xD;
+4. Smart home/industry sends weight of load.&#xD;
+5. Smart transportation sends transportation vehicle.</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_Uk0iYDEPEeyQHa-vatqCuQ" memberEnd="_Uk0iYzEPEeyQHa-vatqCuQ _Uk0iZDEPEeyQHa-vatqCuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Uk0iYTEPEeyQHa-vatqCuQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Uk0iYjEPEeyQHa-vatqCuQ" key="nature" value="UML_Nature"/>
@@ -48,8 +63,21 @@
   <packagedElement xmi:type="uml:Actor" xmi:id="_c0OMwDEPEeyQHa-vatqCuQ" name="SmartHealth"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_dryt8DEPEeyQHa-vatqCuQ" name="SmartGovernment"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_fU6A0DEPEeyQHa-vatqCuQ" name="SmartHome"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_hZOpADEPEeyQHa-vatqCuQ" name="Appointment reminders"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_mMfjsDEPEeyQHa-vatqCuQ" name="health data"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hZOpADEPEeyQHa-vatqCuQ" name="Appointment reminders">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_qioM8DYyEeySN53LX_dWXA">
+      <body>1. Smart health checks for upcoming appointments for household.&#xD;
+2. Smart health seperates appointments for different people in household.&#xD;
+3. Smart health sends reminders to Smart home.</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_mMfjsDEPEeyQHa-vatqCuQ" name="health data">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_uZ71sDYyEeySN53LX_dWXA">
+      <body>1. Smart health collects health data from health facilities.&#xD;
+2. Smart health anonymizes data.&#xD;
+3. Smart health calculates summary statistics.&#xD;
+4. Smart health sends data to Smart government.</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_qaOIYDEPEeyQHa-vatqCuQ" memberEnd="_qaOIYzEPEeyQHa-vatqCuQ _qaOIZDEPEeyQHa-vatqCuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qaOIYTEPEeyQHa-vatqCuQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qaOIYjEPEeyQHa-vatqCuQ" key="nature" value="UML_Nature"/>
@@ -80,7 +108,17 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_4DQw8DEPEeyQHa-vatqCuQ" name="SmartGovernment"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_5MGoUDEPEeyQHa-vatqCuQ" name="SmartEnergy"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_6TuXsDEPEeyQHa-vatqCuQ" name="development plans"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6TuXsDEPEeyQHa-vatqCuQ" name="development plans">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_5hJXgDYuEeySN53LX_dWXA">
+      <body>1. Smart energy analyzes current energy usage.&#xD;
+2. Smart energy identifies possible improvements.&#xD;
+3. Smart energy creates development plans.&#xD;
+4. Smart energy sends plans to Smart Government.&#xD;
+5. Smart Government checks project location.&#xD;
+6. Smart Government calculates costs.&#xD;
+7. Smart Government approves or denies request.</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_8p6L8DEPEeyQHa-vatqCuQ" memberEnd="_8p6L8zEPEeyQHa-vatqCuQ _8p6zADEPEeyQHa-vatqCuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8p6L8TEPEeyQHa-vatqCuQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8p6L8jEPEeyQHa-vatqCuQ" key="nature" value="UML_Nature"/>

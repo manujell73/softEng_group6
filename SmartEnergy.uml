@@ -9,6 +9,9 @@
       <client xmi:type="uml:Model" href="System_Group6.uml#_Wv3OACXUEeybxdv-5Uc1kw"/>
       <supplier xmi:type="uml:Package" href="SmartIndustry.uml#__m9doDDoEeyVLPmQ8kWhiA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_YZK_IDYwEeySN53LX_dWXA" name="Development plans for energy network" client="_UsrIkDDoEeyVLPmQ8kWhiA">
+      <supplier xmi:type="uml:Package" href="SmartGovernment.uml#_0YKC4DDoEeyVLPmQ8kWhiA"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_taioIDD2EeyMHJonOMzJJw" name="Power Plant"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_v7Bn4DD2EeyMHJonOMzJJw" name="Produce power"/>
