@@ -14,8 +14,20 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_taioIDD2EeyMHJonOMzJJw" name="Power Plant"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_v7Bn4DD2EeyMHJonOMzJJw" name="Produce power"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_zL1RUDD2EeyMHJonOMzJJw" name="data of avaiable energy "/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_v7Bn4DD2EeyMHJonOMzJJw" name="Produce power">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_rAg3QDY8EeypH8Hd1TQ9Ng">
+      <body>1. produce power depending on power necessary &#xD;
+&#xD;
+</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_zL1RUDD2EeyMHJonOMzJJw" name="data of avaiable energy ">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_3C98gDY8EeypH8Hd1TQ9Ng">
+      <body>1. wait for energy production data&#xD;
+2. check if data is valid&#xD;
+3. send data to energy database </body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_6Ib3EDD2EeyMHJonOMzJJw" memberEnd="_6IeTUDD2EeyMHJonOMzJJw _6IfhcDD2EeyMHJonOMzJJw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6IdsQDD2EeyMHJonOMzJJw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6IdsQTD2EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
@@ -39,7 +51,15 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_DuImAzD3EeyMHJonOMzJJw" name="sends data of produced energy " type="_zL1RUDD2EeyMHJonOMzJJw" association="_DuH-8DD3EeyMHJonOMzJJw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_cE58kDD3EeyMHJonOMzJJw" name="Worker"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_ehvLYDD3EeyMHJonOMzJJw" name="Monitors production"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ehvLYDD3EeyMHJonOMzJJw" name="Monitors production">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_ydtMIDY9EeypH8Hd1TQ9Ng">
+      <body>1. get data from power plant&#xD;
+2. check data for errors before sending &#xD;
+3. send data to worker&#xD;
+4. send data to production AI&#xD;
+</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_jeNFYDD3EeyMHJonOMzJJw" memberEnd="_jeNscDD3EeyMHJonOMzJJw _jeNscTD3EeyMHJonOMzJJw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jeNFYTD3EeyMHJonOMzJJw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jeNFYjD3EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
@@ -55,7 +75,15 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_kf-EYTD3EeyMHJonOMzJJw" name="monitord production" type="_ehvLYDD3EeyMHJonOMzJJw" association="_kf9dUDD3EeyMHJonOMzJJw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_szSlcDD3EeyMHJonOMzJJw" name="Infrastructure Database"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_yFrFEDD3EeyMHJonOMzJJw" name="plan new power infrastructure"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yFrFEDD3EeyMHJonOMzJJw" name="plan new power infrastructure">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_OfIMUDY6EeypH8Hd1TQ9Ng">
+      <body>1. Take a look at energy network&#xD;
+2. check available energy and energy consumpition &#xD;
+3. if necessary start planning new energy facilities&#xD;
+4. check plans with simulation&#xD;
+5. if simulation approves send plans to infrastructure database</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_GCCF0DD4EeyMHJonOMzJJw" memberEnd="_GCCs4jD4EeyMHJonOMzJJw _GCCs4zD4EeyMHJonOMzJJw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GCCs4DD4EeyMHJonOMzJJw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GCCs4TD4EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
@@ -71,7 +99,16 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_SseYIjD4EeyMHJonOMzJJw" name="actor20" type="_QpksQDD4EeyMHJonOMzJJw" association="_SsdxEDD4EeyMHJonOMzJJw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_SseYIzD4EeyMHJonOMzJJw" name="provid development plans" type="_yFrFEDD3EeyMHJonOMzJJw" association="_SsdxEDD4EeyMHJonOMzJJw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_Y-ZCIDD4EeyMHJonOMzJJw" name="realize projects"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Y-ZCIDD4EeyMHJonOMzJJw" name="realize projects">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_IoD10DY7EeypH8Hd1TQ9Ng">
+      <body>1. Engineers get approved project plans from database&#xD;
+2. when approved start to callculate building time&#xD;
+3. order materials for construction &#xD;
+4. hire construction teams &#xD;
+5. start building &#xD;
+</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_bZ7QcDD4EeyMHJonOMzJJw" memberEnd="_bZ73gjD4EeyMHJonOMzJJw _bZ73gzD4EeyMHJonOMzJJw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bZ73gDD4EeyMHJonOMzJJw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bZ73gTD4EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
@@ -87,7 +124,13 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_l8ug0zD4EeyMHJonOMzJJw" name="monitors production" type="_ehvLYDD3EeyMHJonOMzJJw" association="_l8ug0DD4EeyMHJonOMzJJw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_l8ug1DD4EeyMHJonOMzJJw" name="sensors" type="_kUxEgDD4EeyMHJonOMzJJw" association="_l8ug0DD4EeyMHJonOMzJJw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_1_tcQDD4EeyMHJonOMzJJw" name="regulates production"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_1_tcQDD4EeyMHJonOMzJJw" name="regulates production">
+    <ownedComment xmi:type="uml:Comment" xmi:id="__PljMDY9EeypH8Hd1TQ9Ng">
+      <body>1. look at monitored values &#xD;
+2. check if actual values are target values &#xD;
+2. regulate production deeping on the values difference </body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_6ODE8DD4EeyMHJonOMzJJw" memberEnd="_6ODsAjD4EeyMHJonOMzJJw _6ODsAzD4EeyMHJonOMzJJw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6ODsADD4EeyMHJonOMzJJw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ODsATD4EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
@@ -102,7 +145,15 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_8uLfYjD4EeyMHJonOMzJJw" name="regulates production" type="_1_tcQDD4EeyMHJonOMzJJw" association="_8uK4UDD4EeyMHJonOMzJJw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_8uLfYzD4EeyMHJonOMzJJw" name="power plant" type="_taioIDD2EeyMHJonOMzJJw" association="_8uK4UDD4EeyMHJonOMzJJw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_G3xwIDD6EeyMHJonOMzJJw" name="checks for feasibility"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_G3xwIDD6EeyMHJonOMzJJw" name="checks for feasibility">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_igtrUDY6EeypH8Hd1TQ9Ng">
+      <body>1. get plans for new energy infrastructure &#xD;
+2. enginneers check for feasibility &#xD;
+3. simulation software is used for validation&#xD;
+4. if enginneers and simulation software approve mark plans as approved &#xD;
+</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_IIg_QDD6EeyMHJonOMzJJw" memberEnd="_IIhmUjD6EeyMHJonOMzJJw _IIhmUzD6EeyMHJonOMzJJw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IIhmUDD6EeyMHJonOMzJJw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IIhmUTD6EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>
@@ -111,9 +162,23 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_IIhmUzD6EeyMHJonOMzJJw" name="usecase29" type="_G3xwIDD6EeyMHJonOMzJJw" association="_IIg_QDD6EeyMHJonOMzJJw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_yaZ3kDD6EeyMHJonOMzJJw" name="Control System"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="__QnVADD6EeyMHJonOMzJJw" name="Provides data"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__QnVADD6EeyMHJonOMzJJw" name="Provides data">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_idrwADY7EeypH8Hd1TQ9Ng">
+      <body>1. get data from heat, preassure und light sensor&#xD;
+2. convert values from analog to digital value&#xD;
+3. check values of sensors for wrong readings &#xD;
+4. send data to control system </body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_AB_HkDD7EeyMHJonOMzJJw" name="heat sensor"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_EUQ1EDD7EeyMHJonOMzJJw" name="regulates production"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EUQ1EDD7EeyMHJonOMzJJw" name="regulates production">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_Bd-_UDY8EeypH8Hd1TQ9Ng">
+      <body>1. get order from control system &#xD;
+2. check if order is a valid one &#xD;
+3. if valid send order to production to regulate it&#xD;
+4. in case an error comes back send it to control system</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_wuB_4DD7EeyMHJonOMzJJw" name="pressure sensor"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_z1xM4DD7EeyMHJonOMzJJw" name="light sensor"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_2jTxMDD7EeyMHJonOMzJJw" memberEnd="_2jUYQjD7EeyMHJonOMzJJw _2jUYQzD7EeyMHJonOMzJJw">
@@ -151,7 +216,13 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_7uFM8jD7EeyMHJonOMzJJw" name="regulates " type="_EUQ1EDD7EeyMHJonOMzJJw" association="_7uEl4DD7EeyMHJonOMzJJw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_7uFM8zD7EeyMHJonOMzJJw" name="control system" type="_yaZ3kDD6EeyMHJonOMzJJw" association="_7uEl4DD7EeyMHJonOMzJJw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_9Fo1wDD7EeyMHJonOMzJJw" name="emergency stop"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9Fo1wDD7EeyMHJonOMzJJw" name="emergency stop">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_VPQKYDY8EeypH8Hd1TQ9Ng">
+      <body>1. wait for instructions of control system&#xD;
+2. in case of emergency give emergency warning&#xD;
+3. do an emergency stop </body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="__sva4DD7EeyMHJonOMzJJw" memberEnd="__swB8jD7EeyMHJonOMzJJw __swB8zD7EeyMHJonOMzJJw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__swB8DD7EeyMHJonOMzJJw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__swB8TD7EeyMHJonOMzJJw" key="nature" value="UML_Nature"/>

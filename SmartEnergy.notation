@@ -417,7 +417,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v7F5UzD2EeyMHJonOMzJJw"/>
       </children>
       <element xmi:type="uml:UseCase" href="SmartEnergy.uml#_v7Bn4DD2EeyMHJonOMzJJw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v7EEITD2EeyMHJonOMzJJw" x="820" y="320"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v7EEITD2EeyMHJonOMzJJw" x="820" y="280"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_zL3GgDD2EeyMHJonOMzJJw" type="UseCase_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_zL3GgjD2EeyMHJonOMzJJw" type="UseCase_NameLabel"/>
