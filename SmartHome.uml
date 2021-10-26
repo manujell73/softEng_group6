@@ -10,7 +10,17 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_o9D-8DDwEeyVLPmQ8kWhiA" name="Fridge"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_RjpWkDDyEeyVLPmQ8kWhiA" name="Food Storage Status"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_RjpWkDDyEeyVLPmQ8kWhiA" name="Food Storage Status">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_BwnSUDY6Eeytf-TRB0rLVA">
+      <body>1. Internal Tracking System tracks actual stored goods&#xD;
+2. updates an internal Algorithm wich determines what Goods the customer will most likely buy again &#xD;
+3. sends the list to Display&#xD;
+4. waits for response&#xD;
+5. get actual good list&#xD;
+6. automatically requests (via Organizer) the goods needed and when. &#xD;
+</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_ryaJgDDyEeyVLPmQ8kWhiA" memberEnd="_ryawkjDyEeyVLPmQ8kWhiA _ryawkzDyEeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ryawkDDyEeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ryawkTDyEeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
@@ -27,7 +37,12 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_E-tZ4zDzEeyVLPmQ8kWhiA" name="smartdisplay" type="_302nsDDyEeyVLPmQ8kWhiA" association="_E-tZ4DDzEeyVLPmQ8kWhiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_E-tZ5DDzEeyVLPmQ8kWhiA" name="food storage status" type="_RjpWkDDyEeyVLPmQ8kWhiA" association="_E-tZ4DDzEeyVLPmQ8kWhiA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_KCOXEDDzEeyVLPmQ8kWhiA" name="Room temperature"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_KCOXEDDzEeyVLPmQ8kWhiA" name="Room temperature">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_LHUYcDY5Eeytf-TRB0rLVA">
+      <body>1. stores value from temperature&#xD;
+2. sends data to display</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_MnbewDDzEeyVLPmQ8kWhiA" memberEnd="_MncF0jDzEeyVLPmQ8kWhiA _MncF0zDzEeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MncF0DDzEeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MncF0TDzEeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
@@ -43,7 +58,14 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_NwjqBDDzEeyVLPmQ8kWhiA" name="room temperature" type="_KCOXEDDzEeyVLPmQ8kWhiA" association="_NwjqADDzEeyVLPmQ8kWhiA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_vf8VwDDzEeyVLPmQ8kWhiA" name="HealthDatabase"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_3t3ZcDDzEeyVLPmQ8kWhiA" name="shares Information"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3t3ZcDDzEeyVLPmQ8kWhiA" name="shares Information">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_qlWFkDY5Eeytf-TRB0rLVA">
+      <body>1. getting information from HealthDatabase&#xD;
+2. Updates Organizer and internal User information.&#xD;
+3. Filtering useful information for that day/week &#xD;
+4. sends data to display</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_EpFSsDD0EeyVLPmQ8kWhiA" memberEnd="_EpFSszD0EeyVLPmQ8kWhiA _EpF5wDD0EeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EpFSsTD0EeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EpFSsjD0EeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
@@ -59,7 +81,12 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_FUkfszD0EeyVLPmQ8kWhiA" name="smarthealth" type="_vf8VwDDzEeyVLPmQ8kWhiA" association="_FUj4oDD0EeyVLPmQ8kWhiA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_fNbeoDD1EeyVLPmQ8kWhiA" name="Customer"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_9Wot4DD1EeyVLPmQ8kWhiA" name="using"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9Wot4DD1EeyVLPmQ8kWhiA" name="using">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_dF_E0DY2Eeytf-TRB0rLVA">
+      <body>1. Costumer creates new Profile (one time) or updates Profile information&#xD;
+2. Customer tells the Organizer via User Interface what he/she want </body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_HSjkcDD2EeyVLPmQ8kWhiA" memberEnd="_HSjkczD2EeyVLPmQ8kWhiA _HSjkdDD2EeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HSjkcTD2EeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HSjkcjD2EeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
@@ -68,8 +95,18 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_HSjkdDD2EeyVLPmQ8kWhiA" name="costumer " type="_fNbeoDD1EeyVLPmQ8kWhiA" association="_HSjkcDD2EeyVLPmQ8kWhiA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_IyBzIDD2EeyVLPmQ8kWhiA" name="TransportDatabase"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_MW8rYDD2EeyVLPmQ8kWhiA" name="location"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_Oje0YDD2EeyVLPmQ8kWhiA" name="date"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MW8rYDD2EeyVLPmQ8kWhiA" name="location">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_uZErUDY4Eeytf-TRB0rLVA">
+      <body>1. gets location from Organizer &#xD;
+2. sends information to Transport database</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Oje0YDD2EeyVLPmQ8kWhiA" name="date">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_wDXC4DY4Eeytf-TRB0rLVA">
+      <body>1. gets date from Organizer &#xD;
+2. sends information to Transport database</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_QJ1HIDD2EeyVLPmQ8kWhiA" memberEnd="_QJ1uMjD2EeyVLPmQ8kWhiA _QJ1uMzD2EeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QJ1uMDD2EeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QJ1uMTD2EeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
@@ -84,7 +121,14 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_QyozkjD2EeyVLPmQ8kWhiA" name="location" type="_MW8rYDD2EeyVLPmQ8kWhiA" association="_QyoMgDD2EeyVLPmQ8kWhiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_QyozkzD2EeyVLPmQ8kWhiA" name="transportationservice" type="_J1QtkDD9EeyVLPmQ8kWhiA" association="_QyoMgDD2EeyVLPmQ8kWhiA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_Vn4rQDD2EeyVLPmQ8kWhiA" name="payment"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Vn4rQDD2EeyVLPmQ8kWhiA" name="payment">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_gq2AwDY4Eeytf-TRB0rLVA">
+      <body>1. Organizer recieves pay request from another App&#xD;
+2. Organizer verifies the pay request &#xD;
+3. If it is okay proceeds to 4 else it will cancle here. &#xD;
+4. transfering money and get a confirmation</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_XBoFYDD2EeyVLPmQ8kWhiA" memberEnd="_XBoFYzD2EeyVLPmQ8kWhiA _XBoscDD2EeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XBoFYTD2EeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XBoFYjD2EeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
@@ -101,9 +145,29 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_kFCRUzD2EeyVLPmQ8kWhiA" name="bank" type="_i7WscDD2EeyVLPmQ8kWhiA" association="_kFBqQDD2EeyVLPmQ8kWhiA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_mKkacDD2EeyVLPmQ8kWhiA" name="SmartRoomcontrol"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_4O4UcDD2EeyVLPmQ8kWhiA" name="config"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_5euLsDD2EeyVLPmQ8kWhiA" name="brightness"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_6RiIsDD2EeyVLPmQ8kWhiA" name="timer"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4O4UcDD2EeyVLPmQ8kWhiA" name="config">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_5KYm4DY6Eeytf-TRB0rLVA">
+      <body>1. gets informations from the Sensors &#xD;
+2. gets information from User &#xD;
+3. User overrules the sensors (may send warnig)&#xD;
+4. sends the optimal conditions to lightcontrol &#xD;
+</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_5euLsDD2EeyVLPmQ8kWhiA" name="brightness">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_EVVcYDY7Eeytf-TRB0rLVA">
+      <body>1. gets information from lightcontrol&#xD;
+2. changes the brightness according to requested level&#xD;
+3. sends back confirmation that changes are done</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6RiIsDD2EeyVLPmQ8kWhiA" name="timer">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_FDlCcDY7Eeytf-TRB0rLVA">
+      <body>1. gets information from lightcontrol&#xD;
+2. changes the brightness according to requested level&#xD;
+3. sends back confirmation that changes are done</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_BHMY8DD3EeyVLPmQ8kWhiA" name="SmartLight"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_EVrHIDD3EeyVLPmQ8kWhiA" memberEnd="_EVrHIzD3EeyVLPmQ8kWhiA _EVrHJDD3EeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EVrHITD3EeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
@@ -126,7 +190,17 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_HM9dUTD3EeyVLPmQ8kWhiA" name="smartlight" type="_BHMY8DD3EeyVLPmQ8kWhiA" association="_HM82QDD3EeyVLPmQ8kWhiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_HM9dUjD3EeyVLPmQ8kWhiA" name="timer" type="_6RiIsDD2EeyVLPmQ8kWhiA" association="_HM82QDD3EeyVLPmQ8kWhiA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_KcPcwDD3EeyVLPmQ8kWhiA" name="closing"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_KcPcwDD3EeyVLPmQ8kWhiA" name="closing">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_qKu7QDY7Eeytf-TRB0rLVA">
+      <body>1. gets information from sensors ( most likely temperature, weather, wind speed -  inside and outside) &#xD;
+2. gets information about desired room temperature&#xD;
+3. calculates best time to open windows and the duration&#xD;
+4. while open checks input from inside sensor&#xD;
+5. closes after done. &#xD;
+&#xD;
+alternatively user can tell when to open and duration, also a time shedule can be used </body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_O2LRcDD3EeyVLPmQ8kWhiA" memberEnd="_O2L4gjD3EeyVLPmQ8kWhiA _O2L4gzD3EeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O2L4gDD3EeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O2L4gTD3EeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
@@ -143,7 +217,14 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_WUfdIzD3EeyVLPmQ8kWhiA" name="closing" type="_KcPcwDD3EeyVLPmQ8kWhiA" association="_WUe2EDD3EeyVLPmQ8kWhiA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_YDG7EDD3EeyVLPmQ8kWhiA" name="Duster"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_aVvsEDD3EeyVLPmQ8kWhiA" name="configure"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_aVvsEDD3EeyVLPmQ8kWhiA" name="configure">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_bRIfMDY6Eeytf-TRB0rLVA">
+      <body>1. gets information about room from Sensors&#xD;
+2. Internal algorithm that calculates room usages &#xD;
+3. sends configuration (when, what rooms, how intense) to Duster&#xD;
+4. gets feedback from smart duster that will use the information to calculate next cleaning cycle</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_cX5xEDD3EeyVLPmQ8kWhiA" memberEnd="_cX6YIjD3EeyVLPmQ8kWhiA _cX6YIzD3EeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cX6YIDD3EeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cX6YITD3EeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
@@ -159,7 +240,13 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_dFNjBDD3EeyVLPmQ8kWhiA" name="configure" type="_aVvsEDD3EeyVLPmQ8kWhiA" association="_dFNjADD3EeyVLPmQ8kWhiA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_TB_qQDD6EeyVLPmQ8kWhiA" name="NewsService"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_WNhyIDD6EeyVLPmQ8kWhiA" name="weather"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WNhyIDD6EeyVLPmQ8kWhiA" name="weather">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_UJbSIDY5Eeytf-TRB0rLVA">
+      <body>1. sends location to News service&#xD;
+2. according to that the weather information will be sent&#xD;
+3. sends data to display</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_ZselQDD6EeyVLPmQ8kWhiA" memberEnd="_ZsfMUjD6EeyVLPmQ8kWhiA _ZsfMUzD6EeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZsfMUDD6EeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZsfMUTD6EeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
@@ -218,7 +305,12 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_cpEx4jD9EeyVLPmQ8kWhiA" name="smarttransportation" type="_IyBzIDD2EeyVLPmQ8kWhiA" association="_cpEK0DD9EeyVLPmQ8kWhiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_cpEx4zD9EeyVLPmQ8kWhiA" name="date" type="_Oje0YDD2EeyVLPmQ8kWhiA" association="_cpEK0DD9EeyVLPmQ8kWhiA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="__Mil8DD9EeyVLPmQ8kWhiA" name="getsData"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__Mil8DD9EeyVLPmQ8kWhiA" name="getsData">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_r7_S8DY6Eeytf-TRB0rLVA">
+      <body>1. collects various Data like Temperature, where is the customer, light emmision,... &#xD;
+2 sends Data real time or in an other sheduled basis back for usage for other controlls</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_AWHdIDD-EeyVLPmQ8kWhiA" name="Sensors"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_CQEoYDD-EeyVLPmQ8kWhiA" memberEnd="_CQFPcjD-EeyVLPmQ8kWhiA _CQFPczD-EeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CQFPcDD-EeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
