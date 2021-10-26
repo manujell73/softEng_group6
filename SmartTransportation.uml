@@ -10,7 +10,13 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_WXgjoDDxEey-b4AJEAE3SA" name="Navigation System"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_ilpiMDD2Eey-b4AJEAE3SA" name="Traffic System"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_0VekgDD3Eey-b4AJEAE3SA" name="Requests route"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0VekgDD3Eey-b4AJEAE3SA" name="Requests route">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_id39QDY7EeyNeu_KRd17XQ">
+      <body>Vehicles request route with following data:&#xD;
+• start location&#xD;
+• destination</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_6yiukDD3Eey-b4AJEAE3SA" memberEnd="_6yiukzD3Eey-b4AJEAE3SA _6yiulDD3Eey-b4AJEAE3SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6yiukTD3Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6yiukjD3Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
@@ -18,8 +24,16 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_6yiukzD3Eey-b4AJEAE3SA" name="send location and speed" type="_0VekgDD3Eey-b4AJEAE3SA" association="_6yiukDD3Eey-b4AJEAE3SA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_6yiulDD3Eey-b4AJEAE3SA" name="navigation system" type="_WXgjoDDxEey-b4AJEAE3SA" association="_6yiukDD3Eey-b4AJEAE3SA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_75S7QDD3Eey-b4AJEAE3SA" name="get stored car data"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_DiVwQDD4Eey-b4AJEAE3SA" name="get traffic light schedule"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_75S7QDD3Eey-b4AJEAE3SA" name="get stored car data">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_-Ja-oDY4EeyNeu_KRd17XQ">
+      <body>1. Loads current car data</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_DiVwQDD4Eey-b4AJEAE3SA" name="get traffic light schedule">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_MgX2EDY5EeyNeu_KRd17XQ">
+      <body>1. Loads current traffic light schedule</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_G0caMDD4Eey-b4AJEAE3SA" memberEnd="_G0caMzD4Eey-b4AJEAE3SA _G0caNDD4Eey-b4AJEAE3SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G0caMTD4Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G0caMjD4Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
@@ -34,8 +48,20 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_HlPlAzD4Eey-b4AJEAE3SA" name="get traffic light schedule" type="_DiVwQDD4Eey-b4AJEAE3SA" association="_HlPlADD4Eey-b4AJEAE3SA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_HlPlBDD4Eey-b4AJEAE3SA" name="traffic system" type="_ilpiMDD2Eey-b4AJEAE3SA" association="_HlPlADD4Eey-b4AJEAE3SA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_JGzeYDD4Eey-b4AJEAE3SA" name="calculate route"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_MfDMkDD4Eey-b4AJEAE3SA" name="check for traffic jam"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JGzeYDD4Eey-b4AJEAE3SA" name="calculate route">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_NWIHcDY7EeyNeu_KRd17XQ">
+      <body>1. Use traffic light schedule and traffic jam data&#xD;
+2. find fastest route (with dijkstra algorithm)&#xD;
+ • Avoid traffic jams</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MfDMkDD4Eey-b4AJEAE3SA" name="check for traffic jam">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_4rEDEDY5EeyNeu_KRd17XQ">
+      <body>1. Use car data&#xD;
+2. Look for cluster of cars near each other&#xD;
+3. Check if cluster have a low velocity</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_Q2zP8DD4Eey-b4AJEAE3SA" memberEnd="_Q2z3AjD4Eey-b4AJEAE3SA _Q2z3AzD4Eey-b4AJEAE3SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q2z3ADD4Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q2z3ATD4Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
@@ -51,7 +77,20 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_R87KgDD4Eey-b4AJEAE3SA" name="traffic system" type="_ilpiMDD2Eey-b4AJEAE3SA" association="_R86jcDD4Eey-b4AJEAE3SA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_H7fFUDD5Eey-b4AJEAE3SA" name="SmartHome"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_S8SgUDD5Eey-b4AJEAE3SA" name="Requests transport"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_S8SgUDD5Eey-b4AJEAE3SA" name="Requests transport">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_UHNasDYwEeyNeu_KRd17XQ">
+      <body>1. SmartHome sends Request with data:&#xD;
+• Start location&#xD;
+• Destination&#xD;
+• Time&#xD;
+• Number of passengers&#xD;
+• Type/Weight of load&#xD;
+&#xD;
+2. Transportation system replies with data:&#xD;
+• Pick up time&#xD;
+• Travel time</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_V5J6EDD5Eey-b4AJEAE3SA" memberEnd="_V5J6EzD5Eey-b4AJEAE3SA _V5J6FDD5Eey-b4AJEAE3SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V5J6ETD5Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V5J6EjD5Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
@@ -59,7 +98,14 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_V5J6EzD5Eey-b4AJEAE3SA" name="user" type="_H7fFUDD5Eey-b4AJEAE3SA" association="_V5J6EDD5Eey-b4AJEAE3SA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_V5J6FDD5Eey-b4AJEAE3SA" name="calls for transport" type="_S8SgUDD5Eey-b4AJEAE3SA" association="_V5J6EDD5Eey-b4AJEAE3SA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_W_nL0DD5Eey-b4AJEAE3SA" name="Checks free cars in area"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_W_nL0DD5Eey-b4AJEAE3SA" name="Checks free cars in area">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_WfVlIDYvEeyNeu_KRd17XQ">
+      <body>1. Looks into stored vehicle data&#xD;
+2. Checks for unoccupied vehicles and enough seats&#xD;
+3. Finds the closest unoccupied vehicle&#xD;
+4. Reserves vehicle</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_m9vccDD5Eey-b4AJEAE3SA" name="Transportation system"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_riRXkDD5Eey-b4AJEAE3SA" memberEnd="_riR-ojD5Eey-b4AJEAE3SA _riR-ozD5Eey-b4AJEAE3SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_riR-oDD5Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
@@ -69,7 +115,14 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_riR-ozD5Eey-b4AJEAE3SA" name="transportation system" type="_m9vccDD5Eey-b4AJEAE3SA" association="_riRXkDD5Eey-b4AJEAE3SA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_taJfMDD5Eey-b4AJEAE3SA" name="Car"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_ugli0DD5Eey-b4AJEAE3SA" name="status of cars"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ugli0DD5Eey-b4AJEAE3SA" name="status of cars">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_iofvUDYvEeyNeu_KRd17XQ">
+      <body>When occupied state changes:&#xD;
+1. Car sends location and new state&#xD;
+2. Transportation system stores the data in database&#xD;
+</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_1Y0l8DD5Eey-b4AJEAE3SA" memberEnd="_1Y1NAjD5Eey-b4AJEAE3SA _1Y1NAzD5Eey-b4AJEAE3SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1Y1NADD5Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1Y1NATD5Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
@@ -91,7 +144,12 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_VkteozD6Eey-b4AJEAE3SA" name="requests transport" type="_S8SgUDD5Eey-b4AJEAE3SA" association="_VkteoDD6Eey-b4AJEAE3SA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_VktepDD6Eey-b4AJEAE3SA" name="transportation system" type="_m9vccDD5Eey-b4AJEAE3SA" association="_VkteoDD6Eey-b4AJEAE3SA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_mz2rMDD6Eey-b4AJEAE3SA" name="send location and speed"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_mz2rMDD6Eey-b4AJEAE3SA" name="send location and speed">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_yCDkMDY4EeyNeu_KRd17XQ">
+      <body>1. Vehicle sends current location and velocity&#xD;
+2. Traffic system stores the data</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_tLpTsDD6Eey-b4AJEAE3SA" memberEnd="_tLpTszD6Eey-b4AJEAE3SA _tLpTtDD6Eey-b4AJEAE3SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tLpTsTD6Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tLpTsjD6Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
@@ -121,7 +179,12 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_DJFbYjD7Eey-b4AJEAE3SA" name="requests route" type="_0VekgDD3Eey-b4AJEAE3SA" association="_DJE0UDD7Eey-b4AJEAE3SA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_DJFbYzD7Eey-b4AJEAE3SA" name="smarthealth" type="__WcQMDD6Eey-b4AJEAE3SA" association="_DJE0UDD7Eey-b4AJEAE3SA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_sZ8CkDD9Eey-b4AJEAE3SA" name="calculates duration"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sZ8CkDD9Eey-b4AJEAE3SA" name="calculates duration">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_dqwC8DYvEeyNeu_KRd17XQ">
+      <body>1. Takes start location and destination&#xD;
+2. Calculates optimal route and travel duration (Dijkstra algorithm)</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_w-HYYDD9Eey-b4AJEAE3SA" memberEnd="_w-HYYzD9Eey-b4AJEAE3SA _w-H_cDD9Eey-b4AJEAE3SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-HYYTD9Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-HYYjD9Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
@@ -136,7 +199,12 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_5edBwjD9Eey-b4AJEAE3SA" name="requests route" type="_0VekgDD3Eey-b4AJEAE3SA" association="_5ecasDD9Eey-b4AJEAE3SA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_5edBwzD9Eey-b4AJEAE3SA" name="traffic system" type="_ilpiMDD2Eey-b4AJEAE3SA" association="_5ecasDD9Eey-b4AJEAE3SA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_OMsycDD-Eey-b4AJEAE3SA" name="sends urgency"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OMsycDD-Eey-b4AJEAE3SA" name="sends urgency">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_UQ9yoDY7EeyNeu_KRd17XQ">
+      <body>1. SmartHealth sends urgency&#xD;
+ • traffic light changes are possible for high urgency</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_Pc0WgDD-Eey-b4AJEAE3SA" memberEnd="_Pc09kjD-Eey-b4AJEAE3SA _Pc09kzD-Eey-b4AJEAE3SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pc09kDD-Eey-b4AJEAE3SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pc09kTD-Eey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
@@ -153,7 +221,11 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_haRIoDEAEey-b4AJEAE3SA" name="traffic lights"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_jVIS0DEAEey-b4AJEAE3SA" name="traffic light system"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_mbm7kDEAEey-b4AJEAE3SA" name="Schedule data"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_mbm7kDEAEey-b4AJEAE3SA" name="Schedule data">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_A1-L0DY2EeyNeu_KRd17XQ">
+      <body>1. Send optimized traffic light schedules to traffic lights</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_oBkz0DEAEey-b4AJEAE3SA" memberEnd="_oBla4jEAEey-b4AJEAE3SA _oBla4zEAEey-b4AJEAE3SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oBla4DEAEey-b4AJEAE3SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oBla4TEAEey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
@@ -169,7 +241,12 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_okLKkzEAEey-b4AJEAE3SA" name="traffic light system" type="_jVIS0DEAEey-b4AJEAE3SA" association="_okKjgDEAEey-b4AJEAE3SA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_qjCD8DEAEey-b4AJEAE3SA" name="traffic database"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_xlcWwDEAEey-b4AJEAE3SA" name="past traffic data"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xlcWwDEAEey-b4AJEAE3SA" name="past traffic data">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_ENpHsDY1EeyNeu_KRd17XQ">
+      <body>1. Store traffic light schedule + traffic jams&#xD;
+2. Get past traffic data for improvement</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_0YE2cDEAEey-b4AJEAE3SA" memberEnd="_0YFdgjEAEey-b4AJEAE3SA _0YFdgzEAEey-b4AJEAE3SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0YFdgDEAEey-b4AJEAE3SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0YFdgTEAEey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
@@ -184,7 +261,14 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_1IgN0jEAEey-b4AJEAE3SA" name="traffic database" type="_qjCD8DEAEey-b4AJEAE3SA" association="_1IfmwDEAEey-b4AJEAE3SA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_1IgN0zEAEey-b4AJEAE3SA" name="past traffic data" type="_xlcWwDEAEey-b4AJEAE3SA" association="_1IfmwDEAEey-b4AJEAE3SA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_210EMDEAEey-b4AJEAE3SA" name="optimize traffic light schedules"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_210EMDEAEey-b4AJEAE3SA" name="optimize traffic light schedules">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_48vlwDY1EeyNeu_KRd17XQ">
+      <body>1. Use past traffic and traffic light data&#xD;
+2. Check for useless traffic light states (red for full street, green for empty street)&#xD;
+3. Change accordingly&#xD;
+4. Save new traffic light schedule</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_CuxPMDEBEey-b4AJEAE3SA" memberEnd="_Cux2QjEBEey-b4AJEAE3SA _Cux2QzEBEey-b4AJEAE3SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Cux2QDEBEey-b4AJEAE3SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Cux2QTEBEey-b4AJEAE3SA" key="nature" value="UML_Nature"/>
