@@ -9,7 +9,15 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_uoL5QDDxEeyGuMCZwYhR0Q" name="Citizen"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_yk7boDDxEeyGuMCZwYhR0Q" name="reports problems"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yk7boDDxEeyGuMCZwYhR0Q" name="reports problems">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_nRG4MDY6EeyBI5yK5OSDuQ">
+      <body>1. Citizen report problems through the government app&#xD;
+2. The Report App check if the problem was mentioned somewhere. &#xD;
+3. If it wasnt reported yet, it will be saved in the database&#xD;
+4. Citizen gets points for reported problems&#xD;
+5. Points multiply, when the problem gets attention</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_3zNeYDDxEeyGuMCZwYhR0Q" memberEnd="_3zP6oDDxEeyGuMCZwYhR0Q _3zRIwDDxEeyGuMCZwYhR0Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3zPTkDDxEeyGuMCZwYhR0Q" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3zPTkTDxEeyGuMCZwYhR0Q" key="nature" value="UML_Nature"/>
@@ -19,7 +27,15 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_B-HzMDDyEeyGuMCZwYhR0Q" name="ReportApp"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_cAtV4DDzEeyGuMCZwYhR0Q" name="Government"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_defigDDzEeyGuMCZwYhR0Q" name="uses AI"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_defigDDzEeyGuMCZwYhR0Q" name="uses AI">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_xfJZgDY6EeyBI5yK5OSDuQ">
+      <body>1. Use AI with the provided data&#xD;
+2. The city budget is predicted by the AI&#xD;
+3. Helps with recruiting future employees for the goverment&#xD;
+4. They get an automated offer&#xD;
+5. If accepted, the data will be send back to the goverment</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_fMMacDDzEeyGuMCZwYhR0Q" name="City Budget"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_nmUuIDDzEeyGuMCZwYhR0Q" memberEnd="_nmVVMjDzEeyGuMCZwYhR0Q _nmVVMzDzEeyGuMCZwYhR0Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nmVVMDDzEeyGuMCZwYhR0Q" source="org.eclipse.papyrus">
@@ -37,7 +53,15 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_juo1cDD0EeyGuMCZwYhR0Q" name="BigDataCenter"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_9TRtUDD0EeyGuMCZwYhR0Q" name="EnergyFacility"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_-mPKADD0EeyGuMCZwYhR0Q" name="plans energy network"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-mPKADD0EeyGuMCZwYhR0Q" name="plans energy network">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_6KCtEDY6EeyBI5yK5OSDuQ">
+      <body>1. Check if a network plan is needed&#xD;
+2. Create a plan&#xD;
+3. send plan to the government&#xD;
+4. government tries to get the budget&#xD;
+5. if it has the budget, the energy network plan will be executed, otherwise the energy facility has to change the plan</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_TOfAYDD1EeyGuMCZwYhR0Q" name="Government"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_Qxu_MDD3EeyGuMCZwYhR0Q" name="calculate insurrence rates"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_YHCY0DD3EeyGuMCZwYhR0Q" memberEnd="_YHC_4jD3EeyGuMCZwYhR0Q _YHC_4zD3EeyGuMCZwYhR0Q">
@@ -63,7 +87,15 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_nK1vMjD3EeyGuMCZwYhR0Q" name="plan for energy network" type="_-mPKADD0EeyGuMCZwYhR0Q" association="_nK1IIDD3EeyGuMCZwYhR0Q"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_nK1vMzD3EeyGuMCZwYhR0Q" name="government" type="_TOfAYDD1EeyGuMCZwYhR0Q" association="_nK1IIDD3EeyGuMCZwYhR0Q"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_TnqOADD4EeyGuMCZwYhR0Q" name="update network"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_TnqOADD4EeyGuMCZwYhR0Q" name="update network">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_7IVhUDY6EeyBI5yK5OSDuQ">
+      <body>1. Checks if network should be updated&#xD;
+2. Creates a plan of the new network&#xD;
+3. makes a cost analsis &#xD;
+4. send plans to the government&#xD;
+5. government reject or execute the plan</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_WIOGQDD4EeyGuMCZwYhR0Q" memberEnd="_WIOtUjD4EeyGuMCZwYhR0Q _WIOtUzD4EeyGuMCZwYhR0Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WIOtUDD4EeyGuMCZwYhR0Q" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WIOtUTD4EeyGuMCZwYhR0Q" key="nature" value="UML_Nature"/>
@@ -78,8 +110,22 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_bQwGUjD4EeyGuMCZwYhR0Q" name="energyfacility" type="_9TRtUDD0EeyGuMCZwYhR0Q" association="_bQvfQDD4EeyGuMCZwYhR0Q"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_bQwtYDD4EeyGuMCZwYhR0Q" name="update network" type="_TnqOADD4EeyGuMCZwYhR0Q" association="_bQvfQDD4EeyGuMCZwYhR0Q"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_EjP-MDD5EeyGuMCZwYhR0Q" name="takles problem"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_IdK2EDD5EeyGuMCZwYhR0Q" name="sends data"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EjP-MDD5EeyGuMCZwYhR0Q" name="takles problem">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_rJgGEDY6EeyBI5yK5OSDuQ">
+      <body>1. Report App visualize the data in an admin site&#xD;
+2. Redirect the problem to other facilities if needed&#xD;
+3. Calculates the budget for the problem&#xD;
+4. Checks if the problem is solved&#xD;
+5. Report back to the app, that the problem is fixed</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IdK2EDD5EeyGuMCZwYhR0Q" name="sends data">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_om3KMDY6EeyBI5yK5OSDuQ">
+      <body>1. Data is saved in the database&#xD;
+2. Data is visualized&#xD;
+3. Checks if problem was ever in the database</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_JzVXwDD5EeyGuMCZwYhR0Q" memberEnd="_JzWl4DD5EeyGuMCZwYhR0Q _JzWl4TD5EeyGuMCZwYhR0Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JzV-0DD5EeyGuMCZwYhR0Q" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JzV-0TD5EeyGuMCZwYhR0Q" key="nature" value="UML_Nature"/>
@@ -109,7 +155,18 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_-HjJQjD8EeyGuMCZwYhR0Q" name="reportapp" type="_B-HzMDDyEeyGuMCZwYhR0Q" association="_-HiiMDD8EeyGuMCZwYhR0Q"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_-HjJQzD8EeyGuMCZwYhR0Q" name="reports problems" type="_yk7boDDxEeyGuMCZwYhR0Q" association="_-HiiMDD8EeyGuMCZwYhR0Q"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_AWMyIDD9EeyGuMCZwYhR0Q" name="prioritization of problems"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_AWMyIDD9EeyGuMCZwYhR0Q" name="prioritization of problems">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_p-XIoDY6EeyBI5yK5OSDuQ">
+      <body>1. Collect all problems&#xD;
+2. Sort them&#xD;
+3. Prioritization of problems, that are mentioned many times&#xD;
+4. Prioritization points are given to problems&#xD;
+5. Time increase the points&#xD;
+6. AI predict the difficulty of the problem&#xD;
+7. Easy to solve task are getting less points&#xD;
+8. when problem was fixed earlier and accured again, the problem gets more points</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_HWlEoDD9EeyGuMCZwYhR0Q" memberEnd="_HWlrsjD9EeyGuMCZwYhR0Q _HWlrszD9EeyGuMCZwYhR0Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HWlrsDD9EeyGuMCZwYhR0Q" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HWlrsTD9EeyGuMCZwYhR0Q" key="nature" value="UML_Nature"/>
@@ -117,7 +174,15 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_HWlrsjD9EeyGuMCZwYhR0Q" name="prioritization of problems" type="_AWMyIDD9EeyGuMCZwYhR0Q" association="_HWlEoDD9EeyGuMCZwYhR0Q"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_HWlrszD9EeyGuMCZwYhR0Q" name="reportapp" type="_B-HzMDDyEeyGuMCZwYhR0Q" association="_HWlEoDD9EeyGuMCZwYhR0Q"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_2QwWsDD9EeyGuMCZwYhR0Q" name="create AI standards/restrictions"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2QwWsDD9EeyGuMCZwYhR0Q" name="create AI standards/restrictions">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_wOH2gDY6EeyBI5yK5OSDuQ">
+      <body>1. standard/ restriction template is created by the government&#xD;
+2. Goverment votes if restriction is needed&#xD;
+3. restriction template is uploaded to the law database&#xD;
+4. restriction template is checked by the state&#xD;
+5. restriction comes into effect</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_6F-UwDD9EeyGuMCZwYhR0Q" memberEnd="_6F-70jD9EeyGuMCZwYhR0Q _6F-70zD9EeyGuMCZwYhR0Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6F-70DD9EeyGuMCZwYhR0Q" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6F-70TD9EeyGuMCZwYhR0Q" key="nature" value="UML_Nature"/>
@@ -125,7 +190,15 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_6F-70jD9EeyGuMCZwYhR0Q" name="create ai standards/restrictions" type="_2QwWsDD9EeyGuMCZwYhR0Q" association="_6F-UwDD9EeyGuMCZwYhR0Q"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_6F-70zD9EeyGuMCZwYhR0Q" name="government" type="_cAtV4DDzEeyGuMCZwYhR0Q" association="_6F-UwDD9EeyGuMCZwYhR0Q"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_R_r74DD-EeyGuMCZwYhR0Q" name="use AI to autofill goverment forms"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_R_r74DD-EeyGuMCZwYhR0Q" name="use AI to autofill goverment forms">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_y90W8DY6EeyBI5yK5OSDuQ">
+      <body>1. Citizen fill in forms&#xD;
+2. AI autofill are fields in the form&#xD;
+3. AI determines which fields are really nessecery&#xD;
+4. Citizen has to check it once and can send it&#xD;
+5. Goverment can see which fields are filled in by the ai</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_XIMGwDD-EeyGuMCZwYhR0Q" memberEnd="_XINU4DD-EeyGuMCZwYhR0Q _XINU4TD-EeyGuMCZwYhR0Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XIMt0DD-EeyGuMCZwYhR0Q" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XIMt0TD-EeyGuMCZwYhR0Q" key="nature" value="UML_Nature"/>
@@ -149,7 +222,16 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_nRzOoTD-EeyGuMCZwYhR0Q" name="employees" type="_lekWcDD-EeyGuMCZwYhR0Q" association="_nRyAgDD-EeyGuMCZwYhR0Q"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_nRzOojD-EeyGuMCZwYhR0Q" name="uses ai" type="_defigDDzEeyGuMCZwYhR0Q" association="_nRyAgDD-EeyGuMCZwYhR0Q"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_wXvfcDD-EeyGuMCZwYhR0Q" name="predict Scenarios by using Ai"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_wXvfcDD-EeyGuMCZwYhR0Q" name="predict Scenarios by using Ai">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_2Nxr0DY6EeyBI5yK5OSDuQ">
+      <body>1. collect data about the past&#xD;
+2. counts how often a certain scenario accure&#xD;
+3. predict by processing the data of the past when, which scenario will accure&#xD;
+4. scenarios will get points &#xD;
+5. probability of occurrence is processed with the scenario&#xD;
+6. data is visualized</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_0oXAEDD-EeyGuMCZwYhR0Q" memberEnd="_0oYOMjD-EeyGuMCZwYhR0Q _0oYOMzD-EeyGuMCZwYhR0Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0oYOMDD-EeyGuMCZwYhR0Q" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0oYOMTD-EeyGuMCZwYhR0Q" key="nature" value="UML_Nature"/>
@@ -157,7 +239,16 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_0oYOMjD-EeyGuMCZwYhR0Q" name="predict scenarios by using ai" type="_wXvfcDD-EeyGuMCZwYhR0Q" association="_0oXAEDD-EeyGuMCZwYhR0Q"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_0oYOMzD-EeyGuMCZwYhR0Q" name="government" type="_cAtV4DDzEeyGuMCZwYhR0Q" association="_0oXAEDD-EeyGuMCZwYhR0Q"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_6M_tUDD-EeyGuMCZwYhR0Q" name="use chatbots for q&amp;a"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6M_tUDD-EeyGuMCZwYhR0Q" name="use chatbots for q&amp;a">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_3vjnoDY6EeyBI5yK5OSDuQ">
+      <body>1. Chatbot AI collected most frequently asked questions with answers&#xD;
+2. Citizen asked a question &#xD;
+3. Chatbot checks if it can answer it, if not the citizen will be reminded if the bot can answer it&#xD;
+4. Chatbot saves questions&#xD;
+5. Chatbot counts how often the questions are asked&#xD;
+6. Chatbot AI collect and process the questions given by citizen</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_-IDNoDD-EeyGuMCZwYhR0Q" memberEnd="_-ID0sjD-EeyGuMCZwYhR0Q _-IEbwDD-EeyGuMCZwYhR0Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-ID0sDD-EeyGuMCZwYhR0Q" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-ID0sTD-EeyGuMCZwYhR0Q" key="nature" value="UML_Nature"/>
@@ -188,7 +279,13 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_PfnWYjD_EeyGuMCZwYhR0Q" name="bigdatacenter" type="_juo1cDD0EeyGuMCZwYhR0Q" association="_PfmvUDD_EeyGuMCZwYhR0Q"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_PfnWYzD_EeyGuMCZwYhR0Q" name="provide data to other facilities" type="_LhLK4DD_EeyGuMCZwYhR0Q" association="_PfmvUDD_EeyGuMCZwYhR0Q"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_d8IDQDD_EeyGuMCZwYhR0Q" name="assign residential areas"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_d8IDQDD_EeyGuMCZwYhR0Q" name="assign residential areas">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_8RBAoDY6EeyBI5yK5OSDuQ">
+      <body>1. Government checks if areas are suitable for residential &#xD;
+2. Assign residential area&#xD;
+3. Data is send to other facilities</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_gG4qoDD_EeyGuMCZwYhR0Q" memberEnd="_gG5RsjD_EeyGuMCZwYhR0Q _gG5RszD_EeyGuMCZwYhR0Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gG5RsDD_EeyGuMCZwYhR0Q" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gG5RsTD_EeyGuMCZwYhR0Q" key="nature" value="UML_Nature"/>
@@ -196,7 +293,14 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_gG5RsjD_EeyGuMCZwYhR0Q" name="city layout and structure" type="_d8IDQDD_EeyGuMCZwYhR0Q" association="_gG4qoDD_EeyGuMCZwYhR0Q"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_gG5RszD_EeyGuMCZwYhR0Q" name="government" type="_TOfAYDD1EeyGuMCZwYhR0Q" association="_gG4qoDD_EeyGuMCZwYhR0Q"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_tTDJ8DD_EeyGuMCZwYhR0Q" name="power connection"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_tTDJ8DD_EeyGuMCZwYhR0Q" name="power connection">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_5B0gwDY6EeyBI5yK5OSDuQ">
+      <body>1. Power connection to the houses&#xD;
+2. Checks if house is new or already builded&#xD;
+3. plans the best route for the power connection&#xD;
+4. connect houses to the energy network</body>
+    </ownedComment>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_yp1ocDD_EeyGuMCZwYhR0Q" name="Houses"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_0ccOgDD_EeyGuMCZwYhR0Q" memberEnd="_0cc1kjD_EeyGuMCZwYhR0Q _0cc1kzD_EeyGuMCZwYhR0Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0cc1kDD_EeyGuMCZwYhR0Q" source="org.eclipse.papyrus">
