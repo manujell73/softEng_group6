@@ -11,9 +11,9 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_hTGJoDEAEeyVLPmQ8kWhiA" name="SmartTransportation"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_mAJuoDEAEeyVLPmQ8kWhiA" name="request material delivery">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_mAJuoDEAEeyVLPmQ8kWhiA" name="request transportation service">
     <ownedComment xmi:type="uml:Comment" xmi:id="_ELRTsDY2EeyqQKGXGIUUmQ">
-      <body>1. employee orders transportation service for persons or goods with the needed transportation data&#xD;
+      <body>1. employees or the communication platform are able to request the transportation service. The request contains informations about the transoport like what should be transported, amount, weight, priority, ...&#xD;
 2. receives transportation route with time&#xD;
 3. accepts/denies transport</body>
     </ownedComment>
@@ -25,17 +25,16 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_pQIRojEAEeyVLPmQ8kWhiA" name="request material delivery" type="_mAJuoDEAEeyVLPmQ8kWhiA" association="_pQHqkDEAEeyVLPmQ8kWhiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_pQIRozEAEeyVLPmQ8kWhiA" name="smarttransportation" type="_hTGJoDEAEeyVLPmQ8kWhiA" association="_pQHqkDEAEeyVLPmQ8kWhiA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_rHifMDEAEeyVLPmQ8kWhiA" name="adapt to traffic usage">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rHifMDEAEeyVLPmQ8kWhiA" name="edit">
     <ownedComment xmi:type="uml:Comment" xmi:id="_RGPVUDY2EeyqQKGXGIUUmQ">
-      <body>1. receives data of capacity usage of transport system&#xD;
-2. adops transports (less and higher important goods/transports) to transportation system (over longer time)</body>
+      <body>1. employees are able to edit or correct things on the communication platform</body>
     </ownedComment>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_tZcQYDEAEeyVLPmQ8kWhiA" name="interacts">
     <ownedComment xmi:type="uml:Comment" xmi:id="_kcXAADY3EeyqQKGXGIUUmQ">
-      <body>1. consumer can start an interaction with an chatbot&#xD;
-2. chatbot gives consumer informations about orders, delivery date,...&#xD;
-3. if chatbot cant find an answer, the consumer will be connected to an amployee</body>
+      <body>1. consumer can start an interaction with the communication platform. The consumer is able to edit things on the platform or start an interaction with a chatbot&#xD;
+2. platform/chatbot gives consumer informations about orders, delivery date,...&#xD;
+3. if chatbot cant find an answer or there is something wrong with an order, the consumer will be connected to an employee</body>
     </ownedComment>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_xFnnMDEAEeyVLPmQ8kWhiA" name="Employees"/>
@@ -68,7 +67,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_5bKV0zEAEeyVLPmQ8kWhiA" name="interacts" type="_tZcQYDEAEeyVLPmQ8kWhiA" association="_5bKV0DEAEeyVLPmQ8kWhiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_5bKV1DEAEeyVLPmQ8kWhiA" name="consumers" type="_3s-VsDEAEeyVLPmQ8kWhiA" association="_5bKV0DEAEeyVLPmQ8kWhiA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_7ovAoDEAEeyVLPmQ8kWhiA" name="Chatbot"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_7ovAoDEAEeyVLPmQ8kWhiA" name="CommunicationPlatform"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_9NCsADEAEeyVLPmQ8kWhiA" memberEnd="_9NDTETEAEeyVLPmQ8kWhiA _9NDTEjEAEeyVLPmQ8kWhiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9NCsATEAEeyVLPmQ8kWhiA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9NDTEDEAEeyVLPmQ8kWhiA" key="nature" value="UML_Nature"/>
@@ -79,17 +78,15 @@
   <packagedElement xmi:type="uml:Actor" xmi:id="__aOVQDEAEeyVLPmQ8kWhiA" name="OrderDB"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_BY0v8DEBEeyVLPmQ8kWhiA" name="getData">
     <ownedComment xmi:type="uml:Comment" xmi:id="_-Ro78DY3EeyqQKGXGIUUmQ">
-      <body>1. AnalysingSystem gets Data of the OrderDB&#xD;
-2. AnalysingSystem adapts the production to fulfill the orders&#xD;
-&#xD;
-- calculates statistics</body>
+      <body>1. AnalyzingSystem gets Data of the OrderDB&#xD;
+2. AnalyzingSystem adapts the production to fulfill the orders</body>
     </ownedComment>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_DZQWoDEBEeyVLPmQ8kWhiA" name="AnalysingSystem"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_FEiMsDEBEeyVLPmQ8kWhiA" name="controlls">
     <ownedComment xmi:type="uml:Comment" xmi:id="_LQFIUDY4EeyqQKGXGIUUmQ">
-      <body>1. Production is controlled by the AnalysingSystem&#xD;
-2. receives information about what and which amount should be produced</body>
+      <body>1. Production is controlled by the AnalyzingSystem&#xD;
+2. receives information about what, in which order and which amount should be produced</body>
     </ownedComment>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_GcyZEDEBEeyVLPmQ8kWhiA" name="ProductionManager"/>
@@ -117,7 +114,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_PbDUkDEBEeyVLPmQ8kWhiA" name="oversees">
     <ownedComment xmi:type="uml:Comment" xmi:id="_DPtYcDY4EeyqQKGXGIUUmQ">
-      <body>1- ProductionManager gets statistics and data of the production/orders of AnalysingSystem&#xD;
+      <body>1- ProductionManager gets statistics and important data of the production/orders of AnalyzingSystem&#xD;
 2. is able to intervent in special cases (new Products,...)</body>
     </ownedComment>
   </packagedElement>
@@ -155,7 +152,7 @@
     <ownedComment xmi:type="uml:Comment" xmi:id="_vorckDY5EeyqQKGXGIUUmQ">
       <body>1. EnergyServer receives information about the over produced energy&#xD;
 2. Looks in a priority queue how to use the energy best (depending on how big the priority queue is and the overproduced energy)&#xD;
-3. EnergyServer sotres the energy data for long time analysation</body>
+3. EnergyServer stores the energy data for long time analysation</body>
     </ownedComment>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_q5RkQDEBEeyVLPmQ8kWhiA" memberEnd="_q5RkQzEBEeyVLPmQ8kWhiA _q5RkRDEBEeyVLPmQ8kWhiA">
@@ -192,5 +189,19 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_xbnP4zEBEeyVLPmQ8kWhiA" name="maschines" type="_hMv0kDEBEeyVLPmQ8kWhiA" association="_xbnP4DEBEeyVLPmQ8kWhiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_xbnP5DEBEeyVLPmQ8kWhiA" name="controlls" type="_eI6QIDEBEeyVLPmQ8kWhiA" association="_xbnP4DEBEeyVLPmQ8kWhiA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qeFKYDozEeyyyZg8VHYgRQ" memberEnd="_qeYsYTozEeyyyZg8VHYgRQ _qeYsYjozEeyyyZg8VHYgRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qeO7YDozEeyyyZg8VHYgRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qeYsYDozEeyyyZg8VHYgRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qeYsYTozEeyyyZg8VHYgRQ" name="request material delivery" type="_mAJuoDEAEeyVLPmQ8kWhiA" association="_qeFKYDozEeyyyZg8VHYgRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qeYsYjozEeyyyZg8VHYgRQ" name="communicationsystem" type="_7ovAoDEAEeyVLPmQ8kWhiA" association="_qeFKYDozEeyyyZg8VHYgRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7iyBgDozEeyyyZg8VHYgRQ" memberEnd="_7iyBgzozEeyyyZg8VHYgRQ _7iyBhDozEeyyyZg8VHYgRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7iyBgTozEeyyyZg8VHYgRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7iyBgjozEeyyyZg8VHYgRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7iyBgzozEeyyyZg8VHYgRQ" name="communicationsystem" type="_7ovAoDEAEeyVLPmQ8kWhiA" association="_7iyBgDozEeyyyZg8VHYgRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7iyBhDozEeyyyZg8VHYgRQ" name="adapt to traffic usage" type="_rHifMDEAEeyVLPmQ8kWhiA" association="_7iyBgDozEeyyyZg8VHYgRQ"/>
   </packagedElement>
 </uml:Model>
