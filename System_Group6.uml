@@ -133,4 +133,141 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_9feiAzEPEeyQHa-vatqCuQ" name="smartenergy" type="_5MGoUDEPEeyQHa-vatqCuQ" association="_9feiADEPEeyQHa-vatqCuQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_9feiBDEPEeyQHa-vatqCuQ" name="development plans" type="_6TuXsDEPEeyQHa-vatqCuQ" association="_9feiADEPEeyQHa-vatqCuQ"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xRgBkEX9Eeyr5-97aKNVdQ" name="SmartCityClass"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QRW6EEYAEeyr5-97aKNVdQ" memberEnd="_QRW6E0YAEeyr5-97aKNVdQ _QRXhIkYAEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QRW6EUYAEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QRW6EkYAEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QRXhIkYAEeyr5-97aKNVdQ" aggregation="shared" association="_QRW6EEYAEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartEnergy.uml#_jdhCYEX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QRW6E0YAEeyr5-97aKNVdQ" type="_xRgBkEX9Eeyr5-97aKNVdQ" association="_QRW6EEYAEeyr5-97aKNVdQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FFx9AEYBEeyr5-97aKNVdQ" memberEnd="_FFykEkYBEeyr5-97aKNVdQ _FFykFUYBEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FFykEEYBEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FFykEUYBEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FFykFUYBEeyr5-97aKNVdQ" aggregation="shared" association="_FFx9AEYBEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartIndustry.uml#_506iMEX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FFykEkYBEeyr5-97aKNVdQ" type="_xRgBkEX9Eeyr5-97aKNVdQ" association="_FFx9AEYBEeyr5-97aKNVdQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_K4MAgEYBEeyr5-97aKNVdQ" memberEnd="_K4MnkkYBEeyr5-97aKNVdQ _K4MnlUYBEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K4MnkEYBEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_K4MnkUYBEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_K4MnlUYBEeyr5-97aKNVdQ" aggregation="shared" association="_K4MAgEYBEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartGovernment.uml#_us5E4EX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_K4MnkkYBEeyr5-97aKNVdQ" type="_xRgBkEX9Eeyr5-97aKNVdQ" association="_K4MAgEYBEeyr5-97aKNVdQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PKb40EYBEeyr5-97aKNVdQ" visibility="public" memberEnd="_PKduAkYBEeyr5-97aKNVdQ _PKduBUYBEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PKduAEYBEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PKduAUYBEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PKduBUYBEeyr5-97aKNVdQ" aggregation="shared" association="_PKb40EYBEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartHealth.uml#_y0WpgEX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PKduAkYBEeyr5-97aKNVdQ" type="_xRgBkEX9Eeyr5-97aKNVdQ" association="_PKb40EYBEeyr5-97aKNVdQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RbGT4EYBEeyr5-97aKNVdQ" memberEnd="_RbGT40YBEeyr5-97aKNVdQ _RbIwIEYBEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RbGT4UYBEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RbGT4kYBEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RbIwIEYBEeyr5-97aKNVdQ" aggregation="shared" association="_RbGT4EYBEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartTransportation.uml#_9MT70EX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RbGT40YBEeyr5-97aKNVdQ" type="_xRgBkEX9Eeyr5-97aKNVdQ" association="_RbGT4EYBEeyr5-97aKNVdQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TOvbwEYBEeyr5-97aKNVdQ" memberEnd="_TOvbw0YBEeyr5-97aKNVdQ _TOwC0kYBEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TOvbwUYBEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TOvbwkYBEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TOwC0kYBEeyr5-97aKNVdQ" aggregation="shared" association="_TOvbwEYBEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartHome.uml#_2mrEkEX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TOvbw0YBEeyr5-97aKNVdQ" type="_xRgBkEX9Eeyr5-97aKNVdQ" association="_TOvbwEYBEeyr5-97aKNVdQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ID1NEEYCEeyr5-97aKNVdQ" memberEnd="_ID10IkYCEeyr5-97aKNVdQ _ID2bMkYCEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ID10IEYCEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ID10IUYCEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ID2bMkYCEeyr5-97aKNVdQ" association="_ID1NEEYCEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartHealth.uml#_y0WpgEX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ID10IkYCEeyr5-97aKNVdQ" association="_ID1NEEYCEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartTransportation.uml#_9MT70EX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZjByYEYDEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZjCZcEYDEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZjCZcUYDEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <memberEnd xmi:type="uml:Property" href="SmartHealth.uml#_ZjCZckYDEeyr5-97aKNVdQ"/>
+    <memberEnd xmi:type="uml:Property" href="#_ZjCZdUYDEeyr5-97aKNVdQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZjCZdUYDEeyr5-97aKNVdQ" association="_ZjByYEYDEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartHealth.uml#_y0WpgEX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eQZgcEYDEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eQZgcUYDEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eQZgckYDEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <memberEnd xmi:type="uml:Property" href="SmartHealth.uml#_eQZgc0YDEeyr5-97aKNVdQ"/>
+    <memberEnd xmi:type="uml:Property" href="#_eQaHgkYDEeyr5-97aKNVdQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eQaHgkYDEeyr5-97aKNVdQ" association="_eQZgcEYDEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartHealth.uml#_y0WpgEX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jwfE4EYDEeyr5-97aKNVdQ" visibility="public">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jwfE4UYDEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jwfE4kYDEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <memberEnd xmi:type="uml:Property" href="SmartGovernment.uml#_jwfE40YDEeyr5-97aKNVdQ"/>
+    <memberEnd xmi:type="uml:Property" href="#_jwfr8kYDEeyr5-97aKNVdQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jwfr8kYDEeyr5-97aKNVdQ" association="_jwfE4EYDEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartGovernment.uml#_us5E4EX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_m0JqMEYDEeyr5-97aKNVdQ" memberEnd="_m0KRQkYDEeyr5-97aKNVdQ _m0KRRUYDEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m0KRQEYDEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m0KRQUYDEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_m0KRRUYDEeyr5-97aKNVdQ" association="_m0JqMEYDEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartGovernment.uml#_us5E4EX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_m0KRQkYDEeyr5-97aKNVdQ" association="_m0JqMEYDEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartEnergy.uml#_jdhCYEX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_v3ZzYEYDEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v3ZzYUYDEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v3ZzYkYDEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <memberEnd xmi:type="uml:Property" href="SmartIndustry.uml#_v3ZzY0YDEeyr5-97aKNVdQ"/>
+    <memberEnd xmi:type="uml:Property" href="#_v3aackYDEeyr5-97aKNVdQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_v3aackYDEeyr5-97aKNVdQ" association="_v3ZzYEYDEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartIndustry.uml#_506iMEX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0MaEwEYDEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0Mar0EYDEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0Mar0UYDEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <memberEnd xmi:type="uml:Property" href="SmartHome.uml#_0Mar0kYDEeyr5-97aKNVdQ"/>
+    <memberEnd xmi:type="uml:Property" href="#_0MbS4kYDEeyr5-97aKNVdQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0MbS4kYDEeyr5-97aKNVdQ" association="_0MaEwEYDEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartHome.uml#_2mrEkEX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7iC1kEYDEeyr5-97aKNVdQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7iDcoEYDEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7iDcoUYDEeyr5-97aKNVdQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <memberEnd xmi:type="uml:Property" href="SmartEnergy.uml#_7iDcokYDEeyr5-97aKNVdQ"/>
+    <memberEnd xmi:type="uml:Property" href="#_7iDcpUYDEeyr5-97aKNVdQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7iDcpUYDEeyr5-97aKNVdQ" association="_7iC1kEYDEeyr5-97aKNVdQ">
+      <type xmi:type="uml:Class" href="SmartEnergy.uml#_jdhCYEX_Eeyr5-97aKNVdQ"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>

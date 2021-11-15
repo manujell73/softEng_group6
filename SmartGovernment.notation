@@ -705,4 +705,38 @@
     </styles>
     <element xmi:type="uml:Model" href="SmartGovernment.uml#_aLMscCXUEeybxdv-5Uc1kw"/>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_t30eEEX_Eeyr5-97aKNVdQ" type="PapyrusUMLClassDiagram" name="SmartGovernmentClass" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_us_LgEX_Eeyr5-97aKNVdQ" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_us_LgkX_Eeyr5-97aKNVdQ" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_us_Lg0X_Eeyr5-97aKNVdQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_us_ykEX_Eeyr5-97aKNVdQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_us_ykUX_Eeyr5-97aKNVdQ" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_us_ykkX_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_us_yk0X_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_us_ylEX_Eeyr5-97aKNVdQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_us_ylUX_Eeyr5-97aKNVdQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_us_ylkX_Eeyr5-97aKNVdQ" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_us_yl0X_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_us_ymEX_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_us_ymUX_Eeyr5-97aKNVdQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_us_ymkX_Eeyr5-97aKNVdQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_us_ym0X_Eeyr5-97aKNVdQ" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_us_ynEX_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_us_ynUX_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_us_ynkX_Eeyr5-97aKNVdQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_us_yn0X_Eeyr5-97aKNVdQ"/>
+      </children>
+      <element xmi:type="uml:Class" href="SmartGovernment.uml#_us5E4EX_Eeyr5-97aKNVdQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_us_LgUX_Eeyr5-97aKNVdQ" x="579" y="299"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_t30eEUX_Eeyr5-97aKNVdQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_t30eEkX_Eeyr5-97aKNVdQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_t30eE0X_Eeyr5-97aKNVdQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Package" href="SmartGovernment.uml#_0YKC4DDoEeyVLPmQ8kWhiA"/>
+    </styles>
+    <element xmi:type="uml:Package" href="SmartGovernment.uml#_0YKC4DDoEeyVLPmQ8kWhiA"/>
+  </notation:Diagram>
 </xmi:XMI>

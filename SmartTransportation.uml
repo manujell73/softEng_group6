@@ -7,6 +7,7 @@
     <packagedElement xmi:type="uml:Dependency" xmi:id="_nGeDADDrEeyVLPmQ8kWhiA" name="Fastest ambulance route" client="_LeGDsDDpEeyVLPmQ8kWhiA">
       <supplier xmi:type="uml:Package" href="SmartHealth.uml#_mXARwDDnEeyVLPmQ8kWhiA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9MT70EX_Eeyr5-97aKNVdQ" name="SmartTransportationClass"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_WXgjoDDxEey-b4AJEAE3SA" name="Navigation System"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_ilpiMDD2Eey-b4AJEAE3SA" name="Traffic System"/>

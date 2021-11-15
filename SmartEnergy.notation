@@ -625,4 +625,38 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8ufBYTD4EeyMHJonOMzJJw" id="(0.5882352941176471,0.0)"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_d3RLkEX_Eeyr5-97aKNVdQ" type="PapyrusUMLClassDiagram" name="SmartEnergyClass" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_jdnwEEX_Eeyr5-97aKNVdQ" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jdnwEkX_Eeyr5-97aKNVdQ" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jdnwE0X_Eeyr5-97aKNVdQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jdnwFEX_Eeyr5-97aKNVdQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jdnwFUX_Eeyr5-97aKNVdQ" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_jdnwFkX_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_jdnwF0X_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_jdnwGEX_Eeyr5-97aKNVdQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jdnwGUX_Eeyr5-97aKNVdQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jdnwGkX_Eeyr5-97aKNVdQ" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_jdnwG0X_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_jdnwHEX_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_jdnwHUX_Eeyr5-97aKNVdQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jdnwHkX_Eeyr5-97aKNVdQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jdoXIEX_Eeyr5-97aKNVdQ" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_jdoXIUX_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_jdoXIkX_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_jdoXI0X_Eeyr5-97aKNVdQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jdoXJEX_Eeyr5-97aKNVdQ"/>
+      </children>
+      <element xmi:type="uml:Class" href="SmartEnergy.uml#_jdhCYEX_Eeyr5-97aKNVdQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jdnwEUX_Eeyr5-97aKNVdQ" x="510" y="296"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_d3RLkUX_Eeyr5-97aKNVdQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_d3RLkkX_Eeyr5-97aKNVdQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_d3RLk0X_Eeyr5-97aKNVdQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Package" href="SmartEnergy.uml#_UsrIkDDoEeyVLPmQ8kWhiA"/>
+    </styles>
+    <element xmi:type="uml:Package" href="SmartEnergy.uml#_UsrIkDDoEeyVLPmQ8kWhiA"/>
+  </notation:Diagram>
 </xmi:XMI>

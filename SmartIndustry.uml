@@ -9,6 +9,12 @@
       <client xmi:type="uml:Model" href="System_Group6.uml#_Wv3OACXUEeybxdv-5Uc1kw"/>
       <supplier xmi:type="uml:Model" href="System_Group6.uml#_Wv3OACXUEeybxdv-5Uc1kw"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_506iMEX_Eeyr5-97aKNVdQ" name="SmartIndustryClass">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_v3ZzY0YDEeyr5-97aKNVdQ">
+        <type xmi:type="uml:Class" href="SmartTransportation.uml#_9MT70EX_Eeyr5-97aKNVdQ"/>
+        <association xmi:type="uml:Association" href="System_Group6.uml#_v3ZzYEYDEeyr5-97aKNVdQ"/>
+      </ownedAttribute>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_hTGJoDEAEeyVLPmQ8kWhiA" name="SmartTransportation"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_mAJuoDEAEeyVLPmQ8kWhiA" name="request transportation service">

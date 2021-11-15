@@ -8,6 +8,12 @@
     <packagedElement xmi:type="uml:Dependency" xmi:id="_gvr8kDDqEeyVLPmQ8kWhiA" name="Call for transport service" client="_6iYwgDDoEeyVLPmQ8kWhiA">
       <supplier xmi:type="uml:Package" href="SmartTransportation.uml#_LeGDsDDpEeyVLPmQ8kWhiA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2mrEkEX_Eeyr5-97aKNVdQ" name="SmartHomeClass">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0Mar0kYDEeyr5-97aKNVdQ">
+        <type xmi:type="uml:Class" href="SmartTransportation.uml#_9MT70EX_Eeyr5-97aKNVdQ"/>
+        <association xmi:type="uml:Association" href="System_Group6.uml#_0MaEwEYDEeyr5-97aKNVdQ"/>
+      </ownedAttribute>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_o9D-8DDwEeyVLPmQ8kWhiA" name="Fridge"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_RjpWkDDyEeyVLPmQ8kWhiA" name="Food Storage Status">

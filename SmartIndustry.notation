@@ -620,4 +620,38 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xbxA4TEBEeyVLPmQ8kWhiA" id="(0.0,0.4)"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_5HRZEEX_Eeyr5-97aKNVdQ" type="PapyrusUMLClassDiagram" name="SmartIndustryClass" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_51ABwEX_Eeyr5-97aKNVdQ" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_51ABwkX_Eeyr5-97aKNVdQ" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_51ABw0X_Eeyr5-97aKNVdQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_51ABxEX_Eeyr5-97aKNVdQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_51ABxUX_Eeyr5-97aKNVdQ" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_51ABxkX_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_51ABx0X_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_51AByEX_Eeyr5-97aKNVdQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_51AByUX_Eeyr5-97aKNVdQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_51Ao0EX_Eeyr5-97aKNVdQ" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_51Ao0UX_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_51Ao0kX_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_51Ao00X_Eeyr5-97aKNVdQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_51Ao1EX_Eeyr5-97aKNVdQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_51Ao1UX_Eeyr5-97aKNVdQ" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_51Ao1kX_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_51Ao10X_Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_51Ao2EX_Eeyr5-97aKNVdQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_51Ao2UX_Eeyr5-97aKNVdQ"/>
+      </children>
+      <element xmi:type="uml:Class" href="SmartIndustry.uml#_506iMEX_Eeyr5-97aKNVdQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_51ABwUX_Eeyr5-97aKNVdQ" x="574" y="313"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_5HRZEUX_Eeyr5-97aKNVdQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_5HRZEkX_Eeyr5-97aKNVdQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_5HRZE0X_Eeyr5-97aKNVdQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Package" href="SmartIndustry.uml#__m9doDDoEeyVLPmQ8kWhiA"/>
+    </styles>
+    <element xmi:type="uml:Package" href="SmartIndustry.uml#__m9doDDoEeyVLPmQ8kWhiA"/>
+  </notation:Diagram>
 </xmi:XMI>

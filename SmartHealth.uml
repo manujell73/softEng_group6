@@ -14,6 +14,7 @@
     <packagedElement xmi:type="uml:Dependency" xmi:id="_Fd8OwDYxEeySN53LX_dWXA" name="locations" client="_mXARwDDnEeyVLPmQ8kWhiA">
       <supplier xmi:type="uml:Package" href="SmartTransportation.uml#_LeGDsDDpEeyVLPmQ8kWhiA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T0tJMEX5Eeyr5-97aKNVdQ" name="SmartHealthMainClass"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_CIPbsDD2EeyQHa-vatqCuQ" name="Hospital"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_NEmbkDD2EeyQHa-vatqCuQ" name="Dentist"/>

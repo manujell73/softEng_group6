@@ -696,4 +696,38 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7nvJ0DD6EeyQHa-vatqCuQ" id="(0.0,0.4)"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_TQdMoEX5Eeyr5-97aKNVdQ" type="PapyrusUMLClassDiagram" name="SmartHealthClass" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_T00d8EX5Eeyr5-97aKNVdQ" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_T02TIEX5Eeyr5-97aKNVdQ" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_T02TIUX5Eeyr5-97aKNVdQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_T02TIkX5Eeyr5-97aKNVdQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_T026MEX5Eeyr5-97aKNVdQ" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_T026MUX5Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_T026MkX5Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_T026M0X5Eeyr5-97aKNVdQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T026NEX5Eeyr5-97aKNVdQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_T026NUX5Eeyr5-97aKNVdQ" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_T026NkX5Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_T026N0X5Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_T026OEX5Eeyr5-97aKNVdQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T026OUX5Eeyr5-97aKNVdQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_T026OkX5Eeyr5-97aKNVdQ" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_T026O0X5Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_T026PEX5Eeyr5-97aKNVdQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_T026PUX5Eeyr5-97aKNVdQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T026PkX5Eeyr5-97aKNVdQ"/>
+      </children>
+      <element xmi:type="uml:Class" href="SmartHealth.uml#_T0tJMEX5Eeyr5-97aKNVdQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T00d8UX5Eeyr5-97aKNVdQ" x="560" y="280"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_TQdMoUX5Eeyr5-97aKNVdQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_TQdMokX5Eeyr5-97aKNVdQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_TQdMo0X5Eeyr5-97aKNVdQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Package" href="SmartHealth.uml#_mXARwDDnEeyVLPmQ8kWhiA"/>
+    </styles>
+    <element xmi:type="uml:Package" href="SmartHealth.uml#_mXARwDDnEeyVLPmQ8kWhiA"/>
+  </notation:Diagram>
 </xmi:XMI>
