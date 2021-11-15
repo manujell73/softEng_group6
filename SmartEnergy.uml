@@ -17,17 +17,115 @@
         <type xmi:type="uml:Class" href="SmartIndustry.uml#_506iMEX_Eeyr5-97aKNVdQ"/>
         <association xmi:type="uml:Association" href="System_Group6.uml#_7iC1kEYDEeyr5-97aKNVdQ"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_3PsEAEYNEeyqtIfqi_suBA" name="houses"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_6f-JAEYNEeyqtIfqi_suBA" name="plans"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_PY5fskYOEeyqtIfqi_suBA" name="smartgovernmentclass">
-        <type xmi:type="uml:Class" href="SmartGovernment.uml#_us5E4EX_Eeyr5-97aKNVdQ"/>
-        <association xmi:type="uml:Association" href="SmartGovernment.uml#_PY44oEYOEeyqtIfqi_suBA"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_cddiMkYOEeyqtIfqi_suBA" name="houses">
-        <type xmi:type="uml:Class" href="SmartGovernment.uml#_YCX-UEYLEeyqtIfqi_suBA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cdhMkEYOEeyqtIfqi_suBA" value="*"/>
-        <association xmi:type="uml:Association" href="SmartGovernment.uml#_cdc7IEYOEeyqtIfqi_suBA"/>
-      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_B67tcEYIEey4DO1PtrFzgQ" name="EnergyDatabase">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_P3upYEYREey4DO1PtrFzgQ" name="entries"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hLY4oEYIEey4DO1PtrFzgQ" name="InfrastructureDatabase">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_x8Rs0EYREey4DO1PtrFzgQ" name="entries"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_z1EwkEYIEey4DO1PtrFzgQ" name="Worker">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_j76tQkYNEey4DO1PtrFzgQ" name="power plant" type="_5pNSYEYIEey4DO1PtrFzgQ" association="_j76GMEYNEey4DO1PtrFzgQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_KL9ZYEYREey4DO1PtrFzgQ" name="persID"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_LuKzAEYREey4DO1PtrFzgQ" name="name"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ND7FAEYREey4DO1PtrFzgQ" name="Property4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2uE-AEYIEey4DO1PtrFzgQ" name="Engineer">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5Kj_0kYOEey4DO1PtrFzgQ" name="infrastructureplans" type="_bh65QEYJEey4DO1PtrFzgQ" association="_5KjYwEYOEey4DO1PtrFzgQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_SpzIYEYREey4DO1PtrFzgQ" name="id"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5pNSYEYIEey4DO1PtrFzgQ" name="Power Plant">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GqlEskYOEey4DO1PtrFzgQ" name="energydatabase" type="_B67tcEYIEey4DO1PtrFzgQ" association="_GqkdoEYOEey4DO1PtrFzgQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xT1esEYPEey4DO1PtrFzgQ" name="id"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1mC6wEYPEey4DO1PtrFzgQ" name="curEnergyPro"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8axW4EYPEey4DO1PtrFzgQ" name="opState"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Bq3-kEYQEey4DO1PtrFzgQ" name="employee"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WY_3oEYJEey4DO1PtrFzgQ" name="Simulation">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_V0s-IEYREey4DO1PtrFzgQ" name="simProgress"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Y9EdQEYREey4DO1PtrFzgQ" name="simID"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZIuNQEYJEey4DO1PtrFzgQ" name="Sensor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HwIQIEYREey4DO1PtrFzgQ" name="value"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bh65QEYJEey4DO1PtrFzgQ" name="InfrastructurePlans">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_UGtLQEYREey4DO1PtrFzgQ" name="planID"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_p5ZbgEYREey4DO1PtrFzgQ" name="validationState"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0evpkEYREey4DO1PtrFzgQ" name="approveState"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2d33cEYLEey4DO1PtrFzgQ" name="ControlSytstem">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_WSMA0EYQEey4DO1PtrFzgQ" name="systemID"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ZGmCIEYQEey4DO1PtrFzgQ" name="action"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dy_f0EYQEey4DO1PtrFzgQ" name="sensorVal"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_317dQEYQEey4DO1PtrFzgQ" name="errorMessage"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Hu5TUEYMEey4DO1PtrFzgQ" memberEnd="_Hu56YkYMEey4DO1PtrFzgQ _Hu6hckYMEey4DO1PtrFzgQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hu56YEYMEey4DO1PtrFzgQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Hu56YUYMEey4DO1PtrFzgQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Hu6hckYMEey4DO1PtrFzgQ" name="controlsytstem" type="_2d33cEYLEey4DO1PtrFzgQ" aggregation="composite" association="_Hu5TUEYMEey4DO1PtrFzgQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Hu56YkYMEey4DO1PtrFzgQ" name="power plant" type="_5pNSYEYIEey4DO1PtrFzgQ" association="_Hu5TUEYMEey4DO1PtrFzgQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_x6ldAEYMEey4DO1PtrFzgQ" memberEnd="_x6mEEkYMEey4DO1PtrFzgQ _x6mEFUYMEey4DO1PtrFzgQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x6mEEEYMEey4DO1PtrFzgQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x6mEEUYMEey4DO1PtrFzgQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_x6mEEkYMEey4DO1PtrFzgQ" name="controlsytstem" type="_2d33cEYLEey4DO1PtrFzgQ" association="_x6ldAEYMEey4DO1PtrFzgQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_x6mEFUYMEey4DO1PtrFzgQ" name="sensor" type="_ZIuNQEYJEey4DO1PtrFzgQ" aggregation="composite" association="_x6ldAEYMEey4DO1PtrFzgQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ru6xUEYNEey4DO1PtrFzgQ" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_j76GMEYNEey4DO1PtrFzgQ" memberEnd="_j76tQkYNEey4DO1PtrFzgQ _j77UUkYNEey4DO1PtrFzgQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j76tQEYNEey4DO1PtrFzgQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j76tQUYNEey4DO1PtrFzgQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_j77UUkYNEey4DO1PtrFzgQ" name="worker" type="_z1EwkEYIEey4DO1PtrFzgQ" association="_j76GMEYNEey4DO1PtrFzgQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aAPR0EYOEey4DO1PtrFzgQ" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_rNEmsEYNEey4DO1PtrFzgQ" memberEnd="_rNFNwkYNEey4DO1PtrFzgQ _rNFNxUYNEey4DO1PtrFzgQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rNFNwEYNEey4DO1PtrFzgQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rNFNwUYNEey4DO1PtrFzgQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_rNFNwkYNEey4DO1PtrFzgQ" name="smartenergyclass" type="_jdhCYEX_Eeyr5-97aKNVdQ" association="_rNEmsEYNEey4DO1PtrFzgQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_rNFNxUYNEey4DO1PtrFzgQ" name="energydatabase" type="_B67tcEYIEey4DO1PtrFzgQ" aggregation="shared" association="_rNEmsEYNEey4DO1PtrFzgQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BBmqAEYOEey4DO1PtrFzgQ" memberEnd="_BBnREkYOEey4DO1PtrFzgQ _BBnRFUYOEey4DO1PtrFzgQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BBnREEYOEey4DO1PtrFzgQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BBnREUYOEey4DO1PtrFzgQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_BBnRFUYOEey4DO1PtrFzgQ" name="infrastructuredatabase" type="_hLY4oEYIEey4DO1PtrFzgQ" association="_BBmqAEYOEey4DO1PtrFzgQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_BBnREkYOEey4DO1PtrFzgQ" name="smartenergyclass" type="_jdhCYEX_Eeyr5-97aKNVdQ" association="_BBmqAEYOEey4DO1PtrFzgQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_GqkdoEYOEey4DO1PtrFzgQ" memberEnd="_GqlEskYOEey4DO1PtrFzgQ _GqlEtUYOEey4DO1PtrFzgQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GqlEsEYOEey4DO1PtrFzgQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GqlEsUYOEey4DO1PtrFzgQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_GqlEtUYOEey4DO1PtrFzgQ" name="power plant" type="_5pNSYEYIEey4DO1PtrFzgQ" association="_GqkdoEYOEey4DO1PtrFzgQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TVIEsEYOEey4DO1PtrFzgQ" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_kqE-UEYOEey4DO1PtrFzgQ" memberEnd="_kqFlYkYOEey4DO1PtrFzgQ _kqGMcUYOEey4DO1PtrFzgQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kqFlYEYOEey4DO1PtrFzgQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kqFlYUYOEey4DO1PtrFzgQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_kqGMcUYOEey4DO1PtrFzgQ" name="infrastructureplans" type="_bh65QEYJEey4DO1PtrFzgQ" association="_kqE-UEYOEey4DO1PtrFzgQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_kqFlYkYOEey4DO1PtrFzgQ" name="infrastructuredatabase" type="_hLY4oEYIEey4DO1PtrFzgQ" association="_kqE-UEYOEey4DO1PtrFzgQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_5KjYwEYOEey4DO1PtrFzgQ" memberEnd="_5Kj_0kYOEey4DO1PtrFzgQ _5Kkm4kYOEey4DO1PtrFzgQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Kj_0EYOEey4DO1PtrFzgQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5Kj_0UYOEey4DO1PtrFzgQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_5Kkm4kYOEey4DO1PtrFzgQ" name="engineer" type="_2uE-AEYIEey4DO1PtrFzgQ" association="_5KjYwEYOEey4DO1PtrFzgQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PkP-oEYPEey4DO1PtrFzgQ" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-dUS4EYOEey4DO1PtrFzgQ" memberEnd="_-dUS40YOEey4DO1PtrFzgQ _-dU58kYOEey4DO1PtrFzgQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-dUS4UYOEey4DO1PtrFzgQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-dUS4kYOEey4DO1PtrFzgQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_-dU58kYOEey4DO1PtrFzgQ" name="simulation" type="_WY_3oEYJEey4DO1PtrFzgQ" association="_-dUS4EYOEey4DO1PtrFzgQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_-dUS40YOEey4DO1PtrFzgQ" name="infrastructureplans" type="_bh65QEYJEey4DO1PtrFzgQ" association="_-dUS4EYOEey4DO1PtrFzgQ"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_taioIDD2EeyMHJonOMzJJw" name="Power Plant"/>

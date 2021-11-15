@@ -1567,9 +1567,9 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_tKfdAUYKEeyqA9EqI7AGNw"/>
       <element xmi:type="uml:Association" href="SmartHome.uml#_tKWTEEYKEeyqA9EqI7AGNw"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tKfdAkYKEeyqA9EqI7AGNw" points="[580, 560, -643984, -643984]$[580, 660, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tKfdAkYKEeyqA9EqI7AGNw" points="[580, 460, -643984, -643984]$[560, 600, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tK0NIEYKEeyqA9EqI7AGNw" id="(0.375,1.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tK0NIUYKEeyqA9EqI7AGNw" id="(0.39473684210526316,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tK0NIUYKEeyqA9EqI7AGNw" id="(0.48,0.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_YW9HMEYLEeyqA9EqI7AGNw" type="Association_Edge" source="_U8HYAEYLEeyqA9EqI7AGNw" target="_5TQloEYKEeyqA9EqI7AGNw">
       <children xmi:type="notation:DecorationNode" xmi:id="_YW9HM0YLEeyqA9EqI7AGNw" type="Association_StereotypeLabel">
