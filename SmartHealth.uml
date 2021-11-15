@@ -14,7 +14,16 @@
     <packagedElement xmi:type="uml:Dependency" xmi:id="_Fd8OwDYxEeySN53LX_dWXA" name="locations" client="_mXARwDDnEeyVLPmQ8kWhiA">
       <supplier xmi:type="uml:Package" href="SmartTransportation.uml#_LeGDsDDpEeyVLPmQ8kWhiA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_T0tJMEX5Eeyr5-97aKNVdQ" name="SmartHealthMainClass"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T0tJMEX5Eeyr5-97aKNVdQ" name="SmartHealthMainClass">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kI1eAUYEEeyr5-97aKNVdQ">
+        <type xmi:type="uml:Class" href="SmartHome.uml#_2mrEkEX_Eeyr5-97aKNVdQ"/>
+        <association xmi:type="uml:Association" href="System_Group6.uml#_kI028EYEEeyr5-97aKNVdQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_mXZAQkYEEeyr5-97aKNVdQ">
+        <type xmi:type="uml:Class" href="SmartGovernment.uml#_us5E4EX_Eeyr5-97aKNVdQ"/>
+        <association xmi:type="uml:Association" href="System_Group6.uml#_mXYZMEYEEeyr5-97aKNVdQ"/>
+      </ownedAttribute>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_CIPbsDD2EeyQHa-vatqCuQ" name="Hospital"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_NEmbkDD2EeyQHa-vatqCuQ" name="Dentist"/>
