@@ -130,6 +130,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YWzWMEYLEeyqA9EqI7AGNw" value="*"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_LGq1gEYOEeyqA9EqI7AGNw" name="collectedData"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0ttWAEY6Eey01JJA6oS50Q" name="temp" visibility="public"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_YWw58EYLEeyqA9EqI7AGNw" memberEnd="_YWxhAkYLEeyqA9EqI7AGNw _YWz9QEYLEeyqA9EqI7AGNw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YWxhAEYLEeyqA9EqI7AGNw" source="org.eclipse.papyrus">
