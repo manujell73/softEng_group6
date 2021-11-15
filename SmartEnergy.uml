@@ -17,6 +17,17 @@
         <type xmi:type="uml:Class" href="SmartIndustry.uml#_506iMEX_Eeyr5-97aKNVdQ"/>
         <association xmi:type="uml:Association" href="System_Group6.uml#_7iC1kEYDEeyr5-97aKNVdQ"/>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3PsEAEYNEeyqtIfqi_suBA" name="houses"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_6f-JAEYNEeyqtIfqi_suBA" name="plans"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_PY5fskYOEeyqtIfqi_suBA" name="smartgovernmentclass">
+        <type xmi:type="uml:Class" href="SmartGovernment.uml#_us5E4EX_Eeyr5-97aKNVdQ"/>
+        <association xmi:type="uml:Association" href="SmartGovernment.uml#_PY44oEYOEeyqtIfqi_suBA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cddiMkYOEeyqtIfqi_suBA" name="houses">
+        <type xmi:type="uml:Class" href="SmartGovernment.uml#_YCX-UEYLEeyqtIfqi_suBA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cdhMkEYOEeyqtIfqi_suBA" value="*"/>
+        <association xmi:type="uml:Association" href="SmartGovernment.uml#_cdc7IEYOEeyqtIfqi_suBA"/>
+      </ownedAttribute>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_taioIDD2EeyMHJonOMzJJw" name="Power Plant"/>

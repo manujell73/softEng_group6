@@ -12,6 +12,113 @@
         <type xmi:type="uml:Class" href="SmartIndustry.uml#_506iMEX_Eeyr5-97aKNVdQ"/>
         <association xmi:type="uml:Association" href="System_Group6.uml#_jwfE4EYDEeyr5-97aKNVdQ"/>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_BDoAEkYKEeyqtIfqi_suBA" name="employee" type="_nYjJAEYJEeyqtIfqi_suBA" association="_BDnZAEYKEeyqtIfqi_suBA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IVBxIEYKEeyqtIfqi_suBA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_qXjwcEYMEeyqtIfqi_suBA" name="govermentName"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_03-0gEYHEeyqtIfqi_suBA" name="DatabaseClass">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_n21c80YIEeyqtIfqi_suBA" name="smartgovernmentclass" type="_us5E4EX_Eeyr5-97aKNVdQ" association="_n21c8EYIEeyqtIfqi_suBA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_avNGEEYNEeyqtIfqi_suBA" name="data"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5mIlsEYHEeyqtIfqi_suBA" name="CitizenClass">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1IqfYkYIEeyqtIfqi_suBA" name="reportappclass" type="__OeHMEYHEeyqtIfqi_suBA" association="_1Ip4UEYIEeyqtIfqi_suBA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lV_ekkYNEeyqtIfqi_suBA" name="smartgovernmentclass" type="_us5E4EX_Eeyr5-97aKNVdQ" association="_lV-3gEYNEeyqtIfqi_suBA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_D9P7wEYOEeyqtIfqi_suBA" name="id"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FeFcYEYOEeyqtIfqi_suBA" name="name"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GsAoEEYOEeyqtIfqi_suBA" name="address"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IRLPEEYOEeyqtIfqi_suBA" name="phone"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_J0D-IEYOEeyqtIfqi_suBA" name="birthdate"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__OeHMEYHEeyqtIfqi_suBA" name="ReportAppClass">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w3kdokYIEeyqtIfqi_suBA" name="databaseclass" type="_03-0gEYHEeyqtIfqi_suBA" association="_w3j2kEYIEeyqtIfqi_suBA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_BDYysEYOEeyqtIfqi_suBA" name="database"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_n21c8EYIEeyqtIfqi_suBA" memberEnd="_n21c80YIEeyqtIfqi_suBA _n22EAkYIEeyqtIfqi_suBA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n21c8UYIEeyqtIfqi_suBA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n21c8kYIEeyqtIfqi_suBA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_n22EAkYIEeyqtIfqi_suBA" name="databaseclass" type="_03-0gEYHEeyqtIfqi_suBA" association="_n21c8EYIEeyqtIfqi_suBA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hc6RAEYJEeyqtIfqi_suBA" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_w3j2kEYIEeyqtIfqi_suBA" memberEnd="_w3kdokYIEeyqtIfqi_suBA _w3lEsUYIEeyqtIfqi_suBA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w3kdoEYIEeyqtIfqi_suBA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w3kdoUYIEeyqtIfqi_suBA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_w3lEsUYIEeyqtIfqi_suBA" name="reportappclass" type="__OeHMEYHEeyqtIfqi_suBA" association="_w3j2kEYIEeyqtIfqi_suBA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1Ip4UEYIEeyqtIfqi_suBA" memberEnd="_1IqfYkYIEeyqtIfqi_suBA _1IqfZUYIEeyqtIfqi_suBA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1IqfYEYIEeyqtIfqi_suBA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1IqfYUYIEeyqtIfqi_suBA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1IqfZUYIEeyqtIfqi_suBA" name="citizenclass" type="_5mIlsEYHEeyqtIfqi_suBA" association="_1Ip4UEYIEeyqtIfqi_suBA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bGYMwEYJEeyqtIfqi_suBA" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nYjJAEYJEeyqtIfqi_suBA" name="Employee">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TIzK0EYMEeyqtIfqi_suBA" name="ID"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_WQ7ZYEYMEeyqtIfqi_suBA" name="name" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Z1fsUEYMEeyqtIfqi_suBA" name="department" isUnique="false"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ouExgEYJEeyqtIfqi_suBA" name="CityBudget">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_yoiPgkYJEeyqtIfqi_suBA" name="smartgovernmentclass" type="_us5E4EX_Eeyr5-97aKNVdQ" association="_yohocEYJEeyqtIfqi_suBA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ya4jIEYLEeyqtIfqi_suBA" name="budget" isStatic="true" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IPfe8EYMEeyqtIfqi_suBA" name="city" isUnique="false"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_yohocEYJEeyqtIfqi_suBA" memberEnd="_yoiPgkYJEeyqtIfqi_suBA _yorZcEYJEeyqtIfqi_suBA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yoiPgEYJEeyqtIfqi_suBA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yoiPgUYJEeyqtIfqi_suBA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_yorZcEYJEeyqtIfqi_suBA" name="citybudget" type="_ouExgEYJEeyqtIfqi_suBA" association="_yohocEYJEeyqtIfqi_suBA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BDnZAEYKEeyqtIfqi_suBA" memberEnd="_BDoAEkYKEeyqtIfqi_suBA _BDoAFUYKEeyqtIfqi_suBA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BDoAEEYKEeyqtIfqi_suBA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BDoAEUYKEeyqtIfqi_suBA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_BDoAFUYKEeyqtIfqi_suBA" name="smartgovernmentclass" type="_us5E4EX_Eeyr5-97aKNVdQ" association="_BDnZAEYKEeyqtIfqi_suBA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YCX-UEYLEeyqtIfqi_suBA" name="Houses">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_eL-Z0kYLEeyqtIfqi_suBA" name="smartgovernmentclass" type="_us5E4EX_Eeyr5-97aKNVdQ" association="_eL9ywEYLEeyqtIfqi_suBA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wkhB8EYMEeyqtIfqi_suBA" name="streetName"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_G4D8gEYNEeyqtIfqi_suBA" name="Owner"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Ym8ZEEYNEeyqtIfqi_suBA" name="streetNumber"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_eL9ywEYLEeyqtIfqi_suBA" memberEnd="_eL-Z0kYLEeyqtIfqi_suBA _eL-Z1UYLEeyqtIfqi_suBA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eL-Z0EYLEeyqtIfqi_suBA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eL-Z0UYLEeyqtIfqi_suBA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_eL-Z1UYLEeyqtIfqi_suBA" name="houses" type="_YCX-UEYLEeyqtIfqi_suBA" association="_eL9ywEYLEeyqtIfqi_suBA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jPbFkEYLEeyqtIfqi_suBA" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lV-3gEYNEeyqtIfqi_suBA" memberEnd="_lV_ekkYNEeyqtIfqi_suBA _lV_elUYNEeyqtIfqi_suBA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lV_ekEYNEeyqtIfqi_suBA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lV_ekUYNEeyqtIfqi_suBA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lV_elUYNEeyqtIfqi_suBA" name="citizenclass" type="_5mIlsEYHEeyqtIfqi_suBA" association="_lV-3gEYNEeyqtIfqi_suBA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKLvMEYNEeyqtIfqi_suBA" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PY44oEYOEeyqtIfqi_suBA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PY5fsEYOEeyqtIfqi_suBA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PY5fsUYOEeyqtIfqi_suBA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <memberEnd xmi:type="uml:Property" href="SmartEnergy.uml#_PY5fskYOEeyqtIfqi_suBA"/>
+      <memberEnd xmi:type="uml:Property" href="#_PY-_QEYOEeyqtIfqi_suBA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_PY-_QEYOEeyqtIfqi_suBA" name="smartenergyclass" association="_PY44oEYOEeyqtIfqi_suBA">
+        <type xmi:type="uml:Class" href="SmartEnergy.uml#_jdhCYEX_Eeyr5-97aKNVdQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_cdc7IEYOEeyqtIfqi_suBA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cddiMEYOEeyqtIfqi_suBA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cddiMUYOEeyqtIfqi_suBA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <memberEnd xmi:type="uml:Property" href="SmartEnergy.uml#_cddiMkYOEeyqtIfqi_suBA"/>
+      <memberEnd xmi:type="uml:Property" href="#_cdjBwEYOEeyqtIfqi_suBA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_cdjBwEYOEeyqtIfqi_suBA" name="smartenergyclass" association="_cdc7IEYOEeyqtIfqi_suBA">
+        <type xmi:type="uml:Class" href="SmartEnergy.uml#_jdhCYEX_Eeyr5-97aKNVdQ"/>
+      </ownedEnd>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_uoL5QDDxEeyGuMCZwYhR0Q" name="Citizen"/>
@@ -330,4 +437,10 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_1ufFMjD_EeyGuMCZwYhR0Q" name="power connection" type="_tTDJ8DD_EeyGuMCZwYhR0Q" association="_1ueeIDD_EeyGuMCZwYhR0Q"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_MF-1MDEMEeyQHa-vatqCuQ" name="SmartGovernmentMainPackage"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_04KBYEYMEeyqtIfqi_suBA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_04LPgEYMEeyqtIfqi_suBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
 </uml:Model>
