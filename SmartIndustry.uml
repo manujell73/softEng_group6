@@ -144,7 +144,12 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nvWNgEYLEey9zeIgKLUgdQ" value="*"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_eLA7EEYMEey9zeIgKLUgdQ" name="SmartIndustryClass"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eLA7EEYMEey9zeIgKLUgdQ" name="SmartIndustryClass">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_6qYHckyKEeyBL6ohVsCaRQ" name="smarttransportationclass">
+        <type xmi:type="uml:Class" href="SmartTransportation.uml#_9MT70EX_Eeyr5-97aKNVdQ"/>
+        <association xmi:type="uml:Association" href="System_Group6.uml#_6qW5UEyKEeyBL6ohVsCaRQ"/>
+      </ownedAttribute>
+    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_L-hDgEYOEey9zeIgKLUgdQ" memberEnd="_L-hDg0YOEey9zeIgKLUgdQ _L-hDhkYOEey9zeIgKLUgdQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L-hDgUYOEey9zeIgKLUgdQ" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L-hDgkYOEey9zeIgKLUgdQ" key="nature" value="UML_Nature"/>

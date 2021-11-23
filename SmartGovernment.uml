@@ -16,6 +16,10 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IVBxIEYKEeyqtIfqi_suBA" value="*"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_qXjwcEYMEeyqtIfqi_suBA" name="govermentName"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hSocEUyKEeyBL6ohVsCaRQ" name="smartindustryclass">
+        <type xmi:type="uml:Class" href="SmartIndustry.uml#_eLA7EEYMEey9zeIgKLUgdQ"/>
+        <association xmi:type="uml:Association" href="System_Group6.uml#_hSkxsEyKEeyBL6ohVsCaRQ"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_03-0gEYHEeyqtIfqi_suBA" name="DatabaseClass">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_n21c80YIEeyqtIfqi_suBA" name="smartgovernmentclass" type="_us5E4EX_Eeyr5-97aKNVdQ" association="_n21c8EYIEeyqtIfqi_suBA"/>
