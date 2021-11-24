@@ -23,7 +23,14 @@
         <type xmi:type="uml:Class" href="SmartGovernment.uml#_us5E4EX_Eeyr5-97aKNVdQ"/>
         <association xmi:type="uml:Association" href="System_Group6.uml#_mXYZMEYEEeyr5-97aKNVdQ"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_IEv_4EyhEeyXK6FF51DEww" name="healthDatabase" type="_QyRxoEYHEeyr5-97aKNVdQ"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_3n6-cE0LEeyKBJFk05m0Dw" name="requestFastestRoute"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_5Ps0kE0LEeyKBJFk05m0Dw" name="getAppointments"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_6qNDsE0LEeyKBJFk05m0Dw" name="seperateAppintments"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_757mME0LEeyKBJFk05m0Dw" name="sendReminders"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_95Y8gE0LEeyKBJFk05m0Dw" name="getHealthData"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="___BzUE0LEeyKBJFk05m0Dw" name="anonymizeData"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_A65lsE0MEeyKBJFk05m0Dw" name="calculateSummaryStatistics"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_C0s_8E0MEeyKBJFk05m0Dw" name="sendData"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_MMi8oEYHEeyr5-97aKNVdQ" name="AppointmentSystem">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_v1EsoEycEeyXK6FF51DEww" name="showHealthFacilities"/>
