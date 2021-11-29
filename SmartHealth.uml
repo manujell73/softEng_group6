@@ -24,10 +24,8 @@
         <association xmi:type="uml:Association" href="System_Group6.uml#_mXYZMEYEEeyr5-97aKNVdQ"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_3n6-cE0LEeyKBJFk05m0Dw" name="requestFastestRoute"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_5Ps0kE0LEeyKBJFk05m0Dw" name="getAppointments"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_6qNDsE0LEeyKBJFk05m0Dw" name="seperateAppintments"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_757mME0LEeyKBJFk05m0Dw" name="sendReminders"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_95Y8gE0LEeyKBJFk05m0Dw" name="getHealthData"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="___BzUE0LEeyKBJFk05m0Dw" name="anonymizeData"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_A65lsE0MEeyKBJFk05m0Dw" name="calculateSummaryStatistics"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_C0s_8E0MEeyKBJFk05m0Dw" name="sendData"/>
@@ -58,6 +56,8 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_lp3K8EyeEeyXK6FF51DEww" name="compareWithFormerData"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_nhYGMEyeEeyXK6FF51DEww" name="classifyHealthStatus"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_pX7_MEyeEeyXK6FF51DEww" name="sendHealthStatus"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_vubbEFEbEeyZV6dxozna1w" name="getHealthData"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_xImTAFEbEeyZV6dxozna1w" name="getAppointments"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_SJFzkEYHEeyr5-97aKNVdQ" name="HealthFacility">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_Qeqf0EYMEeyr5-97aKNVdQ" name="id">

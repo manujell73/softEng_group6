@@ -19,7 +19,6 @@
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_mqFo8EyKEeyBL6ohVsCaRQ" name="smartindustryclass">
         <type xmi:type="uml:Class" href="SmartIndustry.uml#_eLA7EEYMEey9zeIgKLUgdQ"/>
-        <association xmi:type="uml:Association" href="System_Group6.uml#_mqFB4EyKEeyBL6ohVsCaRQ"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_B67tcEYIEey4DO1PtrFzgQ" name="EnergyDatabase">
