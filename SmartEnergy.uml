@@ -20,16 +20,23 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_mqFo8EyKEeyBL6ohVsCaRQ" name="smartindustryclass">
         <type xmi:type="uml:Class" href="SmartIndustry.uml#_eLA7EEYMEey9zeIgKLUgdQ"/>
       </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_RK_pwFEiEeyUEbAkN-F2sA" name="sendPlantoGov"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_TKh4kFEiEeyUEbAkN-F2sA" name="energySituation"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_e_J9MFEiEeyUEbAkN-F2sA" name="getFeedback"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_B67tcEYIEey4DO1PtrFzgQ" name="EnergyDatabase">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_P3upYEYREey4DO1PtrFzgQ" name="entries" type="_gt4uQEygEey0H_lFwU3bKA"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_6eXUoEyeEey0H_lFwU3bKA" name="sendPlans"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5RBckFEkEeyUEbAkN-F2sA" name="numOfEntries"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_6eXUoEyeEey0H_lFwU3bKA" name="getPlans"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_7ZYycEyeEey0H_lFwU3bKA" name="update"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_lSCJIFElEeyUEbAkN-F2sA" name="sendPlans"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_hLY4oEYIEey4DO1PtrFzgQ" name="InfrastructureDatabase">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_x8Rs0EYREey4DO1PtrFzgQ" name="entries" type="_bh65QEYJEey4DO1PtrFzgQ"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_y3r3IEyeEey0H_lFwU3bKA" name="sendPlans"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2SXTEFEkEeyUEbAkN-F2sA" name="numOfentries"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_y3r3IEyeEey0H_lFwU3bKA" name="getPlans"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_5BMMAEyeEey0H_lFwU3bKA" name="update"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_mVslkFElEeyUEbAkN-F2sA" name="sendPlans"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_z1EwkEYIEey4DO1PtrFzgQ" name="Worker">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_j76tQkYNEey4DO1PtrFzgQ" name="power plant" type="_5pNSYEYIEey4DO1PtrFzgQ" association="_j76GMEYNEey4DO1PtrFzgQ"/>
@@ -42,11 +49,11 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_ND7FAEYREey4DO1PtrFzgQ" name="Property4">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
       </ownedAttribute>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_gg_24EyiEey0H_lFwU3bKA" name="newWorker"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_2uE-AEYIEey4DO1PtrFzgQ" name="Engineer">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_5Kj_0kYOEey4DO1PtrFzgQ" name="infrastructureplans" type="_hLY4oEYIEey4DO1PtrFzgQ" association="_5KjYwEYOEey4DO1PtrFzgQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_SpzIYEYREey4DO1PtrFzgQ" name="id"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_SpzIYEYREey4DO1PtrFzgQ" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_EZT60EyfEey0H_lFwU3bKA" name="getPlan"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_GNNhYEyfEey0H_lFwU3bKA" name="makeNewPlan"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_KFgBkEyfEey0H_lFwU3bKA" name="oderMaterials"/>
@@ -54,6 +61,7 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_NaSzIEyfEey0H_lFwU3bKA" name="estimateTime"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_WCQugEyfEey0H_lFwU3bKA" name="sendPlan"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_Gy6kkEyhEey0H_lFwU3bKA" name="startBuild"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_bt1L0FEhEeyUEbAkN-F2sA" name="anaylzeEnergySituation"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_5pNSYEYIEey4DO1PtrFzgQ" name="Power Plant">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_GqlEskYOEey4DO1PtrFzgQ" name="energydatabase" type="_B67tcEYIEey4DO1PtrFzgQ" association="_GqkdoEYOEey4DO1PtrFzgQ"/>
@@ -72,6 +80,8 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_qGz6kEyiEey0H_lFwU3bKA" name="start"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_sojekEyiEey0H_lFwU3bKA" name="stop"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_vCDFgEyiEey0H_lFwU3bKA" name="sendData"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_UUZgIFEhEeyUEbAkN-F2sA" name="newEnergyEntry"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_a882kFEjEeyUEbAkN-F2sA" name="hireWorker"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_WY_3oEYJEey4DO1PtrFzgQ" name="Simulation">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_V0s-IEYREey4DO1PtrFzgQ" name="simProgress">
@@ -108,7 +118,10 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_0evpkEYREey4DO1PtrFzgQ" name="approveState">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
       </ownedAttribute>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_YqdDUEygEey0H_lFwU3bKA" name="newPlan"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_O8Hz4VEhEeyUEbAkN-F2sA" name="engineer" type="_2uE-AEYIEey4DO1PtrFzgQ" association="_O8GlwFEhEeyUEbAkN-F2sA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O8Hz4lEhEeyUEbAkN-F2sA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O8Hz41EhEeyUEbAkN-F2sA" value="1"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_2d33cEYLEey4DO1PtrFzgQ" name="ControlSytstem">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_WSMA0EYQEey4DO1PtrFzgQ" name="systemID">
@@ -156,13 +169,13 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rNFNwUYNEey4DO1PtrFzgQ" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_rNFNwkYNEey4DO1PtrFzgQ" name="smartenergyclass" type="_jdhCYEX_Eeyr5-97aKNVdQ" association="_rNEmsEYNEey4DO1PtrFzgQ"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_rNFNxUYNEey4DO1PtrFzgQ" name="energydatabase" type="_B67tcEYIEey4DO1PtrFzgQ" association="_rNEmsEYNEey4DO1PtrFzgQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_rNFNxUYNEey4DO1PtrFzgQ" name="energydatabase" type="_B67tcEYIEey4DO1PtrFzgQ" aggregation="shared" association="_rNEmsEYNEey4DO1PtrFzgQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_BBmqAEYOEey4DO1PtrFzgQ" memberEnd="_BBnREkYOEey4DO1PtrFzgQ _BBnRFUYOEey4DO1PtrFzgQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BBnREEYOEey4DO1PtrFzgQ" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BBnREUYOEey4DO1PtrFzgQ" key="nature" value="UML_Nature"/>
       </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_BBnRFUYOEey4DO1PtrFzgQ" name="infrastructuredatabase" type="_hLY4oEYIEey4DO1PtrFzgQ" association="_BBmqAEYOEey4DO1PtrFzgQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_BBnRFUYOEey4DO1PtrFzgQ" name="infrastructuredatabase" type="_hLY4oEYIEey4DO1PtrFzgQ" aggregation="shared" association="_BBmqAEYOEey4DO1PtrFzgQ"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_BBnREkYOEey4DO1PtrFzgQ" name="smartenergyclass" type="_jdhCYEX_Eeyr5-97aKNVdQ" association="_BBmqAEYOEey4DO1PtrFzgQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_GqkdoEYOEey4DO1PtrFzgQ" memberEnd="_GqlEskYOEey4DO1PtrFzgQ _GqlEtUYOEey4DO1PtrFzgQ">
@@ -189,6 +202,7 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_5Kkm4kYOEey4DO1PtrFzgQ" name="engineer" type="_2uE-AEYIEey4DO1PtrFzgQ" association="_5KjYwEYOEey4DO1PtrFzgQ">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PkP-oEYPEey4DO1PtrFzgQ" value="*"/>
       </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_5Kj_0kYOEey4DO1PtrFzgQ" name="infrastructureplans" type="_hLY4oEYIEey4DO1PtrFzgQ" association="_5KjYwEYOEey4DO1PtrFzgQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_-dUS4EYOEey4DO1PtrFzgQ" memberEnd="_-dUS40YOEey4DO1PtrFzgQ _-dU58kYOEey4DO1PtrFzgQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-dUS4UYOEey4DO1PtrFzgQ" source="org.eclipse.papyrus">
@@ -207,7 +221,10 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_9e1xIEygEey0H_lFwU3bKA" name="value">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
       </ownedAttribute>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_C4dhMEyhEey0H_lFwU3bKA" name="newEntry"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TL9RYFEhEeyUEbAkN-F2sA" name="power plant" type="_5pNSYEYIEey4DO1PtrFzgQ" association="_TL8qUFEhEeyUEbAkN-F2sA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TL9RYVEhEeyUEbAkN-F2sA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TL9RYlEhEeyUEbAkN-F2sA" value="1"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_kxREIEygEey0H_lFwU3bKA" memberEnd="_kxVVkEygEey0H_lFwU3bKA _kxV8okygEey0H_lFwU3bKA" navigableOwnedEnd="_kxVVkEygEey0H_lFwU3bKA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kxSSQEygEey0H_lFwU3bKA" source="org.eclipse.papyrus">
@@ -217,6 +234,36 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KpfNgEyhEey0H_lFwU3bKA" value="*"/>
       </ownedEnd>
       <ownedEnd xmi:type="uml:Property" xmi:id="_kxVVkEygEey0H_lFwU3bKA" name="energydatabase" type="_B67tcEYIEey4DO1PtrFzgQ" association="_kxREIEygEey0H_lFwU3bKA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_O8GlwFEhEeyUEbAkN-F2sA" memberEnd="_O8Hz4VEhEeyUEbAkN-F2sA _O8Hz5FEhEeyUEbAkN-F2sA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O8HM0FEhEeyUEbAkN-F2sA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O8Hz4FEhEeyUEbAkN-F2sA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_O8Hz5FEhEeyUEbAkN-F2sA" name="infrastructureplans" type="_bh65QEYJEey4DO1PtrFzgQ" association="_O8GlwFEhEeyUEbAkN-F2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TL8qUFEhEeyUEbAkN-F2sA" memberEnd="_TL9RYFEhEeyUEbAkN-F2sA _TL9RY1EhEeyUEbAkN-F2sA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TL8qUVEhEeyUEbAkN-F2sA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TL8qUlEhEeyUEbAkN-F2sA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_TL9RY1EhEeyUEbAkN-F2sA" name="energyentry" type="_gt4uQEygEey0H_lFwU3bKA" association="_TL8qUFEhEeyUEbAkN-F2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_X7il8FEhEeyUEbAkN-F2sA" memberEnd="_X7il81EhEeyUEbAkN-F2sA _X7jNAlEhEeyUEbAkN-F2sA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X7il8VEhEeyUEbAkN-F2sA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_X7il8lEhEeyUEbAkN-F2sA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_X7jNAlEhEeyUEbAkN-F2sA" name="engineer" type="_2uE-AEYIEey4DO1PtrFzgQ" aggregation="shared" association="_X7il8FEhEeyUEbAkN-F2sA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_X7il81EhEeyUEbAkN-F2sA" name="smartenergyclass" type="_jdhCYEX_Eeyr5-97aKNVdQ" association="_X7il8FEhEeyUEbAkN-F2sA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BAZ_kFEkEeyUEbAkN-F2sA" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_T3IDYFEjEeyUEbAkN-F2sA" memberEnd="_T3IqcVEjEeyUEbAkN-F2sA _T3IqdFEjEeyUEbAkN-F2sA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T3IDYVEjEeyUEbAkN-F2sA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T3IqcFEjEeyUEbAkN-F2sA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_T3IqdFEjEeyUEbAkN-F2sA" name="power plant" type="_5pNSYEYIEey4DO1PtrFzgQ" aggregation="shared" association="_T3IDYFEjEeyUEbAkN-F2sA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_T3IqcVEjEeyUEbAkN-F2sA" name="smartenergyclass" type="_jdhCYEX_Eeyr5-97aKNVdQ" association="_T3IDYFEjEeyUEbAkN-F2sA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T3Iqc1EjEeyUEbAkN-F2sA" value="*"/>
+      </ownedEnd>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_taioIDD2EeyMHJonOMzJJw" name="Power Plant"/>
@@ -494,36 +541,39 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_CgFzkEyYEey0H_lFwU3bKA" name="" type="_QpksQDD4EeyMHJonOMzJJw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_EhSPQEyYEey0H_lFwU3bKA" name="" type="_SlRfwDD_EeyMHJonOMzJJw"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_B_yi4EyYEey0H_lFwU3bKA" name="" represents="_B_zJ8EyYEey0H_lFwU3bKA"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_CgFMgEyYEey0H_lFwU3bKA" name="" represents="_CgFzkEyYEey0H_lFwU3bKA" coveredBy="_esQuYEyYEey0H_lFwU3bKA _esQuYUyYEey0H_lFwU3bKA _mshwkEyYEey0H_lFwU3bKA _yY5REEyYEey0H_lFwU3bKA _msiXoEyYEey0H_lFwU3bKA _2EjqgUyYEey0H_lFwU3bKA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_CgFMgEyYEey0H_lFwU3bKA" name="" represents="_CgFzkEyYEey0H_lFwU3bKA" coveredBy="_esQuYEyYEey0H_lFwU3bKA _esQuYUyYEey0H_lFwU3bKA _mshwkEyYEey0H_lFwU3bKA _msiXoEyYEey0H_lFwU3bKA _yY5REEyYEey0H_lFwU3bKA _2EjqgUyYEey0H_lFwU3bKA _O7br0FErEeyUEbAkN-F2sA _O7cS4FErEeyUEbAkN-F2sA"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_EhRoMEyYEey0H_lFwU3bKA" name="" represents="_EhSPQEyYEey0H_lFwU3bKA" coveredBy="_z-sxQEyYEey0H_lFwU3bKA _yY5REUyYEey0H_lFwU3bKA _2EjqgEyYEey0H_lFwU3bKA _z-sxQUyYEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_esQuYEyYEey0H_lFwU3bKA" name="Message7SendEvent" covered="_CgFMgEyYEey0H_lFwU3bKA" message="_esQHUEyYEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_esQuYUyYEey0H_lFwU3bKA" name="Message7ReceiveEvent" covered="_CgFMgEyYEey0H_lFwU3bKA" message="_esQHUEyYEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mshwkEyYEey0H_lFwU3bKA" name="Message10SendEvent" covered="_CgFMgEyYEey0H_lFwU3bKA" message="_mshJgEyYEey0H_lFwU3bKA"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yY5REEyYEey0H_lFwU3bKA" name="Message13SendEvent" covered="_CgFMgEyYEey0H_lFwU3bKA" message="_yY4qAEyYEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_msiXoEyYEey0H_lFwU3bKA" name="Message10ReceiveEvent" covered="_CgFMgEyYEey0H_lFwU3bKA" message="_mshJgEyYEey0H_lFwU3bKA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yY5REEyYEey0H_lFwU3bKA" name="Message13SendEvent" covered="_CgFMgEyYEey0H_lFwU3bKA" message="_yY4qAEyYEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_z-sxQEyYEey0H_lFwU3bKA" name="Message16SendEvent" covered="_EhRoMEyYEey0H_lFwU3bKA" message="_z-sKMEyYEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yY5REUyYEey0H_lFwU3bKA" name="Message13ReceiveEvent" covered="_EhRoMEyYEey0H_lFwU3bKA" message="_yY4qAEyYEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2EjqgEyYEey0H_lFwU3bKA" name="Message19SendEvent" covered="_EhRoMEyYEey0H_lFwU3bKA" message="_2EjDcEyYEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_z-sxQUyYEey0H_lFwU3bKA" name="Message16ReceiveEvent" covered="_EhRoMEyYEey0H_lFwU3bKA" message="_z-sKMEyYEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2EjqgUyYEey0H_lFwU3bKA" name="Message19ReceiveEvent" covered="_CgFMgEyYEey0H_lFwU3bKA" message="_2EjDcEyYEey0H_lFwU3bKA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O7br0FErEeyUEbAkN-F2sA" name="Message22SendEvent" covered="_CgFMgEyYEey0H_lFwU3bKA" message="_O7YBcFErEeyUEbAkN-F2sA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O7cS4FErEeyUEbAkN-F2sA" name="Message22ReceiveEvent" covered="_CgFMgEyYEey0H_lFwU3bKA" message="_O7YBcFErEeyUEbAkN-F2sA"/>
     <message xmi:type="uml:Message" xmi:id="_esQHUEyYEey0H_lFwU3bKA" name="check energy network" messageSort="reply" receiveEvent="_esQuYUyYEey0H_lFwU3bKA" sendEvent="_esQuYEyYEey0H_lFwU3bKA"/>
     <message xmi:type="uml:Message" xmi:id="_mshJgEyYEey0H_lFwU3bKA" name="plan new structure" messageSort="reply" receiveEvent="_msiXoEyYEey0H_lFwU3bKA" sendEvent="_mshwkEyYEey0H_lFwU3bKA"/>
     <message xmi:type="uml:Message" xmi:id="_yY4qAEyYEey0H_lFwU3bKA" name="send new plans" messageSort="reply" receiveEvent="_yY5REUyYEey0H_lFwU3bKA" sendEvent="_yY5REEyYEey0H_lFwU3bKA"/>
     <message xmi:type="uml:Message" xmi:id="_z-sKMEyYEey0H_lFwU3bKA" name="check plans" messageSort="reply" receiveEvent="_z-sxQUyYEey0H_lFwU3bKA" sendEvent="_z-sxQEyYEey0H_lFwU3bKA"/>
     <message xmi:type="uml:Message" xmi:id="_2EjDcEyYEey0H_lFwU3bKA" name="Error: plans invalid" messageSort="reply" receiveEvent="_2EjqgUyYEey0H_lFwU3bKA" sendEvent="_2EjqgEyYEey0H_lFwU3bKA"/>
+    <message xmi:type="uml:Message" xmi:id="_O7YBcFErEeyUEbAkN-F2sA" name="abort planning process " messageSort="reply" receiveEvent="_O7cS4FErEeyUEbAkN-F2sA" sendEvent="_O7br0FErEeyUEbAkN-F2sA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_BJEg0EyZEey0H_lFwU3bKA" name="Interaction47">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ExD7MEyZEey0H_lFwU3bKA" name="" type="_QpksQDD4EeyMHJonOMzJJw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_FqkWEEyZEey0H_lFwU3bKA" name="" type="_SlRfwDD_EeyMHJonOMzJJw"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_ExDUIEyZEey0H_lFwU3bKA" name="" represents="_ExD7MEyZEey0H_lFwU3bKA" coveredBy="_Gd8TwEyZEey0H_lFwU3bKA _Gd860EyZEey0H_lFwU3bKA _LRvZ8EyZEey0H_lFwU3bKA _LRvZ8UyZEey0H_lFwU3bKA _Mad8kEyZEey0H_lFwU3bKA _UZLfkUyZEey0H_lFwU3bKA"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_FqjvAEyZEey0H_lFwU3bKA" name="" represents="_FqkWEEyZEey0H_lFwU3bKA" coveredBy="_NgGu8EyZEey0H_lFwU3bKA _MaejoEyZEey0H_lFwU3bKA _NgGu8UyZEey0H_lFwU3bKA _UZLfkEyZEey0H_lFwU3bKA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_FqjvAEyZEey0H_lFwU3bKA" name="" represents="_FqkWEEyZEey0H_lFwU3bKA" coveredBy="_MaejoEyZEey0H_lFwU3bKA _NgGu8EyZEey0H_lFwU3bKA _NgGu8UyZEey0H_lFwU3bKA _UZLfkEyZEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Gd8TwEyZEey0H_lFwU3bKA" name="Message5SendEvent" covered="_ExDUIEyZEey0H_lFwU3bKA" message="_Gd7ssEyZEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Gd860EyZEey0H_lFwU3bKA" name="Message5ReceiveEvent" covered="_ExDUIEyZEey0H_lFwU3bKA" message="_Gd7ssEyZEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LRvZ8EyZEey0H_lFwU3bKA" name="Message8SendEvent" covered="_ExDUIEyZEey0H_lFwU3bKA" message="_LRuy4EyZEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LRvZ8UyZEey0H_lFwU3bKA" name="Message8ReceiveEvent" covered="_ExDUIEyZEey0H_lFwU3bKA" message="_LRuy4EyZEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Mad8kEyZEey0H_lFwU3bKA" name="Message11SendEvent" covered="_ExDUIEyZEey0H_lFwU3bKA" message="_MadVgEyZEey0H_lFwU3bKA"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NgGu8EyZEey0H_lFwU3bKA" name="Message14SendEvent" covered="_FqjvAEyZEey0H_lFwU3bKA" message="_NgGH4EyZEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MaejoEyZEey0H_lFwU3bKA" name="Message11ReceiveEvent" covered="_FqjvAEyZEey0H_lFwU3bKA" message="_MadVgEyZEey0H_lFwU3bKA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NgGu8EyZEey0H_lFwU3bKA" name="Message14SendEvent" covered="_FqjvAEyZEey0H_lFwU3bKA" message="_NgGH4EyZEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NgGu8UyZEey0H_lFwU3bKA" name="Message14ReceiveEvent" covered="_FqjvAEyZEey0H_lFwU3bKA" message="_NgGH4EyZEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UZLfkEyZEey0H_lFwU3bKA" name="Message20SendEvent" covered="_FqjvAEyZEey0H_lFwU3bKA" message="_UZKRcEyZEey0H_lFwU3bKA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UZLfkUyZEey0H_lFwU3bKA" name="Message20ReceiveEvent" covered="_ExDUIEyZEey0H_lFwU3bKA" message="_UZKRcEyZEey0H_lFwU3bKA"/>
@@ -687,4 +737,10 @@
     <message xmi:type="uml:Message" xmi:id="_CjL8IEyeEey0H_lFwU3bKA" name="check format" messageSort="reply" receiveEvent="_CjMjMUyeEey0H_lFwU3bKA" sendEvent="_CjMjMEyeEey0H_lFwU3bKA"/>
     <message xmi:type="uml:Message" xmi:id="_DoDScEyeEey0H_lFwU3bKA" name="update database" messageSort="reply" receiveEvent="_DoEgkUyeEey0H_lFwU3bKA" sendEvent="_DoEgkEyeEey0H_lFwU3bKA"/>
   </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_UeTisFEkEeyUEbAkN-F2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UeZpUFEkEeyUEbAkN-F2sA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
 </uml:Model>
