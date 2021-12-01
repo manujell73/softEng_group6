@@ -533,6 +533,23 @@
     <message xmi:type="uml:Message" xmi:id="_5YenYE1eEeyKJdv1V-E6Yw" name="optimizedSchedule" messageSort="reply" receiveEvent="_5YfOcU1eEeyKJdv1V-E6Yw" sendEvent="_5YfOcE1eEeyKJdv1V-E6Yw"/>
     <message xmi:type="uml:Message" xmi:id="_7ya6QE1eEeyKJdv1V-E6Yw" name="optimizedSchedule" messageSort="reply" receiveEvent="_7ya6Qk1eEeyKJdv1V-E6Yw" sendEvent="_7ya6QU1eEeyKJdv1V-E6Yw"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_64TVkFKnEey3TcQ2jNU2wA" name="Interaction53">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BX0WsFKoEey3TcQ2jNU2wA" name="">
+      <type xmi:type="uml:Actor" href="System_Group6.uml#_NvGnwDEPEeyQHa-vatqCuQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EB1F4FKoEey3TcQ2jNU2wA" name="" type="_m9vccDD5Eey-b4AJEAE3SA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_BXzvoFKoEey3TcQ2jNU2wA" name="" represents="_BX0WsFKoEey3TcQ2jNU2wA" coveredBy="_FqyAsFKoEey3TcQ2jNU2wA _L2eG4VKoEey3TcQ2jNU2wA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_EB0e0FKoEey3TcQ2jNU2wA" name="" represents="_EB1F4FKoEey3TcQ2jNU2wA" coveredBy="_FqyAsVKoEey3TcQ2jNU2wA _IMl2IFKoEey3TcQ2jNU2wA _IMl2IVKoEey3TcQ2jNU2wA _L2eG4FKoEey3TcQ2jNU2wA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FqyAsFKoEey3TcQ2jNU2wA" name="Message5SendEvent" covered="_BXzvoFKoEey3TcQ2jNU2wA" message="_Fqu9YFKoEey3TcQ2jNU2wA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FqyAsVKoEey3TcQ2jNU2wA" name="Message5ReceiveEvent" covered="_EB0e0FKoEey3TcQ2jNU2wA" message="_Fqu9YFKoEey3TcQ2jNU2wA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IMl2IFKoEey3TcQ2jNU2wA" name="Message8SendEvent" covered="_EB0e0FKoEey3TcQ2jNU2wA" message="_IMlPEFKoEey3TcQ2jNU2wA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IMl2IVKoEey3TcQ2jNU2wA" name="Message8ReceiveEvent" covered="_EB0e0FKoEey3TcQ2jNU2wA" message="_IMlPEFKoEey3TcQ2jNU2wA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_L2eG4FKoEey3TcQ2jNU2wA" name="Message11SendEvent" covered="_EB0e0FKoEey3TcQ2jNU2wA" message="_L2df0FKoEey3TcQ2jNU2wA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_L2eG4VKoEey3TcQ2jNU2wA" name="Message11ReceiveEvent" covered="_BXzvoFKoEey3TcQ2jNU2wA" message="_L2df0FKoEey3TcQ2jNU2wA"/>
+    <message xmi:type="uml:Message" xmi:id="_Fqu9YFKoEey3TcQ2jNU2wA" name="requestTransport" messageSort="reply" receiveEvent="_FqyAsVKoEey3TcQ2jNU2wA" sendEvent="_FqyAsFKoEey3TcQ2jNU2wA"/>
+    <message xmi:type="uml:Message" xmi:id="_IMlPEFKoEey3TcQ2jNU2wA" name="lookForUnoccupiedVehicles" messageSort="reply" receiveEvent="_IMl2IVKoEey3TcQ2jNU2wA" sendEvent="_IMl2IFKoEey3TcQ2jNU2wA"/>
+    <message xmi:type="uml:Message" xmi:id="_L2df0FKoEey3TcQ2jNU2wA" name="&quot;No vehicle found&quot;" messageSort="reply" receiveEvent="_L2eG4VKoEey3TcQ2jNU2wA" sendEvent="_L2eG4FKoEey3TcQ2jNU2wA"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3fgeIE1fEeyKJdv1V-E6Yw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3fhsQE1fEeyKJdv1V-E6Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
