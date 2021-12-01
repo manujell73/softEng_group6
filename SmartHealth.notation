@@ -1141,7 +1141,7 @@
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_pgk3bUYHEeyr5-97aKNVdQ" type="Association_TargetMultiplicityLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FZcbsEYIEeyr5-97aKNVdQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_pgk3bkYHEeyr5-97aKNVdQ" x="-12" y="-20"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pgk3bkYHEeyr5-97aKNVdQ" x="-36" y="-38"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_pgk3YUYHEeyr5-97aKNVdQ"/>
       <element xmi:type="uml:Association" href="SmartHealth.uml#_pghNAEYHEeyr5-97aKNVdQ"/>
