@@ -23,6 +23,14 @@
         <type xmi:type="uml:Class" href="SmartGovernment.uml#_us5E4EX_Eeyr5-97aKNVdQ"/>
         <association xmi:type="uml:Association" href="System_Group6.uml#_mXYZMEYEEeyr5-97aKNVdQ"/>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_iiyNsHBrEeyHrOQ8Vu5xwA" name="wearable" type="_p0qbkEYIEeyr5-97aKNVdQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ii0p8HBrEeyHrOQ8Vu5xwA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ii2fIHBrEeyHrOQ8Vu5xwA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kkp-0nBrEeyHrOQ8Vu5xwA" name="wearable" type="_p0qbkEYIEeyr5-97aKNVdQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kkr0AHBrEeyHrOQ8Vu5xwA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kktCIHBrEeyHrOQ8Vu5xwA" value="1"/>
+      </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_3n6-cE0LEeyKBJFk05m0Dw" name="requestFastestRoute"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_6qNDsE0LEeyKBJFk05m0Dw" name="seperateAppintments"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_757mME0LEeyKBJFk05m0Dw" name="sendReminders"/>
@@ -55,7 +63,6 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_irQEwEyeEeyXK6FF51DEww" name="compareWithLimits"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_lp3K8EyeEeyXK6FF51DEww" name="compareWithFormerData"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_nhYGMEyeEeyXK6FF51DEww" name="classifyHealthStatus"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_pX7_MEyeEeyXK6FF51DEww" name="sendHealthStatus"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_vubbEFEbEeyZV6dxozna1w" name="getHealthData"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_xImTAFEbEeyZV6dxozna1w" name="getAppointments"/>
     </packagedElement>
@@ -130,6 +137,9 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_4NjvoEyeEeyXK6FF51DEww" name="healthStatus" visibility="public">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ho5qQHBpEeyHrOQ8Vu5xwA" name="healthData">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EMap"/>
+      </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_SOjBwEyeEeyXK6FF51DEww" name="measureHeartRate"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_TYcCAEyeEeyXK6FF51DEww" name="measureBloodPressure"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_UbmIIEyeEeyXK6FF51DEww" name="measureOxygenSaturation"/>
@@ -139,17 +149,22 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_0I1V8EyeEeyXK6FF51DEww" name="checkHealthStatus"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_ApSl0EyfEeyXK6FF51DEww" name="showWarning"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_Cy-PIEyfEeyXK6FF51DEww" name="SendDataAndLocation"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_2Oz28HBsEeyHrOQ8Vu5xwA" name="getLocation"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_qotHoEYIEeyr5-97aKNVdQ" name="Ambulance">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_MsYhAEYMEeyr5-97aKNVdQ" name="start">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_NkcxcEYMEeyr5-97aKNVdQ" name="destination">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_NkcxcEYMEeyr5-97aKNVdQ" name="patientDestinations">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_kbBgkEYMEeyr5-97aKNVdQ" name="urgency">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_K2afAHBrEeyHrOQ8Vu5xwA" name="patientData">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_3pDx8HBtEeyHrOQ8Vu5xwA" name="call"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_2Qx-AEYIEeyr5-97aKNVdQ" memberEnd="_2Qx-A0YIEeyr5-97aKNVdQ _2Qx-BkYIEeyr5-97aKNVdQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2Qx-AUYIEeyr5-97aKNVdQ" source="org.eclipse.papyrus">
@@ -304,9 +319,9 @@
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_1Aez4DD4EeyQHa-vatqCuQ" name="calls">
     <ownedComment xmi:type="uml:Comment" xmi:id="_nwFDwDToEeyB3eHGfCKhkA">
-      <body>1. Wearable checks if health status.&#xD;
+      <body>1. Wearable checks health status.&#xD;
 2. If health status is ok wearable does nothing.&#xD;
-3. If health status is completely ok wearable shows warning.&#xD;
+3. If health status is not completely ok wearable shows warning.&#xD;
 4 If health status is critical wearable sends health data and location to ambulance.</body>
     </ownedComment>
   </packagedElement>
@@ -624,17 +639,20 @@
   <packagedElement xmi:type="uml:Interaction" xmi:id="_WYpH0EyXEeyXK6FF51DEww" name="Interaction48">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_XxQgkEyXEeyXK6FF51DEww" name="" type="_tXznwDD3EeyQHa-vatqCuQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_YW3vEUyXEeyXK6FF51DEww" name="" type="_19f1wDD4EeyQHa-vatqCuQ"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_XxP5gEyXEeyXK6FF51DEww" name="" represents="_XxQgkEyXEeyXK6FF51DEww" coveredBy="_Zzwj0UyXEeyXK6FF51DEww _Zzwj0kyXEeyXK6FF51DEww _cCJuAUyXEeyXK6FF51DEww _cCKVEEyXEeyXK6FF51DEww _d_dvQEyXEeyXK6FF51DEww"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_XxP5gEyXEeyXK6FF51DEww" name="" represents="_XxQgkEyXEeyXK6FF51DEww" coveredBy="_Zzwj0UyXEeyXK6FF51DEww _Zzwj0kyXEeyXK6FF51DEww _cCJuAUyXEeyXK6FF51DEww _cCKVEEyXEeyXK6FF51DEww _83hQUHBsEeyHrOQ8Vu5xwA _83hQUXBsEeyHrOQ8Vu5xwA _d_dvQEyXEeyXK6FF51DEww"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_YW3vEEyXEeyXK6FF51DEww" name="" represents="_YW3vEUyXEeyXK6FF51DEww" coveredBy="_d_dvQUyXEeyXK6FF51DEww"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Zzwj0UyXEeyXK6FF51DEww" name="Message5SendEvent" covered="_XxP5gEyXEeyXK6FF51DEww" message="_Zzwj0EyXEeyXK6FF51DEww"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Zzwj0kyXEeyXK6FF51DEww" name="Message5ReceiveEvent" covered="_XxP5gEyXEeyXK6FF51DEww" message="_Zzwj0EyXEeyXK6FF51DEww"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_cCJuAUyXEeyXK6FF51DEww" name="Message8SendEvent" covered="_XxP5gEyXEeyXK6FF51DEww" message="_cCJuAEyXEeyXK6FF51DEww"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_cCKVEEyXEeyXK6FF51DEww" name="Message8ReceiveEvent" covered="_XxP5gEyXEeyXK6FF51DEww" message="_cCJuAEyXEeyXK6FF51DEww"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_83hQUHBsEeyHrOQ8Vu5xwA" name="Message14SendEvent" covered="_XxP5gEyXEeyXK6FF51DEww" message="_83Z7kHBsEeyHrOQ8Vu5xwA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_83hQUXBsEeyHrOQ8Vu5xwA" name="Message14ReceiveEvent" covered="_XxP5gEyXEeyXK6FF51DEww" message="_83Z7kHBsEeyHrOQ8Vu5xwA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_d_dvQEyXEeyXK6FF51DEww" name="Message11SendEvent" covered="_XxP5gEyXEeyXK6FF51DEww" message="_d_dIMEyXEeyXK6FF51DEww"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_d_dvQUyXEeyXK6FF51DEww" name="Message11ReceiveEvent" covered="_YW3vEEyXEeyXK6FF51DEww" message="_d_dIMEyXEeyXK6FF51DEww"/>
     <message xmi:type="uml:Message" xmi:id="_Zzwj0EyXEeyXK6FF51DEww" name="check health status" messageSort="reply" receiveEvent="_Zzwj0kyXEeyXK6FF51DEww" sendEvent="_Zzwj0UyXEeyXK6FF51DEww"/>
     <message xmi:type="uml:Message" xmi:id="_cCJuAEyXEeyXK6FF51DEww" name="critical" messageSort="reply" receiveEvent="_cCKVEEyXEeyXK6FF51DEww" sendEvent="_cCJuAUyXEeyXK6FF51DEww"/>
     <message xmi:type="uml:Message" xmi:id="_d_dIMEyXEeyXK6FF51DEww" name="send health data and location" messageSort="reply" receiveEvent="_d_dvQUyXEeyXK6FF51DEww" sendEvent="_d_dvQEyXEeyXK6FF51DEww"/>
+    <message xmi:type="uml:Message" xmi:id="_83Z7kHBsEeyHrOQ8Vu5xwA" name="get Location" messageSort="reply" receiveEvent="_83hQUXBsEeyHrOQ8Vu5xwA" sendEvent="_83hQUHBsEeyHrOQ8Vu5xwA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_j8PPsEyXEeyXK6FF51DEww" name="Interaction49">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_nqr3YUyXEeyXK6FF51DEww" name="" type="_QNTVEDD6EeyQHa-vatqCuQ"/>

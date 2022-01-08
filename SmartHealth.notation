@@ -706,10 +706,6 @@
           <element xmi:type="uml:Operation" href="SmartHealth.uml#_nhYGMEyeEeyXK6FF51DEww"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_nhn90UyeEeyXK6FF51DEww"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_pYKosEyeEeyXK6FF51DEww" type="Operation_ClassOperationLabel">
-          <element xmi:type="uml:Operation" href="SmartHealth.uml#_pX7_MEyeEeyXK6FF51DEww"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_pYKosUyeEeyXK6FF51DEww"/>
-        </children>
         <children xmi:type="notation:Shape" xmi:id="_vvHXkFEbEeyZV6dxozna1w" type="Operation_ClassOperationLabel">
           <element xmi:type="uml:Operation" href="SmartHealth.uml#_vubbEFEbEeyZV6dxozna1w"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_vvHXkVEbEeyZV6dxozna1w"/>
@@ -846,6 +842,10 @@
           <element xmi:type="uml:Property" href="SmartHealth.uml#_4NjvoEyeEeyXK6FF51DEww"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_4NzAMUyeEeyXK6FF51DEww"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_hpNzUHBpEeyHrOQ8Vu5xwA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="SmartHealth.uml#_ho5qQHBpEeyHrOQ8Vu5xwA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_hpNzUXBpEeyHrOQ8Vu5xwA"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_p0rCpkYIEeyr5-97aKNVdQ"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_p0rCp0YIEeyr5-97aKNVdQ"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_p0rCqEYIEeyr5-97aKNVdQ"/>
@@ -888,6 +888,10 @@
           <element xmi:type="uml:Operation" href="SmartHealth.uml#_Cy-PIEyfEeyXK6FF51DEww"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_CzNfsUyfEeyXK6FF51DEww"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_2PGx4HBsEeyHrOQ8Vu5xwA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="SmartHealth.uml#_2Oz28HBsEeyHrOQ8Vu5xwA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2PGx4XBsEeyHrOQ8Vu5xwA"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_p0rCq0YIEeyr5-97aKNVdQ"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_p0rCrEYIEeyr5-97aKNVdQ"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_p0rCrUYIEeyr5-97aKNVdQ"/>
@@ -920,12 +924,20 @@
           <element xmi:type="uml:Property" href="SmartHealth.uml#_kbBgkEYMEeyr5-97aKNVdQ"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_kbPjAUYMEeyr5-97aKNVdQ"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_K2v2MHBrEeyHrOQ8Vu5xwA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="SmartHealth.uml#_K2afAHBrEeyHrOQ8Vu5xwA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_K2v2MXBrEeyHrOQ8Vu5xwA"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_qotutkYIEeyr5-97aKNVdQ"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_qotut0YIEeyr5-97aKNVdQ"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_qotuuEYIEeyr5-97aKNVdQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qotuuUYIEeyr5-97aKNVdQ"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_qotuukYIEeyr5-97aKNVdQ" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_3pSbcHBtEeyHrOQ8Vu5xwA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="SmartHealth.uml#_3pDx8HBtEeyHrOQ8Vu5xwA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_3pSbcXBtEeyHrOQ8Vu5xwA"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_qotuu0YIEeyr5-97aKNVdQ"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_qotuvEYIEeyr5-97aKNVdQ"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_qotuvUYIEeyr5-97aKNVdQ"/>
@@ -2235,8 +2247,21 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_d_gLgUyXEeyXK6FF51DEww"/>
       <element xmi:type="uml:Message" href="SmartHealth.uml#_d_dIMEyXEeyXK6FF51DEww"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_gLgkyXEeyXK6FF51DEww" points="[0, 0, -440, 0]$[440, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d_mSIEyXEeyXK6FF51DEww" id="(0.5,0.20857142857142857)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d_m5MEyXEeyXK6FF51DEww" id="(0.5,0.20857142857142857)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d_mSIEyXEeyXK6FF51DEww" id="(0.5,0.23714285714285716)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d_m5MEyXEeyXK6FF51DEww" id="(0.5,0.23714285714285716)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_83kToHBsEeyHrOQ8Vu5xwA" type="Message_ReplyEdge" source="_XxRHoEyXEeyXK6FF51DEww" target="_XxRHoEyXEeyXK6FF51DEww">
+      <children xmi:type="notation:DecorationNode" xmi:id="_83kTo3BsEeyHrOQ8Vu5xwA" type="Message_ReplyNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_83kTpHBsEeyHrOQ8Vu5xwA" x="-3" y="-41"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_83kTpXBsEeyHrOQ8Vu5xwA" type="Message_ReplyStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_83kTpnBsEeyHrOQ8Vu5xwA" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_83kToXBsEeyHrOQ8Vu5xwA"/>
+      <element xmi:type="uml:Message" href="SmartHealth.uml#_83Z7kHBsEeyHrOQ8Vu5xwA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_83kTonBsEeyHrOQ8Vu5xwA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_83sPcHBsEeyHrOQ8Vu5xwA" id="(0.5,0.18)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_83sPcXBsEeyHrOQ8Vu5xwA" id="(0.5,0.20857142857142857)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_lieNsEyXEeyXK6FF51DEww" type="PapyrusUMLSequenceDiagram" name="SendImageSequenceDiagram" measurementUnit="Pixel">
