@@ -651,7 +651,7 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_d_dvQUyXEeyXK6FF51DEww" name="Message11ReceiveEvent" covered="_YW3vEEyXEeyXK6FF51DEww" message="_d_dIMEyXEeyXK6FF51DEww"/>
     <message xmi:type="uml:Message" xmi:id="_Zzwj0EyXEeyXK6FF51DEww" name="check health status" messageSort="reply" receiveEvent="_Zzwj0kyXEeyXK6FF51DEww" sendEvent="_Zzwj0UyXEeyXK6FF51DEww"/>
     <message xmi:type="uml:Message" xmi:id="_cCJuAEyXEeyXK6FF51DEww" name="critical" messageSort="reply" receiveEvent="_cCKVEEyXEeyXK6FF51DEww" sendEvent="_cCJuAUyXEeyXK6FF51DEww"/>
-    <message xmi:type="uml:Message" xmi:id="_d_dIMEyXEeyXK6FF51DEww" name="send health data and location" messageSort="reply" receiveEvent="_d_dvQUyXEeyXK6FF51DEww" sendEvent="_d_dvQEyXEeyXK6FF51DEww"/>
+    <message xmi:type="uml:Message" xmi:id="_d_dIMEyXEeyXK6FF51DEww" name="call with health data and location" messageSort="reply" receiveEvent="_d_dvQUyXEeyXK6FF51DEww" sendEvent="_d_dvQEyXEeyXK6FF51DEww"/>
     <message xmi:type="uml:Message" xmi:id="_83Z7kHBsEeyHrOQ8Vu5xwA" name="get Location" messageSort="reply" receiveEvent="_83hQUXBsEeyHrOQ8Vu5xwA" sendEvent="_83hQUHBsEeyHrOQ8Vu5xwA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_j8PPsEyXEeyXK6FF51DEww" name="Interaction49">
