@@ -46,7 +46,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_QyRxoEYHEeyr5-97aKNVdQ" name="HealthDatabase">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_rWMi8EYMEeyr5-97aKNVdQ" name="appointments">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EMap"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_xqWBkEYMEeyr5-97aKNVdQ" name="underlyingConditions">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EMap"/>
