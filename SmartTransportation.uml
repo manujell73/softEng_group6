@@ -9,6 +9,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_9MT70EX_Eeyr5-97aKNVdQ" name="SmartTransportationClass" visibility="public">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_GyHmY0YqEeyud7GBtzk2gA" name="trafficservice" type="_afEO8EYmEeyud7GBtzk2gA" association="_GyHmYEYqEeyud7GBtzk2gA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_TK2pcHPkEeyLjtDYZDH_9Q" name="requestTransport"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_y6o34EYkEeyud7GBtzk2gA" name="User" visibility="public">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_LTbAo0YlEeyud7GBtzk2gA" name="transportservice"/>
@@ -23,19 +24,17 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_C5x3IE1iEeyKJdv1V-E6Yw" name="requestTransport"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_g03I0EYlEeyud7GBtzk2gA" name="Car" visibility="public">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_ESEoUEYmEeyud7GBtzk2gA" name="vin">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ESEoUEYmEeyud7GBtzk2gA" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_GPbs4EYmEeyud7GBtzk2gA" name="licensePlate">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GPbs4EYmEeyud7GBtzk2gA" name="occupied">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_OsA3okYmEeyud7GBtzk2gA" name="user" type="_y6o34EYkEeyud7GBtzk2gA" association="_OsAQkEYmEeyud7GBtzk2gA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KsqT4EYrEeyud7GBtzk2gA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KtHm4EYrEeyud7GBtzk2gA" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_wRCGcEYmEeyud7GBtzk2gA" name="location" isUnique="false">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HE1S0HPkEeyLjtDYZDH_9Q" name="street" type="_W-EGAEYpEeyud7GBtzk2gA" association="_HEzdoHPkEeyLjtDYZDH_9Q"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_OsAQkEYmEeyud7GBtzk2gA" memberEnd="_OsA3okYmEeyud7GBtzk2gA _OsFJEEYmEeyud7GBtzk2gA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OsA3oEYmEeyud7GBtzk2gA" source="org.eclipse.papyrus">
@@ -51,17 +50,9 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-GRtE0YoEeyud7GBtzk2gA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-GRtFEYoEeyud7GBtzk2gA" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Kl8Sw0YpEeyud7GBtzk2gA" name="trafficlightschedule" type="_IFBOIEYpEeyud7GBtzk2gA" association="_Kl8SwEYpEeyud7GBtzk2gA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Kl8SxEYpEeyud7GBtzk2gA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Kl8SxUYpEeyud7GBtzk2gA" value="*"/>
-      </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_1UhHEkYpEeyud7GBtzk2gA" name="street" type="_W-EGAEYpEeyud7GBtzk2gA" association="_1UggAEYpEeyud7GBtzk2gA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1UhHE0YpEeyud7GBtzk2gA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1UhHFEYpEeyud7GBtzk2gA" value="*"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_nBaYYkYqEeyud7GBtzk2gA" name="house" type="_d96-oEYqEeyud7GBtzk2gA" association="_nBZxUEYqEeyud7GBtzk2gA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nBaYY0YqEeyud7GBtzk2gA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nBaYZEYqEeyud7GBtzk2gA" value="*"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_4vaU4E1hEeyKJdv1V-E6Yw" name="loadCarData"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_6XPOUE1hEeyKJdv1V-E6Yw" name="loadTrafficLightSchedule"/>
@@ -86,23 +77,6 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_-GRtFUYoEeyud7GBtzk2gA" name="trafficservice" type="_afEO8EYmEeyud7GBtzk2gA" association="_-GRGAEYoEeyud7GBtzk2gA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_IFBOIEYpEeyud7GBtzk2gA" name="TrafficLight" visibility="public">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Op7QIEYqEeyud7GBtzk2gA" name="id">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Xt2HsEYqEeyud7GBtzk2gA" name="currentState" isUnique="false">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_RyuTQE1gEeyKJdv1V-E6Yw" name="trafficlightphase" type="_OWgEAE1gEeyKJdv1V-E6Yw" association="_RyseEE1gEeyKJdv1V-E6Yw">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qEyI8E1gEeyKJdv1V-E6Yw" value="*"/>
-      </ownedAttribute>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Kl8SwEYpEeyud7GBtzk2gA" memberEnd="_Kl8Sw0YpEeyud7GBtzk2gA _Kl8SxkYpEeyud7GBtzk2gA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Kl8SwUYpEeyud7GBtzk2gA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Kl8SwkYpEeyud7GBtzk2gA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_Kl8SxkYpEeyud7GBtzk2gA" name="trafficservice" type="_afEO8EYmEeyud7GBtzk2gA" association="_Kl8SwEYpEeyud7GBtzk2gA"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_W-EGAEYpEeyud7GBtzk2gA" name="Street" visibility="public">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_fEW3skYpEeyud7GBtzk2gA" name="intersection" type="_cnE88EYpEeyud7GBtzk2gA" association="_fEWQoEYpEeyud7GBtzk2gA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fEW3tEYpEeyud7GBtzk2gA" value="*"/>
@@ -113,16 +87,20 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_b2OSUEYqEeyud7GBtzk2gA" name="name">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_tTvSEEYqEeyud7GBtzk2gA" name="house" type="_d96-oEYqEeyud7GBtzk2gA" association="_tTqZkEYqEeyud7GBtzk2gA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wvp_UEYqEeyud7GBtzk2gA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wvuQwEYqEeyud7GBtzk2gA" value="*"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ctRs0HPiEeyLjtDYZDH_9Q" name="longitude">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hNRtQHPiEeyLjtDYZDH_9Q" name="latitude">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nvEmUHPiEeyLjtDYZDH_9Q" name="length">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_osKgsHPiEeyLjtDYZDH_9Q" name="velocity">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_cnE88EYpEeyud7GBtzk2gA" name="Intersection" visibility="public">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_oJYig0YpEeyud7GBtzk2gA" name="trafficlight" type="_IFBOIEYpEeyud7GBtzk2gA" association="_oJYigEYpEeyud7GBtzk2gA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oJZJkEYpEeyud7GBtzk2gA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oJZJkUYpEeyud7GBtzk2gA" value="*"/>
-      </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_9dgyAEYqEeyud7GBtzk2gA" name="id">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
@@ -134,12 +112,6 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_fEW3tUYpEeyud7GBtzk2gA" name="street" type="_W-EGAEYpEeyud7GBtzk2gA" association="_fEWQoEYpEeyud7GBtzk2gA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hT_YAEYpEeyud7GBtzk2gA" value="*"/>
       </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_oJYigEYpEeyud7GBtzk2gA" memberEnd="_oJYig0YpEeyud7GBtzk2gA _oJZJkkYpEeyud7GBtzk2gA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oJYigUYpEeyud7GBtzk2gA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oJYigkYpEeyud7GBtzk2gA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_oJZJkkYpEeyud7GBtzk2gA" name="intersection" type="_cnE88EYpEeyud7GBtzk2gA" association="_oJYigEYpEeyud7GBtzk2gA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_1UggAEYpEeyud7GBtzk2gA" memberEnd="_1UhHEkYpEeyud7GBtzk2gA _1UhHFUYpEeyud7GBtzk2gA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1UhHEEYpEeyud7GBtzk2gA" source="org.eclipse.papyrus">
@@ -153,39 +125,14 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_GyINckYqEeyud7GBtzk2gA" name="smarttransportationclass" type="_9MT70EX_Eeyr5-97aKNVdQ" association="_GyHmYEYqEeyud7GBtzk2gA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_d96-oEYqEeyud7GBtzk2gA" name="Address" visibility="package">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_tTrAokYqEeyud7GBtzk2gA" name="street" type="_W-EGAEYpEeyud7GBtzk2gA" association="_tTqZkEYqEeyud7GBtzk2gA"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_yvWmMEYqEeyud7GBtzk2gA" name="number" visibility="protected" isUnique="false">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_ZkCI4E1fEeyKJdv1V-E6Yw" name="extension" isUnique="false">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_nBZxUEYqEeyud7GBtzk2gA" memberEnd="_nBaYYkYqEeyud7GBtzk2gA _nBaYZUYqEeyud7GBtzk2gA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nBaYYEYqEeyud7GBtzk2gA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nBaYYUYqEeyud7GBtzk2gA" key="nature" value="UML_Nature"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEzdoHPkEeyLjtDYZDH_9Q" visibility="package" memberEnd="_HE1S0HPkEeyLjtDYZDH_9Q _HE154nPkEeyLjtDYZDH_9Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HE0rwHPkEeyLjtDYZDH_9Q" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HE0rwXPkEeyLjtDYZDH_9Q" key="nature" value="UML_Nature"/>
       </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_nBaYZUYqEeyud7GBtzk2gA" name="trafficservice" type="_afEO8EYmEeyud7GBtzk2gA" association="_nBZxUEYqEeyud7GBtzk2gA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_tTqZkEYqEeyud7GBtzk2gA" memberEnd="_tTrAokYqEeyud7GBtzk2gA _tTvSEEYqEeyud7GBtzk2gA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tTrAoEYqEeyud7GBtzk2gA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tTrAoUYqEeyud7GBtzk2gA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_OWgEAE1gEeyKJdv1V-E6Yw" name="TrafficLightPhase">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_q_jIEE1gEeyKJdv1V-E6Yw" name="startTime">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_sAm8cE1gEeyKJdv1V-E6Yw" name="state">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      </ownedAttribute>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_RyseEE1gEeyKJdv1V-E6Yw" memberEnd="_RyuTQE1gEeyKJdv1V-E6Yw _RyuTQ01gEeyKJdv1V-E6Yw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RytsME1gEeyKJdv1V-E6Yw" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RytsMU1gEeyKJdv1V-E6Yw" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_RyuTQ01gEeyKJdv1V-E6Yw" name="trafficlight" type="_IFBOIEYpEeyud7GBtzk2gA" association="_RyseEE1gEeyKJdv1V-E6Yw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HE154nPkEeyLjtDYZDH_9Q" name="car" type="_g03I0EYlEeyud7GBtzk2gA" association="_HEzdoHPkEeyLjtDYZDH_9Q">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LhwxIHPkEeyLjtDYZDH_9Q"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lh4s8HPkEeyLjtDYZDH_9Q" value="*"/>
+      </ownedEnd>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_WXgjoDDxEey-b4AJEAE3SA" name="Navigation System"/>
